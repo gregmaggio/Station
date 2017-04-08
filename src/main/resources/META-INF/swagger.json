@@ -1,0 +1,326 @@
+{
+	"swagger" : "2.0",
+	"info" : {
+		"description" : "Station API",
+		"version" : "1.0",
+		"title" : "Station Service",
+		"license" : {
+			"name" : "Apache License Version 2.0"
+		}
+	},
+	"host" : "localhost:8081",
+	"basePath" : "/Station",
+	"tags" : [{
+			"name" : "station-controller",
+			"description" : "Station Controller"
+		}
+	],
+	"paths" : {
+		"/api/cities" : {
+			"get" : {
+				"tags" : ["station-controller"],
+				"summary" : "cities",
+				"operationId" : "cities",
+				"consumes" : ["application/json"],
+				"produces" : ["*/*"],
+				"responses" : {
+					"200" : {
+						"description" : "OK",
+						"schema" : {
+							"type" : "array",
+							"items" : {
+								"$ref" : "#/definitions/CityDTO"
+							}
+						}
+					},
+					"401" : {
+						"description" : "Unauthorized"
+					},
+					"403" : {
+						"description" : "Forbidden"
+					},
+					"404" : {
+						"description" : "Not Found"
+					}
+				}
+			}
+		},
+		"/api/zips" : {
+			"get" : {
+				"tags" : ["station-controller"],
+				"summary" : "zips",
+				"operationId" : "zips",
+				"consumes" : ["application/json"],
+				"produces" : ["*/*"],
+				"responses" : {
+					"200" : {
+						"description" : "OK",
+						"schema" : {
+							"type" : "array",
+							"items" : {
+								"$ref" : "#/definitions/ZipDTO"
+							}
+						}
+					},
+					"401" : {
+						"description" : "Unauthorized"
+					},
+					"403" : {
+						"description" : "Forbidden"
+					},
+					"404" : {
+						"description" : "Not Found"
+					}
+				}
+			}
+		},
+		"/api/list" : {
+			"get" : {
+				"tags" : ["station-controller"],
+				"summary" : "list",
+				"operationId" : "list",
+				"consumes" : ["application/json"],
+				"produces" : ["*/*"],
+				"parameters" : [{
+						"name" : "address",
+						"in" : "query",
+						"description" : "address",
+						"required" : false,
+						"type" : "string"
+					},{
+						"name" : "city",
+						"in" : "query",
+						"description" : "city",
+						"required" : false,
+						"type" : "string"
+					},{
+						"name" : "state",
+						"in" : "query",
+						"description" : "state",
+						"required" : false,
+						"type" : "string"
+					},{
+						"name" : "zip",
+						"in" : "query",
+						"description" : "zip",
+						"required" : false,
+						"type" : "string"
+					},{
+						"name" : "hasRadiosonde",
+						"in" : "query",
+						"description" : "hasRadiosonde",
+						"required" : false,
+						"type" : "boolean"
+					}
+				],
+				"responses" : {
+					"200" : {
+						"description" : "OK",
+						"schema" : {
+							"type" : "array",
+							"items" : {
+								"$ref" : "#/definitions/StationDTO"
+							}
+						}
+					},
+					"401" : {
+						"description" : "Unauthorized"
+					},
+					"403" : {
+						"description" : "Forbidden"
+					},
+					"404" : {
+						"description" : "Not Found"
+					}
+				}
+			}
+		},
+		"/api/{id}" : {
+			"get" : {
+				"tags" : ["station-controller"],
+				"summary" : "readById",
+				"operationId" : "readById",
+				"consumes" : ["application/json"],
+				"produces" : ["*/*"],
+				"parameters" : [{
+						"name" : "id",
+						"in" : "path",
+						"description" : "id",
+						"required" : true,
+						"type" : "string"
+					}
+				],
+				"responses" : {
+					"200" : {
+						"description" : "OK",
+						"schema" : {
+							"$ref" : "#/definitions/StationDTO"
+						}
+					},
+					"401" : {
+						"description" : "Unauthorized"
+					},
+					"403" : {
+						"description" : "Forbidden"
+					},
+					"404" : {
+						"description" : "Not Found"
+					}
+				}
+			}
+		},
+		"/api/{latitude}/{longitude}/nearest" : {
+			"get" : {
+				"tags" : ["station-controller"],
+				"summary" : "readNearest",
+				"operationId" : "readNearest",
+				"consumes" : ["application/json"],
+				"produces" : ["*/*"],
+				"parameters" : [{
+						"name" : "latitude",
+						"in" : "path",
+						"description" : "latitude",
+						"required" : true,
+						"type" : "double"
+					},{
+						"name" : "longitude",
+						"in" : "path",
+						"description" : "longitude",
+						"required" : true,
+						"type" : "double"
+					}
+				],
+				"responses" : {
+					"200" : {
+						"description" : "OK",
+						"schema" : {
+							"$ref" : "#/definitions/StationDTO"
+						}
+					},
+					"401" : {
+						"description" : "Unauthorized"
+					},
+					"403" : {
+						"description" : "Forbidden"
+					},
+					"404" : {
+						"description" : "Not Found"
+					}
+				}
+			}
+		},
+		"/api/{latitude}/{longitude}/nearestWithRadiosonde" : {
+			"get" : {
+				"tags" : ["station-controller"],
+				"summary" : "readNearestWithRadiosonde",
+				"operationId" : "readNearestWithRadiosonde",
+				"consumes" : ["application/json"],
+				"produces" : ["*/*"],
+				"parameters" : [{
+						"name" : "latitude",
+						"in" : "path",
+						"description" : "latitude",
+						"required" : true,
+						"type" : "double"
+					},{
+						"name" : "longitude",
+						"in" : "path",
+						"description" : "longitude",
+						"required" : true,
+						"type" : "double"
+					}
+				],
+				"responses" : {
+					"200" : {
+						"description" : "OK",
+						"schema" : {
+							"$ref" : "#/definitions/StationDTO"
+						}
+					},
+					"401" : {
+						"description" : "Unauthorized"
+					},
+					"403" : {
+						"description" : "Forbidden"
+					},
+					"404" : {
+						"description" : "Not Found"
+					}
+				}
+			}
+		}
+	},
+	"definitions" : {
+		"StationDTO" : {
+			"type" : "object",
+			"properties" : {
+				"stationId" : {
+					"type" : "string"
+				},
+				"stationName" : {
+					"type" : "string"
+				},
+				"streetNumber" : {
+					"type" : "string"
+				},
+				"streetName" : {
+					"type" : "string"
+				},
+				"city" : {
+					"type" : "string"
+				},
+				"stateCode" : {
+					"type" : "string"
+				},
+				"stateName" : {
+					"type" : "string"
+				},
+				"countryCode" : {
+					"type" : "string"
+				},
+				"countryName" : {
+					"type" : "string"
+				},
+				"zip" : {
+					"type" : "string"
+				},
+				"latitude" : {
+					"type" : "number",
+					"format" : "double"
+				},
+				"longitude" : {
+					"type" : "number",
+					"format" : "double"
+				},
+				"hasRadiosonde" : {
+					"type" : "boolean"
+				}
+			}
+		},
+		"CityDTO" : {
+			"type" : "object",
+			"properties" : {
+				"city" : {
+					"type" : "string"
+				},
+				"state" : {
+					"type" : "string"
+				}
+			}
+		},
+		"ZipDTO" : {
+			"type" : "object",
+			"properties" : {
+				"zip" : {
+					"type" : "string"
+				},
+				"city" : {
+					"type" : "string"
+				},
+				"state" : {
+					"type" : "string"
+				}
+			}
+		}
+	}
+}
