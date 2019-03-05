@@ -13,8 +13,6 @@ public class CachedItemDTO {
 	private String _key = null;
 	private StationDTO _station = null;
 	private List<StationDTO> _stations = null;
-	private List<CityDTO> _cities = null;
-	private List<ZipDTO> _zips = null;
 	
 	public CachedItemDTO() {
 	}
@@ -41,21 +39,5 @@ public class CachedItemDTO {
 	
 	public void setStations(List<StationDTO> newVal) {
 		_stations = newVal;
-	}
-	
-	public List<CityDTO> getCities() {
-		return _cities;
-	}
-	
-	public void setCities(List<CityDTO> newVal) {
-		_cities = newVal;
-	}
-	
-	public List<ZipDTO> getZips() {
-		return _zips;
-	}
-	
-	public void setZips(List<ZipDTO> newVal) {
-		_zips = newVal;
 	}
 }

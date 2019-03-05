@@ -16,17 +16,11 @@ import com.vividsolutions.jts.geom.Point;
 public class StationDTO {
 	private String _stationId = null;
 	private String _stationName = null;
-	private String _streetNumber = null;
-	private String _streetName = null;
-	private String _city = null;
-	private String _stateCode = null;
-	private String _stateName = null;
-	private String _zip = null;
-	private String _countryCode = null;
-	private String _countryName = null;
+	private String _state = null;
+	private String _wfo = null;
+	private String _radar = null;
 	private Double _latitude = null;
 	private Double _longitude = null;
-	private Boolean _hasRadiosonde = null;
 
 	public StationDTO() {
 	}
@@ -36,57 +30,36 @@ public class StationDTO {
 		Coordinate coordinate = point.getCoordinate();
 		_stationId = (String)feature.getAttribute("station_id");
 		_stationName = (String)feature.getAttribute("name");
-		_streetNumber = (String)feature.getAttribute("street_no");
-		_streetName = (String)feature.getAttribute("street");
-		_city = (String)feature.getAttribute("city");
-		_stateCode = (String)feature.getAttribute("state_cd");
-		_stateName = (String)feature.getAttribute("state_nm");
-		_zip = (String)feature.getAttribute("zip");
-		_countryCode = (String)feature.getAttribute("country_cd");
-		_countryName = (String)feature.getAttribute("country");
+		_state = (String)feature.getAttribute("state");
+		_wfo = (String)feature.getAttribute("wfo");
+		_radar = (String)feature.getAttribute("radar");
 		_latitude = coordinate.y;
 		_longitude = coordinate.x;
-		_hasRadiosonde = ((String)feature.getAttribute("has_rad")).compareToIgnoreCase("Y") == 0;
 	}
 	
+	@JsonProperty(value = "stationId")
 	public String getStationId() {
 		return _stationId;
 	}
 	
+	@JsonProperty(value = "stationName")
 	public String getStationName() {
 		return _stationName;
 	}
 	
-	public String getStreetNumber() {
-		return _streetNumber;
+	@JsonProperty(value = "state")
+	public String getState() {
+		return _state;
 	}
 	
-	public String getStreetName() {
-		return _streetName;
+	@JsonProperty(value = "wfo")
+	public String getWFO() {
+		return _wfo;
 	}
 	
-	public String getCity() {
-		return _city;
-	}
-	
-	public String getStateCode() {
-		return _stateCode;
-	}
-	
-	public String getStateName() {
-		return _stateName;
-	}
-	
-	public String getZip() {
-		return _zip;
-	}
-	
-	public String getCountryCode() {
-		return _countryCode;
-	}
-	
-	public String getCountryName() {
-		return _countryName;
+	@JsonProperty(value = "radar")
+	public String getRadar() {
+		return _radar;
 	}
 	
 	@JsonProperty(value = "latitude")
@@ -99,49 +72,29 @@ public class StationDTO {
 		return _longitude;
 	}
 	
-	@JsonProperty(value = "hasRadiosonde")
-	public Boolean hasRadiosonde() {
-		return _hasRadiosonde;
-	}
-	
+	@JsonProperty(value = "stationId")
 	public void setStationId(String newVal) {
 		_stationId = newVal;
 	}
 	
+	@JsonProperty(value = "stationName")
 	public void setStationName(String newVal) {
 		_stationName = newVal;
 	}
 	
-	public void setStreetNumber(String newVal) {
-		_streetNumber = newVal;
+	@JsonProperty(value = "state")
+	public void setState(String newVal) {
+		_state = newVal;
 	}
 	
-	public void setStreetName(String newVal) {
-		_streetName = newVal;
+	@JsonProperty(value = "wfo")
+	public void setWFO(String newVal) {
+		_wfo = newVal;
 	}
 	
-	public void setCity(String newVal) {
-		_city = newVal;
-	}
-	
-	public void setStateCode(String newVal) {
-		_stateCode = newVal;
-	}
-	
-	public void setStateName(String newVal) {
-		_stateName = newVal;
-	}
-	
-	public void setZip(String newVal) {
-		_zip = newVal;
-	}
-	
-	public void setCountryCode(String newVal) {
-		_countryCode = newVal;
-	}
-	
-	public void setCountryName(String newVal) {
-		_countryName = newVal;
+	@JsonProperty(value = "radar")
+	public void setRadar(String newVal) {
+		_radar = newVal;
 	}
 	
 	@JsonProperty(value = "latitude")
@@ -152,10 +105,5 @@ public class StationDTO {
 	@JsonProperty(value = "longitude")
 	public void setLongitude(Double newVal) {
 		_longitude = newVal;
-	}
-	
-	@JsonProperty(value = "hasRadiosonde")
-	public void setHasRadiosonde(Boolean newVal) {
-		_hasRadiosonde = newVal;
 	}
 }

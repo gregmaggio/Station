@@ -39,11 +39,9 @@ import ca.datamagic.station.controller.IndexController;
 import ca.datamagic.station.dao.BaseDAO;
 import ca.datamagic.station.dao.StationDAO;
 import ca.datamagic.station.dto.CachedItemDTO;
-import ca.datamagic.station.dto.CityDTO;
 import ca.datamagic.station.dto.SwaggerConfigurationDTO;
 import ca.datamagic.station.dto.SwaggerResourceDTO;
 import ca.datamagic.station.dto.StationDTO;
-import ca.datamagic.station.dto.ZipDTO;
 import ca.datamagic.station.inject.DAOModule;
 import ca.datamagic.station.inject.MemoryCacheInterceptor;
 
@@ -106,25 +104,13 @@ public class IndexController {
 					items.add(cachedItem);
 				} else if (value instanceof List<?>) {
 					List<StationDTO> stations = null;
-					List<CityDTO> cities = null;
-					List<ZipDTO> zips = null;
 					try {
 						stations = (List<StationDTO>)value;
-					} catch (Throwable t) {
-					}
-					try {
-						cities = (List<CityDTO>)value;
-					} catch (Throwable t) {
-					}
-					try {
-						zips = (List<ZipDTO>)value;
 					} catch (Throwable t) {
 					}
 					CachedItemDTO cachedItem = new CachedItemDTO();
 					cachedItem.setKey(key);
 					cachedItem.setStations(stations);
-					cachedItem.setCities(cities);
-					cachedItem.setZips(zips);
 					items.add(cachedItem);
 				}				
 			}
@@ -135,28 +121,6 @@ public class IndexController {
 	@RequestMapping(method=RequestMethod.DELETE, value="/api/cache")
 	public void clearCachedItems() {
 		MemoryCacheInterceptor.clearCache();
-	}
-	
-	@RequestMapping(method=RequestMethod.GET, value="/api/cities", produces="application/json")
-	@ResponseBody
-    public List<CityDTO> cities(Model model, HttpServletRequest request, HttpServletResponse response) throws Exception {
-		try {
-			return _dao.cities();
-		} catch (Throwable t) {
-			_logger.error("Exception", t);
-			throw new Exception(t);
-		}
-	}
-	
-	@RequestMapping(method=RequestMethod.GET, value="/api/zips", produces="application/json")
-	@ResponseBody
-    public List<ZipDTO> zips(Model model, HttpServletRequest request, HttpServletResponse response) throws Exception {
-		try {
-			return _dao.zips();
-		} catch (Throwable t) {
-			_logger.error("Exception", t);
-			throw new Exception(t);
-		}
 	}
 	
 	@RequestMapping(method=RequestMethod.GET, value="/api/list", produces="application/json")
@@ -172,11 +136,7 @@ public class IndexController {
 			String requestURI = requestURL.toString();
 			_logger.debug("requestURI: " + requestURI);			
 			MultiValueMap<String, String> queryParameters = UriComponentsBuilder.fromUri(new URI(requestURI)).build().getQueryParams();
-			String address = null;
-			String city = null;
 			String state = null;
-			String zip = null;
-			boolean hasRadisonde = false;
 			Set<String> queryKeys = queryParameters.keySet();
 			for (String key : queryKeys) {
 				_logger.debug("key: " + key);
@@ -187,25 +147,12 @@ public class IndexController {
 				}
 				if ((value != null) && (value.length() > 0)) {
 					_logger.debug("value: " + value);
-					if (key.compareToIgnoreCase("address") == 0) {
-						address = value;
-					} else if (key.compareToIgnoreCase("city") == 0) {
-						city = value;
-					} else if (key.compareToIgnoreCase("state") == 0) {
+					if (key.compareToIgnoreCase("state") == 0) {
 						state = value;
-					} else if (key.compareToIgnoreCase("zip") == 0) {
-						zip = value;
-					} else if (key.compareToIgnoreCase("hasRadisonde") == 0) {
-						hasRadisonde = Boolean.parseBoolean(value);
 					}
 				}
 			}
-			List<StationDTO> stations = null;
-			if ((address != null) && (address.length() > 0)) {
-				stations = _dao.list(address, hasRadisonde);
-			} else {
-				stations = _dao.list(city, state, zip, hasRadisonde);
-			}
+			List<StationDTO> stations = _dao.list(state);
 			ObjectMapper mapper = new ObjectMapper();
 			String json = mapper.writeValueAsString(stations);
 			_logger.debug(json);
@@ -232,17 +179,6 @@ public class IndexController {
     public StationDTO readNearest(@PathVariable String latitude, @PathVariable String longitude, Model model, HttpServletRequest request, HttpServletResponse response) throws Exception {
 		try {
 			return _dao.readNearest(Double.parseDouble(latitude), Double.parseDouble(longitude), 25, "statute miles");
-		} catch (Throwable t) {
-			_logger.error("Exception", t);
-			throw new Exception(t);
-		}
-	}
-	
-	@RequestMapping(method=RequestMethod.GET, value="/api/{latitude}/{longitude}/nearestWithRadiosonde", produces="application/json")
-	@ResponseBody
-    public StationDTO readNearestWithRadiosonde(@PathVariable String latitude, @PathVariable String longitude, Model model, HttpServletRequest request, HttpServletResponse response) throws Exception {
-		try {
-			return _dao.readNearest(Double.parseDouble(latitude), Double.parseDouble(longitude), 25, "statute miles", true);
 		} catch (Throwable t) {
 			_logger.error("Exception", t);
 			throw new Exception(t);
