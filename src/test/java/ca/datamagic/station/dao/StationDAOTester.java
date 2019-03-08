@@ -14,7 +14,8 @@ import ca.datamagic.station.dao.BaseDAO;
 import ca.datamagic.station.dao.StationDAO;
 import ca.datamagic.station.dto.StationDTO;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
 
 /**
  * @author Greg
@@ -34,8 +35,10 @@ public class StationDAOTester {
 		for (StationDTO item : items) {
 			System.out.println("Station: " + item.getStationId());
 		}
-		ObjectMapper mapper = new ObjectMapper();
-		String json = mapper.writeValueAsString(items);
+		//ObjectMapper mapper = new ObjectMapper();		
+		//String json = mapper.writeValueAsString(items);
+		Gson gson = new Gson();
+		String json = gson.toJson(items);
 		System.out.println("json: " + json);
 	}
 	
@@ -44,8 +47,10 @@ public class StationDAOTester {
 		StationDAO dao = new StationDAO();
 		StationDTO dto = dao.read("KIAD");
 		System.out.println("Station: " + dto.getStationId());
-		ObjectMapper mapper = new ObjectMapper();
-		String json = mapper.writeValueAsString(dto);
+		//ObjectMapper mapper = new ObjectMapper();
+		//String json = mapper.writeValueAsString(dto);
+		Gson gson = new Gson();
+		String json = gson.toJson(dto);
 		System.out.println("json: " + json);
 	}
 	

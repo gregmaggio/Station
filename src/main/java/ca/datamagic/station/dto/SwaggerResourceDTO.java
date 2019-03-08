@@ -8,31 +8,31 @@ package ca.datamagic.station.dto;
  *
  */
 public class SwaggerResourceDTO {
-	private String _name = "default";
-	private String _location = "/v2/api-docs";
-	private String _swaggerVersion = "2.0";
+	private String name = "default";
+	private String location = "/v2/api-docs";
+	private String swaggerVersion = "2.0";
 	
 	public String getName() {
-		return _name;
+		return this.name;
 	}
 	
 	public String getLocation() {
-		return _location;
+		return this.location;
 	}
 	
 	public String getSwaggerVersion() {
-		return _swaggerVersion;
+		return this.swaggerVersion;
 	}
 	
 	public void setName(String newVal) {
-		_name = newVal;
+		this.name = newVal;
 	}
 	
 	public void setLocation(String newVal) {
-		_location = newVal;
+		this.location = newVal;
 	}
 	
 	public void setSwaggerVersion(String newVal) {
-		_swaggerVersion = newVal;
+		this.swaggerVersion = newVal;
 	}
 }

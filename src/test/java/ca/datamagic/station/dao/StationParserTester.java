@@ -12,7 +12,8 @@ import org.apache.log4j.xml.DOMConfigurator;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
 
 import ca.datamagic.station.dto.StationDTO;
 import ca.datamagic.station.dto.WFODTO;
@@ -36,7 +37,8 @@ public class StationParserTester {
 	public void test1() throws Exception {
 		final StationDAO stationDAO = new StationDAO(true);
 		final WFODAO wfoDAO = new WFODAO();
-		final ObjectMapper mapper = new ObjectMapper();
+		//final ObjectMapper mapper = new ObjectMapper();
+		final Gson gson = new Gson();
 		StationParser parser = new StationParser();
 		StationHandler handler = new StationHandler() {			
 			@Override
@@ -47,7 +49,8 @@ public class StationParserTester {
 						station.setWFO(wfo.get(0).getWFO());
 						station.setRadar(wfo.get(0).getRadar());
 					}
-					_logger.debug("station: " + mapper.writeValueAsString(station));
+					//_logger.debug("station: " + mapper.writeValueAsString(station));
+					_logger.debug("station: " + gson.toJson(station));
 					stationDAO.add(station);
 				} catch (Throwable t) {
 					_logger.warn("Exception", t);

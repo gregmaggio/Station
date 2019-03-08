@@ -8,67 +8,67 @@ package ca.datamagic.station.dto;
  *
  */
 public class SwaggerConfigurationDTO {
-	private String _validatorUrl = "validatorUrl";
-	private String _docExpansion = "none";
-	private String _apisSorter = "alpha";
-	private String _defaultModelRendering = "schema";
-	private String[] _supportedSubmitMethods = new String[] { "get", "post", "put", "delete", "patch" };
-	private boolean _jsonEditor = false;
-	private boolean _showRequestHeaders = true;
+	private String validatorUrl = "validatorUrl";
+	private String docExpansion = "none";
+	private String apisSorter = "alpha";
+	private String defaultModelRendering = "schema";
+	private String[] supportedSubmitMethods = new String[] { "get", "post", "put", "delete", "patch" };
+	private boolean jsonEditor = false;
+	private boolean showRequestHeaders = true;
 	
 	public String getValidatorUrl() {
-		return _validatorUrl;
+		return this.validatorUrl;
 	}
 	
 	public String getDocExpansion() {
-		return _docExpansion;
+		return this.docExpansion;
 	}
 	
 	public String getApisSorter() {
-		return _apisSorter;
+		return this.apisSorter;
 	}
 	
 	public String getDefaultModelRendering() {
-		return _defaultModelRendering;
+		return this.defaultModelRendering;
 	}
 	
 	public String[] getSupportedSubmitMethods() {
-		return _supportedSubmitMethods;
+		return this.supportedSubmitMethods;
 	}
 	
 	public boolean isJsonEditor() {
-		return _jsonEditor;
+		return this.jsonEditor;
 	}
 	
 	public boolean isShowRequestHeaders() {
-		return _showRequestHeaders;
+		return this.showRequestHeaders;
 	}
 	
 	public void setValidatorUrl(String newVal) {
-		_validatorUrl = newVal;
+		this.validatorUrl = newVal;
 	}
 	
 	public void setDocExpansion(String newVal) {
-		_docExpansion = newVal;
+		this.docExpansion = newVal;
 	}
 	
 	public void setApisSorter(String newVal) {
-		_apisSorter = newVal;
+		this.apisSorter = newVal;
 	}
 	
 	public void setDefaultModelRendering(String newVal) {
-		_defaultModelRendering = newVal;
+		this.defaultModelRendering = newVal;
 	}
 	
 	public void setSupportedSubmitMethods(String[] newVal) {
-		_supportedSubmitMethods = newVal;
+		this.supportedSubmitMethods = newVal;
 	}
 	
 	public void setJsonEditor(boolean newVal) {
-		_jsonEditor = newVal;
+		this.jsonEditor = newVal;
 	}
 	
 	public void setShowRequestHeaders(boolean newVal) {
-		_showRequestHeaders = newVal;
+		this.showRequestHeaders = newVal;
 	}
 }
