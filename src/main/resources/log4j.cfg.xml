@@ -10,9 +10,6 @@
 			<param name="ConversionPattern" value="%d [%t] %-5p %c - %m%n"/>
 		</layout>
 	</appender>
-	<logger name="org.springframework">
-    	<level value="warn"/>
-	</logger>
 	<root> 
 		<priority value ="debug" /> 
 		<appender-ref ref="rollingFile" /> 
