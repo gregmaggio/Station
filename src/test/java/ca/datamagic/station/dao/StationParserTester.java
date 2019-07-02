@@ -12,7 +12,6 @@ import org.apache.log4j.xml.DOMConfigurator;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-//import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 
 import ca.datamagic.station.dto.StationDTO;
@@ -29,7 +28,7 @@ public class StationParserTester {
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		DOMConfigurator.configure("src/test/resources/META-INF/log4j.cfg.xml");
+		DOMConfigurator.configure("src/test/resources/log4j.cfg.xml");
 		BaseDAO.setDataPath((new File("src/test/resources/data")).getAbsolutePath());
 	}
 
@@ -37,7 +36,6 @@ public class StationParserTester {
 	public void test1() throws Exception {
 		final StationDAO stationDAO = new StationDAO(true);
 		final WFODAO wfoDAO = new WFODAO();
-		//final ObjectMapper mapper = new ObjectMapper();
 		final Gson gson = new Gson();
 		StationParser parser = new StationParser();
 		StationHandler handler = new StationHandler() {			
@@ -48,10 +46,9 @@ public class StationParserTester {
 					if ((wfo != null) && (wfo.size() > 0)) {
 						station.setWFO(wfo.get(0).getWFO());
 						station.setRadar(wfo.get(0).getRadar());
+						_logger.debug("station: " + gson.toJson(station));
+						stationDAO.add(station);
 					}
-					//_logger.debug("station: " + mapper.writeValueAsString(station));
-					_logger.debug("station: " + gson.toJson(station));
-					stationDAO.add(station);
 				} catch (Throwable t) {
 					_logger.warn("Exception", t);
 				}
