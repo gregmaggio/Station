@@ -1,0 +1,2332 @@
+"STATION_ID,C,254","NAME,C,254","STATE,C,254","WFO,C,254","RADAR,C,254","LATITUDE,N,9,0","LONGITUDE,N,9,0"
+PADK,"Adak Island, Adak Airport",AK,AFC,ABC,51,-176
+PADQ,"Kodiak, Kodiak Airport",AK,AFC,ABC,57,-152
+PAFM,"Ambler, Ambler Airport",AK,AFG,APD,67,-157
+PAGN,Angoon,AK,AJK,ACG,57,-134
+PAWI,"Wainwright, Wainwright Airport",AK,AFG,APD,70,-159
+PAKN,"King Salmon, King Salmon Airport",AK,AFC,ABC,58,-156
+PAKP,"Anaktuvuk Pass, Anaktuvuk Pass Airport",AK,AFG,APD,68,-151
+PAKW,Klawock - Klawock Airport,AK,AJK,ACG,55,-133
+PANC,"Anchorage, Ted Stevens Anchorage International Airport",AK,AFC,ABC,61,-149
+PANI,"Aniak, Aniak Airport",AK,AFC,ABC,61,-159
+PANT,Annette Island Airport,AK,AJK,ACG,55,-131
+PANV,"Anvik, Anvik Airport",AK,AFG,APD,62,-160
+PAPB,"St. George, St. George Airport",AK,AFC,ABC,56,-169
+PARC,"Arctic Village, Arctic Village Airport",AK,AFG,APD,68,-145
+PAZK,"Eureka, Skelton Airport",AK,AFC,ABC,61,-147
+PABV,"Birchwood, Birchwood Airport",AK,AFC,ABC,61,-149
+PABE,"Bethel, Bethel Airport",AK,AFC,ABC,60,-161
+PABI,"Delta Junction/Ft Greely, Allen Army Airfield",AK,AFG,APD,64,-145
+PABR,"Barrow, Wiley Post-Will Rogers Memorial Airport",AK,AFG,APD,71,-156
+PABT,"Bettles, Bettles Airport",AK,AFG,APD,66,-151
+PABL,"Buckland, Buckland Airport",AK,AFG,APD,65,-161
+PACD,"Cold Bay, Cold Bay Airport",AK,AFC,ABC,55,-162
+PACV,"Cordova, Merle K (Mudhole) Smith Airport",AK,AFC,ABC,60,-145
+PADL,"Dillingham, Dillingham Airport",AK,AFC,ABC,59,-158
+PADU,"Unalaska, Unalaska Airport",AK,AFC,ABC,53,-166
+PAEG,"Eagle, Eagle Airport",AK,AFG,APD,64,-141
+PAEN,"Kenai, Kenai Municipal Airport",AK,AFC,ABC,60,-151
+PAEM,"Emmonak, Emmonak Airport",AK,AFG,APD,62,-164
+PANN,Nenana Municipal Airport,AK,AFG,APD,64,-149
+PAFA,"Fairbanks, Fairbanks International Airport",AK,AFG,APD,64,-147
+PFYU,"Fort Yukon, Fort Yukon Airport",AK,AFG,APD,66,-145
+PAGA,"Galena, Edward G. Pitka Sr. Airport",AK,AFG,APD,64,-156
+PAGM,"Gambell, Gambell Airport",AK,AFG,APD,63,-171
+PAGB,"Galbraith Lake, Galbraith Lake Airport",AK,AFG,APD,68,-149
+PAGK,"Gulkana, Gulkana Airport",AK,AFC,ABC,62,-145
+PAGS,"Gustavus, Gustavus Airport",AK,AJK,ACG,58,-135
+PAHN,Haines - Haines Airport,AK,AJK,ACG,59,-135
+PAHO,"Homer, Homer Airport",AK,AFC,ABC,59,-151
+PAHY,Hydaburg - Hydaburg Seaplane Base,AK,AJK,ACG,55,-132
+PAEC,"Chulitna, Chulitna Airport",AK,AFC,ABC,62,-149
+PAIL,"Iliamna, Iliamna Airport",AK,AFC,ABC,59,-154
+PAIN,"McKinley Park, McKinley National Park Airport",AK,AFG,APD,63,-148
+PAJN,"Juneau, Juneau International Airport",AK,AJK,ACG,58,-134
+PAFE,Kake - Kake Airport,AK,AJK,ACG,56,-133
+PASM,"St. Mary's, St. Mary's Airport",AK,AFG,APD,62,-163
+PAKT,"Ketchikan, Ketchikan International Airport",AK,AJK,ACG,55,-131
+PALH,"Anchorage, Lake Hood Seaplane Base",AK,AFC,ABC,61,-149
+PAMC,"McGrath, McGrath Airport",AK,AFG,APD,62,-155
+PAMD,Middleton Island Airport,AK,AFC,ABC,59,-146
+PAMH,"Minchumina, Minchumina Airport",AK,AFG,APD,63,-152
+PAMO,Mountain Village,AK,AFG,APD,62,-163
+PAMR,"Anchorage, Merrill Field Airport",AK,AFC,ABC,61,-149
+PAMY,"Mekoryuk, Mekoryuk Airport",AK,AFC,ABC,60,-166
+PAOM,"Nome, Nome Airport",AK,AFG,APD,64,-165
+PAOH,Hoonah - Hoonah Seaplane Base,AK,AJK,ACG,58,-135
+PAOR,"Northway, Northway Airport",AK,AFG,APD,62,-141
+PAOT,Ralph Wien Memorial Airport,AK,AFG,APD,66,-162
+PAAQ,"Palmer, Palmer Municipal Airport",AK,AFC,ABC,61,-149
+PAPO,"Point Hope, Point Hope Airport",AK,AFG,APD,68,-166
+PALJ,"Port Alsworth, Port Alsworth Airport",AK,AFC,ABC,60,-154
+PAPH,"Port Heiden, Port Heiden Airport",AK,AFC,ABC,56,-158
+PAPT,Puntilla,AK,AFC,ABC,62,-152
+PASC,"Deadhorse, Deadhorse Airport",AK,AFG,APD,70,-148
+PASD,Sand Point,AK,AFC,ABC,55,-160
+PASI,Sitka - Sitka Airport,AK,AJK,ACG,57,-135
+PASL,Sleetmute,AK,AFC,ABC,61,-157
+PASN,"St. Paul Island, St. Paul Island Airport",AK,AFC,ABC,57,-170
+PASA,Savoonga Airport,AK,AFG,APD,63,-170
+PAWD,Seward,AK,AFC,ABC,60,-149
+PASX,Soldotna,AK,AFC,ABC,60,-151
+PATA,"Tanana, Calhoun Memorial Airport",AK,AFG,APD,65,-152
+PATK,"Talkeetna, Talkeetna Airport",AK,AFC,ABC,62,-150
+PATG,"Togiac Village, Togiak Airport",AK,AFC,ABC,59,-160
+PAKU,"Kuparuk, Ugnu-Kuparuk Airport",AK,AFG,APD,70,-149
+PAUN,Unalakleet,AK,AFG,APD,63,-160
+PAVD,Valdez 2,AK,AFC,ABC,61,-146
+PAWG,Wrangell,AK,AJK,ACG,56,-132
+PAWN,"Noatak, Noatak Airport",AK,AFG,APD,67,-162
+PAYA,Yakutat,AK,AJK,ACG,59,-139
+PAPG,Petersburg,AK,AJK,ACG,56,-132
+PARY,Ruby,AK,AFG,APD,64,-155
+PAAK,"Atka, Atka Airport",AK,AFC,ABC,52,-174
+PADE,"Deering, Deering/New Airport",AK,AFG,APD,66,-162
+PAED,"Anchorage, Elmendorf Air Force Base",AK,AFC,ABC,61,-149
+PAEI,"Fairbanks, Eielson Air Force Base",AK,AFG,APD,64,-147
+PAFB,Fort Wainwright AAF,AK,AFG,APD,64,-147
+PAFR,"Ft. Richardson / Bryant U. S. Army Heliport, Ak",AK,AFC,ABC,61,-149
+PAGL,"Golovin, Golovin Airport",AK,AFG,APD,64,-163
+PAIK,Kinana / Bob Baker Me,AK,AFG,APD,66,-160
+PAJC,"Chignik, Chignik Airport",AK,AFC,ABC,56,-158
+PAKV,"Kaltag, Kaltag Airport",AK,AFG,APD,64,-158
+PALP,"Deadhorse, Alpine Airstrip",AK,AFG,APD,70,-150
+PAQT,"Nuiqsut, Nuiqsut Airport",AK,AFG,APD,70,-151
+PASK,Selawik,AK,AFG,APD,66,-160
+PASO,"Seldovia, Seldovia Airport",AK,AFC,ABC,59,-151
+PASY,"Shemya, Eareckson AFB",AK,AFC,ABC,52,174
+PATO,"Portage, Portage Glacier",AK,AFC,ABC,60,-148
+PAWS,"Wasilla, Wasilla Airport",AK,AFC,ABC,61,-149
+PAHL,"Huslia, Huslia Airport",AK,AFG,APD,65,-156
+PAKI,"Kipnuk, Kipnuk Airport",AK,AFC,ABC,59,-164
+PACM,Scammon Bay,AK,AFG,APD,61,-165
+PADM,Marshall,AK,AFG,APD,61,-162
+PAFS,Nikolai,AK,AFG,APD,63,-154
+PAIG,Igiugig,AK,AFC,ABC,59,-155
+PAJZ,Koliganek,AK,AFC,ABC,59,-157
+PALG,Kalskag,AK,AFC,ABC,61,-160
+PAMB,Manokotak,AK,AFC,ABC,58,-159
+PAMK,St Michael,AK,AFG,APD,63,-162
+PANW,New Stuyahok,AK,AFC,ABC,59,-157
+PAOO,Toksook Bay,AK,AFC,ABC,60,-165
+PAOU,Nelson Lagoon,AK,AFC,ABC,56,-161
+PARS,Russian Mission,AK,AFG,APD,61,-161
+PATQ,Atqasuk,AK,AFG,APD,70,-157
+PFSH,Shaktoolik Airport,AK,AFG,APD,64,-161
+PFNO,Noorvik,AK,AFG,APD,66,-161
+PAHX,Shageluk Airport,AK,AFG,APD,62,-159
+PFWS,South Naknek Nr 2 Airport,AK,AFC,ABC,58,-157
+PFCL,Clarks Point Airport,AK,AFC,ABC,58,-158
+PAQH,Quinhagak Airport,AK,AFC,ABC,59,-161
+PANA,Napakiak Airport,AK,AFC,ABC,60,-161
+PAUT,Akun Airport,AK,AFC,ABC,54,-165
+PFKW,Kwethluk Airport,AK,AFC,ABC,60,-161
+PPIT,Nunapitchuk Airport,AK,AFC,ABC,60,-162
+PAAD,Point Thomson Airstrip,AK,AFG,APD,70,-146
+K79J,"Andalusia, Andalusia-Opp Municipal Airport",AL,MOB,MOB,31,-86
+KANB,Anniston Metro Airport,AL,BMX,BMX,33,-85
+KAUO,Auburn-Opelika Airport,AL,BMX,BMX,32,-85
+KBFM,"Mobile, Mobile Downtown Airport",AL,MOB,MOB,30,-88
+KBHM,"Birmingham, Birmingham International Airport",AL,BMX,BMX,33,-86
+KDCU,"Decatur, Pryor Field",AL,HUN,HTX,34,-86
+KDHN,"Dothan, Dothan Regional Airport",AL,TAE,TLH,31,-85
+KEET,"Alabaster, Shelby County Airport",AL,BMX,BMX,33,-86
+KGAD,"Gadsden, Gadsden Municipal Airport",AL,BMX,BMX,33,-86
+KGZH,"Evergreen, Middleton Field",AL,MOB,MOB,31,-87
+KHEY,Hanchey AHP / Ozark,AL,TAE,TLH,31,-85
+KHSV,"Huntsville, Huntsville International / Jones Field",AL,HUN,HTX,34,-86
+KLOR,"Fort Rucker, Lowe Army Heliport",AL,TAE,TLH,31,-85
+KMDQ,"Huntsville, Madison County Executive Airport",AL,HUN,HTX,34,-86
+KMGM,"Montgomery, Dannelly Field",AL,BMX,BMX,32,-86
+KMOB,"Mobile, Mobile Regional Airport",AL,MOB,MOB,30,-88
+KMSL,"Muscle Shoals, North West Alabama Regional Airport",AL,HUN,HTX,34,-87
+KMXF,Maxwell Air Force Base / Montgomery,AL,BMX,BMX,32,-86
+KOZR,Cairns Army Air Field / Ozark,AL,TAE,TLH,31,-85
+KSXS,SCHELL AHP,AL,TAE,TLH,31,-85
+KTCL,Tuscaloosa Regional Airport,AL,BMX,BMX,33,-87
+KTOI,"Troy, Troy Municipal Airport",AL,BMX,BMX,31,-86
+KCMD,Cullman Regional Folsom Field,AL,HUN,HTX,34,-86
+K4A9,"Fort Payne, Isbell Field Airport",AL,HUN,HTX,34,-85
+KALX,"Alexander City, Thomas C Russell Field Airport",AL,BMX,BMX,32,-85
+KSEM,Craig Field / Selma,AL,BMX,BMX,32,-86
+K1M4,"Haleyville, Posey Field Airport",AL,BMX,BMX,34,-87
+K8A0,"Albertville, Albertville Municipal Airport",AL,HUN,HTX,34,-86
+K0J4,"Florala, Florala Municipal Airport",AL,MOB,MOB,31,-86
+KHUA,Redstone Airfield,AL,HUN,HTX,34,-86
+KJKA,Jack Edwards Airport,AL,MOB,MOB,30,-87
+KPRN,Mac Crenshaw Memorial Airport,AL,MOB,MOB,31,-86
+KCQF,Sonny Callahan Airport,AL,MOB,MOB,30,-87
+KEUF,Eufaula Municipal Airport,AL,BMX,BMX,31,-85
+K4A6,Scottsboro Municipal Airport,AL,HUN,HTX,34,-86
+KJFX,Bevill Field,AL,BMX,BMX,33,-87
+KDYA,Demopolis Municipal Airport,AL,BMX,BMX,32,-87
+K1A9,Prattville - Grouby Field,AL,BMX,BMX,32,-86
+KASN,Talladega Municipal Airport,AL,BMX,BMX,33,-86
+KEDN,Enterprise Municipal Airport,AL,TAE,TLH,31,-85
+KSCD,Merkel Field Sylacauga Municipal Airport,AL,BMX,BMX,33,-86
+KA08,Vaiden Fld Airport,AL,BMX,BMX,32,-87
+KPLR,St Clair County Airport,AL,BMX,BMX,33,-86
+KEKY,Bessemer Airport,AL,BMX,BMX,33,-86
+KARG,Walnut Ridge Regional Airport,AR,MEG,NQA,36,-90
+KASG,Springdale Municipal,AR,TSA,INX,36,-94
+KAWM,"West Memphis, West Memphis Municipal Airport",AR,MEG,NQA,35,-90
+KBPK,Baxter County Airport,AR,LZK,LZK,36,-92
+KBVX,"Batesville, Batesville Regional Airport",AR,LZK,LZK,35,-91
+KBYH,Eaker Air Force Base,AR,MEG,NQA,35,-89
+KCDH,Camden / Harrell Field,AR,LZK,LZK,33,-92
+KDEQ,"De Queen, J Lynn Helms Sevier County Airport",AR,SHV,SHV,34,-94
+KELD,South Arkansas Regional Airport,AR,SHV,SHV,33,-92
+KFLP,"Flippin, Marion County Regional Airport",AR,LZK,LZK,36,-92
+KFSM,Fort Smith Regional Airport,AR,TSA,INX,35,-94
+KFYV,"Fayetteville, Drake Field",AR,TSA,INX,36,-94
+KHKA,"Blytheville, Blytheville Municipal Airport",AR,MEG,NQA,35,-89
+KHOT,"Hot Springs, Memorial Field Airport",AR,LZK,LZK,34,-93
+KHRO,"Harrison, Boone County Airport",AR,LZK,LZK,36,-93
+KJBR,"Jonesboro, Jonesboro Municipal Airport",AR,MEG,NQA,35,-90
+KLIT,"Little Rock, Adams Field",AR,LZK,LZK,34,-92
+KLLQ,"Monticello, Monticello Municipal Airport/Ellis Field",AR,LZK,LZK,33,-91
+KLRF,Little Rock Air Force Base,AR,LZK,LZK,34,-92
+KMWT,Mount Ida,AR,LZK,LZK,34,-93
+KPBF,"Pine Bluff, Grider Field Airport",AR,LZK,LZK,34,-91
+KROG,Rogers - Rogers Executive Airport - Carter Field,AR,TSA,INX,36,-94
+KRUE,Russelville Municipal Airport,AR,LZK,LZK,35,-93
+KSGT,"Stuttgart, Stuttgart Municipal Airport",AR,LZK,LZK,34,-91
+KSLG,"Siloam Springs, Smith Field Airport",AR,TSA,INX,36,-94
+KSRC,Searcy Municipal Airport,AR,LZK,LZK,35,-91
+KTXK,"Texarkana, Texarkana Regional-Webb Field",AR,SHV,SHV,33,-93
+KVBT,"Bentonville, Bentonville Municipal Airport/Louise M Thaden Field",AR,TSA,INX,36,-94
+KXNA,Northwest Arkansas Regional Airport,AR,TSA,INX,36,-94
+KMEZ,"Mena, Mena Intermountain Municipal Airport",AR,LZK,LZK,34,-94
+KM19,"Newport, Newport Municipal Airport",AR,LZK,LZK,35,-91
+KCCA,Clinton Memorial Airfield,AR,LZK,LZK,35,-92
+K4M9,Corning Municipal Airport,AR,MEG,NQA,36,-90
+KADF,Dexter B Florence Memorial Field,AR,LZK,LZK,34,-93
+KCXW,Conway - Cantrell Field,AR,LZK,LZK,35,-92
+KSUZ,Saline County Regional Airport,AR,LZK,LZK,34,-92
+NSTU,"Pago Pago, AS, Samoa",AS,PPG,,-14,-170
+KCGZ,"Casa Grande, Casa Grande Municipal Airport",AZ,PSR,IWA,32,-111
+KDMA,Davis-Monthan Air Force Base,AZ,TWC,EMX,32,-110
+KDUG,Bisbee Douglas International Airport,AZ,TWC,EMX,31,-109
+KDVT,"Phoenix, Phoenix-Deer Valley Municipal Airport",AZ,PSR,IWA,33,-112
+KFFZ,Mesa / Falcon Field,AZ,PSR,IWA,33,-111
+KFHU,"Fort Huachuca, Libby AAF Ft Huachuca",AZ,TWC,EMX,31,-110
+KFLG,Flagstaff Pulliam Airport,AZ,FGZ,FSX,35,-111
+KGXF,Gila Bend Air Force Auxiliary Field,AZ,PSR,IWA,32,-112
+KGCN,Grand Canyon National Park Airport,AZ,FGZ,FSX,35,-112
+KGEU,"Glendale, Glendale Municipal Airport",AZ,PSR,IWA,33,-112
+KGYR,Goodyear Municipal,AZ,PSR,IWA,33,-112
+KIFP,"Bullhead City, Laughlin/Bullhead International Airport",AZ,VEF,ESX,35,-114
+KIGM,"Kingman, Kingman Airport",AZ,VEF,ESX,35,-113
+KINW,"Winslow, Winslow Municipal Airport",AZ,FGZ,FSX,35,-110
+KIWA,Phoenix-Mesa Gateway Airport,AZ,PSR,IWA,33,-111
+KLUF,Luke Air Force Base / Phoenix,AZ,PSR,IWA,33,-112
+KNYL,"Yuma, Marine Corps Air Station",AZ,PSR,IWA,32,-114
+KOLS,"Nogales, Nogales International Airport",AZ,TWC,EMX,31,-110
+KPGA,"Page, Page Municipal Airport",AZ,FGZ,FSX,36,-111
+KPHX,"Phoenix, Phoenix Sky Harbor International Airport",AZ,PSR,IWA,33,-112
+KPRC,"Prescott, Love Field",AZ,FGZ,FSX,34,-112
+KRQE,"Window Rock, Window Rock Airport",AZ,FGZ,FSX,35,-109
+KSAD,"Safford, Safford Municipal Airport",AZ,TWC,EMX,32,-109
+KSDL,Scottsdale Airport,AZ,PSR,IWA,33,-111
+KSJN,"St. Johns, St. Johns Industrial Airpark",AZ,FGZ,FSX,34,-109
+KSOW,"Show Low, Show Low Regional Airport",AZ,FGZ,FSX,34,-110
+KTUS,"Tucson, Tucson International Airport",AZ,TWC,EMX,32,-110
+KAZC,"Colorado City, Colorado City Municipal Airport",AZ,VEF,ESX,36,-113
+KCHD,"Chandler, Chandler Municipal Airport",AZ,PSR,IWA,33,-111
+KSEZ,Sedona Airport,AZ,FGZ,FSX,34,-111
+KPAN,Payson Airport,AZ,FGZ,FSX,34,-111
+KCMR,Williams/Clark Memorial Airport,AZ,FGZ,FSX,35,-112
+KBXK,Buckeye Municipal Airport,AZ,PSR,IWA,33,-112
+KALK,Pioneer Airfield,AZ,TWC,EMX,31,-110
+KRYN,Tucson Ryan Field Airport,AZ,TWC,EMX,32,-111
+KP08,Coolidge Municipal Airport,AZ,PSR,IWA,32,-111
+KHII,Havasu City Airport,AZ,VEF,ESX,34,-114
+KAVQ,Tucson Marana Regional Airport,AZ,TWC,EMX,32,-111
+KJTC,Springerville Municipal Airport,AZ,FGZ,FSX,34,-109
+KA39,Ak-Chin Regional Airport,AZ,PSR,IWA,32,-111
+KNOZ,Yuma Auxiliary Airfield,AZ,PSR,IWA,32,-114
+KTYL,Taylor Airport,AZ,FGZ,FSX,34,-110
+KAAT,Alturas,CA,MFR,MAX,41,-120
+KACV,"Arcata / Eureka, Arcata Airport",CA,EKA,BHX,40,-124
+KAPC,"Napa, Napa County Airport",CA,MTR,MUX,38,-122
+KBAB,"Marysville, Beale Air Force Base",CA,STO,DAX,39,-121
+KBFL,"Bakersfield, Meadows Field Airport",CA,HNX,HNX,35,-119
+KBIH,"Bishop, Bishop Airport",CA,VEF,ESX,37,-118
+KBLH,"Blythe, Blythe Airport",CA,PSR,IWA,33,-114
+KBLU,"Emigrant Gap, Blue Canyon Nyack Airport",CA,STO,DAX,39,-120
+KBUR,Burbank - Bob Hope Airport,CA,LOX,VTX,34,-118
+KBYS,"Fort Irwin/Barstow, Bicycle Lake Army Airfield",CA,VEF,ESX,35,-116
+KCCR,"Concord, Buchanan Field",CA,MTR,MUX,37,-122
+KCEC,"Crescent City, Jack McNamara Field Airport",CA,EKA,BHX,41,-124
+KCIC,Chico Municipal Airport,CA,STO,DAX,39,-121
+KCMA,"Camarillo, Camarillo Airport",CA,LOX,VTX,34,-119
+KCNO,"Chino, Chino Airport",CA,SGX,SOX,33,-117
+KCQT,Los Angeles / USC Campus Downtown,CA,LOX,VTX,34,-118
+KCRQ,"Carlsbad, McClellan-Palomar Airport",CA,SGX,SOX,33,-117
+KCZZ,Campo,CA,SGX,SOX,32,-116
+KDAG,"Daggett, Barstow-Daggett Airport",CA,VEF,ESX,34,-116
+KEDW,Edwards Air Force Base,CA,HNX,HNX,34,-117
+KEED,"Needles, Needles Airport",CA,VEF,ESX,34,-114
+KEMT,El Monte,CA,LOX,VTX,34,-118
+KFAT,"Fresno, Fresno Air Terminal",CA,HNX,HNX,36,-119
+KFUL,"Fullerton, Fullerton Municipal Airport",CA,SGX,SOX,33,-117
+KHHR,"Hawthorne, Hawthorne Municipal Airport",CA,LOX,VTX,33,-118
+KHJO,Hanford Municipal Airport,CA,HNX,HNX,36,-119
+KHWD,"Hayward, Hayward Air Terminal",CA,MTR,MUX,37,-122
+KIPL,"Imperial, Imperial County Airport",CA,PSR,IWA,32,-115
+KLAX,"Los Angeles, Los Angeles International Airport",CA,LOX,VTX,33,-118
+KLGB,"Long Beach, Long Beach Airport",CA,LOX,VTX,33,-118
+KLPC,"Lompoc, Lompoc Airport",CA,LOX,VTX,34,-120
+KLVK,"Livermore, Livermore Municipal Airport",CA,MTR,MUX,37,-121
+KMAE,Madera Municipal Airport,CA,HNX,HNX,36,-120
+KMCC,"Sacramento, McClellan Airfield Airport",CA,STO,DAX,38,-121
+KMCE,Merced Regional Airport,CA,HNX,HNX,37,-120
+KMER,Merced / Castle Air Force Base,CA,HNX,HNX,37,-120
+KMHR,Sacramento Mather Airport,CA,STO,DAX,38,-121
+KMHS,Mount Shasta,CA,MFR,MAX,41,-122
+KMHV,Mojave,CA,HNX,HNX,35,-118
+KMMH,Mammoth Yosemite Airport,CA,REV,RGX,37,-118
+KMOD,Modesto City-County Airport - Harry Sham Field,CA,STO,DAX,37,-120
+KMRY,Monterey Regional Airport,CA,MTR,MUX,36,-121
+KMYF,"San Diego, Montgomery Field",CA,SGX,SOX,32,-117
+KMYV,"Marysville, Yuba County Airport",CA,STO,DAX,39,-121
+KNFG,"Oceanside, Camp Pendleton, Marine Corps Air Station",CA,SGX,SOX,33,-117
+KNID,"China Lake, Naval Air Facility",CA,HNX,HNX,35,-117
+KNJK,"El Centro, Naval Air Facility",CA,PSR,IWA,32,-115
+KNKX,"San Diego, Miramar MCAS/Mitscher Field Airport",CA,SGX,SOX,32,-117
+KNLC,Lemoore Naval Air Station - Reeves Field,CA,HNX,HNX,36,-119
+KNRS,Imperial Beach Naval Outlying Field - Ream Field,CA,SGX,SOX,32,-117
+KNSI,San Nicolas Island Naval Outlying Field,CA,LOX,VTX,33,-119
+KNTD,"Point Mugu, Naval Air Warfare Center",CA,LOX,VTX,34,-119
+KNUC,San Clemente Island NALF,CA,LOX,VTX,33,-118
+KNUQ,"Mountain View, Moffett Field",CA,MTR,MUX,37,-122
+KNXP,Twentynine Palms SELF Airport,CA,VEF,ESX,34,-116
+KNZY,"San Diego, North Island, Naval Air Station",CA,SGX,SOX,32,-117
+KOAK,"Oakland, Metro Oakland International Airport",CA,MTR,MUX,37,-122
+KOKB,"Oceanside, Oceanside Municipal Airport",CA,SGX,SOX,33,-117
+KONT,Ontario International Airport,CA,SGX,SOX,34,-117
+KOVE,Oroville Municipal Airport,CA,STO,DAX,39,-121
+KOXR,"Oxnard, Oxnard Airport",CA,LOX,VTX,34,-119
+KPAO,Palo Alto Airport,CA,MTR,MUX,37,-122
+KPMD,"Palmdale, Palmdale Production Flight Plant",CA,LOX,VTX,34,-118
+KPOC,Brackett Field Airport,CA,LOX,VTX,34,-117
+KPRB,Paso Robles Municipal Airport,CA,LOX,VTX,35,-120
+KPSP,Palm Springs Regional Airport,CA,SGX,SOX,33,-116
+KPTV,"Porterville, Porterville Municipal Airport",CA,HNX,HNX,36,-119
+KRAL,Riverside Municipal Airport,CA,SGX,SOX,33,-117
+KRBL,"Red Bluff, Red Bluff Municipal Airport",CA,STO,DAX,40,-122
+KRDD,Redding Municipal Airport,CA,STO,DAX,40,-122
+KRHV,San Jose / Reid / Hillv,CA,MTR,MUX,37,-121
+KRIV,Riverside / March Air Force Base,CA,SGX,SOX,33,-117
+KRNM,"Ramona, Ramona Airport",CA,SGX,SOX,33,-116
+KSAC,Sacramento Executive Airport,CA,STO,DAX,38,-121
+KSAN,"San Diego, San Diego International-Lindbergh Field",CA,SGX,SOX,32,-117
+KSBA,"Santa Barbara, Santa Barbara Municipal Airport",CA,LOX,VTX,34,-119
+KSBD,San Bernardino Intl. Airport,CA,SGX,SOX,34,-117
+KSBP,"San Luis Obispo, San Luis Obispo County-Mc Chesney Field",CA,LOX,VTX,35,-120
+KSCK,"Stockton, Stockton Metropolitan Airport",CA,STO,DAX,37,-121
+KSDB,Sandberg,CA,LOX,VTX,34,-118
+KSDM,"San Diego, Brown Field Municipal Airport",CA,SGX,SOX,32,-116
+KSEE,Gillespie Field Airport,CA,SGX,SOX,32,-116
+KSFO,"San Francisco, San Francisco International Airport",CA,MTR,MUX,37,-122
+KSIY,Montague Siskiyou County Airport,CA,MFR,MAX,41,-122
+KSJC,"San Jose, San Jose International Airport",CA,MTR,MUX,37,-121
+KSLI,Los Alamitos Army Airfield,CA,SGX,SOX,33,-118
+KSMF,Sacramento International Airport,CA,STO,DAX,38,-121
+KSMO,"Santa Monica, Santa Monica Municipal Airport",CA,LOX,VTX,34,-118
+KSMX,Santa Maria Public Airport/Capt G Allan Hancock Field,CA,LOX,VTX,34,-120
+KSNA,John Wayne-Orange County Airport,CA,SGX,SOX,33,-117
+KSNS,"Salinas, Salinas Municipal Airport",CA,MTR,MUX,36,-121
+KSQL,San Carlos Airport,CA,MTR,MUX,37,-122
+KSTS,"Santa Rosa, Santa Rosa Sonoma County Airport",CA,MTR,MUX,38,-122
+KSUU,Fairfield / Travis Air Force Base,CA,STO,DAX,38,-121
+KSVE,Susanville Municipal Airport,CA,REV,RGX,40,-120
+KTOA,"Torrance, Zamperini Field Airport",CA,LOX,VTX,33,-118
+KTRK,Truckee-Tahoe,CA,REV,RGX,39,-120
+KTRM,"Palm Springs, Jacqueline Cochran Regional Airport",CA,SGX,SOX,33,-116
+KTVL,"South Lake Tahoe, Lake Tahoe Airport",CA,REV,RGX,38,-119
+KUKI,Ukiah Municipal Airport,CA,EKA,BHX,39,-123
+KVBG,"Lompoc, Vandenberg Air Force Base",CA,LOX,VTX,34,-120
+KVCB,Vacaville Nut Tree Airport,CA,STO,DAX,38,-121
+KVIS,"Visalia, Visalia Municipal Airport",CA,HNX,HNX,36,-119
+KVNY,"Van Nuys, Van Nuys Airport",CA,LOX,VTX,34,-118
+KWJF,General Wm J Fox Airfield,CA,LOX,VTX,34,-118
+KWVI,"Watsonville, Watsonville Municipal Airport",CA,MTR,MUX,36,-121
+KAUN,Auburn Municipal Airport,CA,STO,DAX,38,-121
+KAVX,Avalon Catalina Airport,CA,LOX,VTX,33,-118
+KFCH,Fresno Chandler Executive Airport,CA,HNX,HNX,36,-119
+KIZA,"Santa Ynez, Santa Ynez Airport",CA,LOX,VTX,34,-120
+KVCV,"Victorville, Southern California Logistics Airport",CA,SGX,SOX,34,-117
+KWHP,"Los Angeles, Whiteman Airport",CA,LOX,VTX,34,-118
+K9L2,"Edwards, Edwards Air Force Auxiliary North Base",CA,HNX,HNX,34,-117
+KJAQ,Westover Field - Amador County Airport,CA,STO,DAX,38,-120
+KAJO,Corona Airport,CA,SGX,SOX,33,-117
+KL35,Big Bear City Airport,CA,SGX,SOX,34,-116
+KDVO,Novato / Gnoss Field,CA,MTR,MUX,38,-122
+KCVH,"Hollister, CA",CA,MTR,MUX,36,-121
+KTSP,Tehachapi Municipal Airport,CA,HNX,HNX,35,-118
+KEDU,University Airport,CA,STO,DAX,38,-121
+KPVF,Placerville Airport,CA,STO,DAX,38,-120
+KLHM,Lincoln Regional Karl Harder Field,CA,STO,DAX,38,-121
+KO69,Petaluma Municipal Airport,CA,MTR,MUX,38,-122
+KE16,South County Airport of Santa Clara County,CA,MTR,MUX,37,-121
+KFOT,Fortuna Rohnerville Airport,CA,EKA,BHX,40,-124
+KGOO,Nevada County Air Park,CA,STO,DAX,39,-121
+KO86,Trinity Center,CA,EKA,BHX,40,-122
+KBAN,MCMWTC BRIDGEPORT,CA,REV,RGX,38,-119
+KF70,Murrieta/Temecula French Valley,CA,SGX,SOX,33,-117
+KL18,Fallbrook Community Airpark,CA,SGX,SOX,33,-117
+KL52,Oceano County Airport,CA,LOX,VTX,35,-120
+KC83,Byron,CA,MTR,MUX,37,-121
+KO32,Reedley Municipal Airport,CA,HNX,HNX,36,-119
+KL08,Borrego Valley Airport,CA,SGX,SOX,33,-116
+KAFF,Air Force Academy,CO,PUB,PUX,38,-104
+KAKO,Colorado Plains Regional Airport,CO,BOU,FTG,40,-103
+KALS,San Luis Valley Regional Airport,CO,PUB,PUX,37,-105
+KAPA,Denver - Centennial Airport,CO,BOU,FTG,39,-104
+KASE,Aspen-Pitkin County Airport,CO,GJT,GJX,39,-106
+KBJC,Broomfield / Jeffco,CO,BOU,FTG,39,-105
+KBKF,Buckley Air Force Base Airport,CO,BOU,FTG,39,-104
+KCAG,Craig-Moffat Airport,CO,GJT,GJX,40,-107
+KCEZ,Cortez-Montezuma County Airport,CO,GJT,GJX,37,-108
+KCOS,City Of Colorado Springs Municipal Airport,CO,PUB,PUX,38,-104
+KDEN,"Denver, Denver International Airport",CO,BOU,FTG,39,-104
+KDRO,Durango-La Plata County Airport,CO,GJT,GJX,37,-107
+KEEO,Meeker Airport,CO,GJT,GJX,40,-107
+KEGE,Eagle County Regional,CO,GJT,GJX,39,-106
+KFCS,Fort Carson,CO,PUB,PUX,38,-104
+KFNL,Fort Collins/Loveland - Northern Colorado Regional Airport,CO,BOU,FTG,40,-105
+KGJT,Grand Junction Regional Airport,CO,GJT,GJX,39,-108
+KGUC,"Gunnison, Gunnison-Crested Butte Regional Airport",CO,GJT,GJX,38,-106
+KGXY,"Greeley, Greeley-Weld County Airport",CO,BOU,FTG,40,-104
+KHDN,"Hayden, Yampa Valley Airport",CO,GJT,GJX,40,-107
+KITR,Burlington - Carson County Airport,CO,GLD,GLD,39,-102
+KLAA,Lamar Municipal Airport,CO,PUB,PUX,38,-102
+KLHX,La Junta Municipal Airport,CO,PUB,PUX,38,-103
+KLIC,Limon Municipal Airport,CO,BOU,FTG,39,-103
+KLXV,"Leadville, Lake County Airport",CO,PUB,PUX,39,-106
+KMTJ,"Montrose, Montrose Regional Airport",CO,GJT,GJX,38,-107
+KPUB,Pueblo Memorial Airport,CO,PUB,PUX,38,-104
+KRIL,Garfield County Regional Airport,CO,GJT,GJX,39,-107
+KSBS,Steamboat Springs,CO,GJT,GJX,40,-106
+KSPD,"Springfield, Comanche National Grassland",CO,PUB,PUX,37,-102
+KTAD,Perry Stokes Airport,CO,PUB,PUX,37,-104
+KTEX,"Telluride, Telluride Regional Airport",CO,GJT,GJX,37,-107
+KMYP,Salida - Monarch Pass,CO,PUB,PUX,38,-106
+KCCU,Copper Mountain - Red Cliff Pass,CO,BOU,FTG,39,-106
+KCPW,"Pagosa Springs, Wolf Creek Pass",CO,PUB,PUX,37,-106
+KMNH,"Elbert Mountain, Monument Pass",CO,BOU,FTG,39,-104
+K04V,"Saguache, Saguache Municipal Airport",CO,PUB,PUX,38,-106
+K20V,"Kremmling, Mc Elroy Airfield",CO,BOU,FTG,40,-106
+K4BM,Wilkerson Pass,CO,BOU,FTG,39,-105
+K5SM,Sunlight,CO,GJT,GJX,39,-107
+K7BM,Cottonwood Pass,CO,PUB,PUX,38,-106
+KFTG,Denver Nexrad,CO,BOU,FTG,39,-104
+K0CO,Berthoud Pass,CO,BOU,FTG,39,-105
+K4V0,Rangely Airport,CO,GJT,GJX,40,-108
+KABH,ELLICOTT-B AFA,CO,PUB,PUX,38,-104
+KPSO,"Stevens Field, Pagosa Springs",CO,GJT,GJX,37,-107
+KEIK,Erie Municipal Airport,CO,BOU,FTG,40,-105
+K1V6,FREMONT,CO,PUB,PUX,38,-105
+K33V,Walden-Jackson County Airport,CO,BOU,FTG,40,-106
+KBDU,Boulder Municipal Airport,CO,BOU,FTG,40,-105
+KFLY,Meadow Lake Airport,CO,PUB,PUX,38,-104
+K2V5,Wray Municipal Airport,CO,GLD,GLD,40,-102
+KANK,Harriet Alexander Field Airport,CO,PUB,PUX,38,-106
+KAEJ,Central Colorado Regional Airport,CO,PUB,PUX,38,-106
+KLMO,Vance Brand Airport,CO,BOU,FTG,40,-105
+KHEQ,Holyoke Airport,CO,BOU,FTG,40,-102
+KSTK,Sterling Municipal Airport,CO,BOU,FTG,40,-103
+KAJZ,Delta/Blake Field Airport,CO,GJT,GJX,38,-108
+KAIB,Nucla Hopkins Field Airport,CO,GJT,GJX,38,-108
+KFMM,Fort Morgan Municipal Airport,CO,BOU,FTG,40,-103
+KCWN,Cheyenne Mountain,CO,PUB,PUX,38,-104
+KRCV,Astronaut Kent Rominger - Del Norte,CO,PUB,PUX,37,-106
+KC07,Walton Peak,CO,GJT,GJX,40,-106
+K2V6,Yuma Municipal Airport,CO,GLD,GLD,40,-102
+KGNB,Granby-Grand County Airport,CO,BOU,FTG,40,-105
+KBDL,"Windsor Locks, Bradley International Airport",CT,BOX,BOX,41,-72
+KBDR,"Bridgeport, Sikorsky Memorial Airport",CT,OKX,OKX,41,-73
+KDXR,"Danbury, Danbury Municipal Airport",CT,OKX,OKX,41,-73
+KGON,"Groton / New London, Groton / New London Airport",CT,OKX,OKX,41,-72
+KHFD,"Hartford, Hartford-Brainard Airport",CT,BOX,BOX,41,-72
+KHVN,"New Haven, Tweed-New Haven Airport",CT,OKX,OKX,41,-72
+KIJD,"Willimantic, Windham Airport",CT,BOX,BOX,41,-72
+KMMK,"Meriden, Meriden Markham Municipal Airport",CT,OKX,OKX,41,-72
+KOXC,"Oxford, Waterbury-Oxford Airport",CT,OKX,OKX,41,-73
+KSNC,"Chester, Chester Airport",CT,OKX,OKX,41,-72
+KDOV,Dover Air Force Base,DE,PHI,DIX,39,-75
+KGED,Georgetown - Delaware Coastal Airport,DE,PHI,DIX,38,-75
+KILG,"Wilmington, New Castle County Airport",DE,PHI,DIX,39,-75
+KMLB,Melbourne International Airport,FL,MLB,MLB,28,-80
+K40J,"Perry-Foley, Perry-Foley Airport",FL,TAE,TLH,30,-83
+KAAF,"Apalachicola, Apalachicola",FL,TAE,TLH,29,-85
+KAPF,"Naples, Naples Municipal Airport",FL,MFL,AMX,26,-81
+KBCT,"Boca Raton, Boca Raton Airport",FL,MFL,AMX,26,-80
+KBKV,Brooksville-Tampa Bay Regional Airport,FL,TBW,TBW,28,-82
+KBOW,Bartow Municipal,FL,TBW,TBW,27,-81
+KCEW,"Crestview, Sikes Airport",FL,MOB,MOB,30,-86
+KCOF,Cocoa - Patrick Air Force Base,FL,MLB,MLB,28,-80
+KCRG,Jacksonville Craig Municipal Airport,FL,JAX,JAX,30,-81
+KCTY,Cross City Airport,FL,TAE,TLH,29,-83
+KDAB,Daytona Beach International Airport,FL,MLB,MLB,29,-81
+KDTS,"Destin, Destin-Ft. Walton Beach Airport",FL,MOB,MOB,30,-86
+KEYW,Key West International Airport,FL,KEY,BYX,24,-81
+KFLL,Fort Lauderdale/Hollywood International Airport,FL,MFL,AMX,26,-80
+KFMY,"Fort Myers, Page Field",FL,TBW,TBW,26,-81
+KFPR,"Fort Pierce, St. Lucie County International Airport",FL,MLB,MLB,27,-80
+KFXE,"Fort Lauderdale, Fort Lauderdale Executive Airport",FL,MFL,AMX,26,-80
+KGIF,Winter Havens Gilbert Airport,FL,TBW,TBW,28,-81
+KGNV,"Gainesville, Gainesville Regional Airport",FL,JAX,JAX,29,-82
+KHRT,Hurlburt Field,FL,MOB,MOB,30,-86
+KHST,Homestead Air Reserve Base,FL,MFL,AMX,25,-80
+KHWO,"Hollywood, North Perry Airport",FL,MFL,AMX,25,-80
+KIMM,IMMOKALEE,FL,MFL,AMX,26,-81
+KISM,Kissimmee Gateway Airport,FL,MLB,MLB,28,-81
+KJAX,Jacksonville International Airport,FL,JAX,JAX,30,-81
+KLAL,Lakeland Regional,FL,TBW,TBW,27,-82
+KLEE,Leesburg International Airport,FL,MLB,MLB,28,-81
+KMAI,Marianna Municipal Airport,FL,TAE,TLH,30,-85
+KMCF,"Macdill Air Force Base, Fl.",FL,TBW,TBW,27,-82
+KMCO,Orlando International Airport,FL,MLB,MLB,28,-81
+KMIA,"Miami, Miami International Airport",FL,MFL,AMX,25,-80
+KMTH,The Florida Keys - Marathon International Airport,FL,KEY,BYX,24,-81
+KNIP,Jacksonville Naval Air Station,FL,JAX,JAX,30,-81
+KNPA,Pensacola Naval Air Station,FL,MOB,MOB,30,-87
+KNQX,Key West Naval Air Station,FL,KEY,BYX,24,-81
+KNRB,Mayport Naval Station - Adm David L. McDonald Field,FL,JAX,JAX,30,-81
+KNSE,Milton - Whiting Field Naval Air Station North,FL,MOB,MOB,30,-87
+KOCF,Ocala International Airport - Jim Taylor Field,FL,JAX,JAX,29,-82
+KOPF,"Miami, Opa Locka Airport",FL,MFL,AMX,25,-80
+KORL,Orlando Executive Airport,FL,MLB,MLB,28,-81
+KPAM,Tyndall Air Force Base,FL,TAE,TLH,30,-85
+KPBI,West Palm Beach - Palm Beach International Airport,FL,MFL,AMX,26,-80
+KPGD,"Punta Gorda, Charlotte County Airport",FL,TBW,TBW,26,-81
+KPIE,St. Petersburg/Clearwater Airport,FL,TBW,TBW,27,-82
+KPMP,"Pompano Beach, Pompano Beach Airpark",FL,MFL,AMX,26,-80
+KPNS,Pensacola - Pensacola International Airport,FL,MOB,MOB,30,-87
+KRSW,"Fort Myers, Southwest Florida International Airport",FL,TBW,TBW,26,-81
+KSFB,Orlando / Sanford Airport,FL,MLB,MLB,28,-81
+KSGJ,Northeast Florida Regional Airport,FL,JAX,JAX,29,-81
+KSPG,Albert Whitted Airport,FL,TBW,TBW,27,-82
+KSRQ,"Sarasota / Bradenton, Sarasota-Bradenton International Airport",FL,TBW,TBW,27,-82
+KSUA,Witham Field Airport,FL,MLB,MLB,27,-80
+KTIX,Titusville,FL,MLB,MLB,28,-80
+KTLH,Tallahassee - Tallahassee International Airport,FL,TAE,TLH,30,-84
+KTMB,"Miami, Kendall-Tamiami Executive Airport",FL,MFL,AMX,25,-80
+KTPA,"Tampa, Tampa International Airport",FL,TBW,TBW,27,-82
+KTTS,"Titusville, NASA Shuttle Landing Facility",FL,MLB,MLB,28,-80
+KVDF,"Tampa, Vandenberg Airport",FL,TBW,TBW,28,-82
+KVPS,Valparaiso / Eglin Air Force Base,FL,MOB,MOB,30,-86
+KVQQ,Cecil Airport,FL,JAX,JAX,30,-81
+KVRB,"Vero Beach, Vero Beach Municipal Airport",FL,MLB,MLB,27,-80
+KXMR,"Cocoa Beach, Cape Canaveral Air Force Station Skid Strip",FL,MLB,MLB,28,-80
+KEVB,New Smyrna Beach Municipal Airport,FL,MLB,MLB,29,-80
+KNDZ,"Milton, Whiting Field South",FL,MOB,MOB,30,-87
+KOMN,"Ormond Beach, Ormond Beach Municipal Airport",FL,MLB,MLB,29,-81
+KPCM,"Plant City, Plant City Municipal Airport",FL,TBW,TBW,28,-82
+KTPF,"Tampa, Peter O Knight Airport",FL,TBW,TBW,27,-82
+KOBE,Okeechobee County Airport,FL,MLB,MLB,27,-80
+KINF,Inverness Airport,FL,TBW,TBW,28,-82
+KCGC,Crystal River Airport,FL,TBW,TBW,28,-82
+KECP,Panama City - Northwest Florida Beaches International Airport,FL,TAE,TLH,30,-85
+KFHB,Fernandina Beach Municipal Airport,FL,JAX,JAX,30,-81
+K2J9,Quincy Municipal Airport,FL,TAE,TLH,30,-84
+K42J,Keystone Airpark,FL,JAX,JAX,29,-82
+KFIN,Flagler County Airport,FL,JAX,JAX,29,-81
+KVNC,Venice Municipal Airport,FL,TBW,TBW,27,-82
+KDED,DeLand Municipal Airport,FL,MLB,MLB,29,-81
+KZPH,Zephyrhills Airport,FL,TBW,TBW,28,-82
+K54J,DeFuniak Spr AP,FL,TAE,TLH,30,-86
+KMKY,Marco Island Airport,FL,MFL,AMX,25,-81
+K28J,Palatka Kay Larkin Field,FL,JAX,JAX,29,-81
+K24J,Suwannee County Airport,FL,JAX,JAX,30,-83
+KLCQ,Lake City Municipal Airport,FL,JAX,JAX,30,-82
+KCLW,Clearwater Air Park,FL,TBW,TBW,27,-82
+KSEF,Sebring Regional Airport,FL,TBW,TBW,27,-81
+KX07,Lake Wales Municipal Airport,FL,TBW,TBW,27,-81
+KABY,Southwest Georgia Regional Airport,GA,TAE,TLH,31,-84
+KAGS,"Augusta, Bush Field",GA,CAE,CAE,33,-81
+KAHN,"Athens, Athens Airport",GA,FFC,FFC,33,-83
+KAMG,"Alma, Bacon County Airport",GA,JAX,JAX,31,-82
+KATL,"Atlanta, Hartsfield - Jackson Atlanta International Airport",GA,FFC,FFC,33,-84
+KAYS,"Waycross / Ware County, Ga",GA,JAX,JAX,31,-82
+KBGE,"Bainbridge, Decatur County Industrial Air Park Airport",GA,TAE,TLH,30,-84
+KBQK,Brunswick / Glynco,GA,JAX,JAX,31,-81
+KCCO,"Newnan, Newnan Coweta County Airport",GA,FFC,FFC,33,-84
+KCSG,"Columbus, Columbus Metropolitan Airport",GA,FFC,FFC,32,-84
+KDNL,Augusta Daniel Field,GA,CAE,CAE,33,-82
+KDNN,"Dalton, Dalton Municipal Airport",GA,FFC,FFC,34,-84
+KFFC,Atlanta Regional Airport-Falcon Field,GA,FFC,FFC,33,-84
+KFTY,Fulton County Airport-Brown Field,GA,FFC,FFC,33,-84
+KGVL,"Gainesville, Gilmer Memorial Airport",GA,FFC,FFC,34,-83
+KLHW,Wright Army Airfield (Fort Stewart)/Midcoast Regional Airport,GA,CHS,CLX,31,-81
+KLSF,Fort Benning,GA,FFC,FFC,32,-84
+KLZU,Gwinnett County Airport-Briscoe Field,GA,FFC,FFC,33,-83
+KMCN,Middle Georgia Regional Airport,GA,FFC,FFC,32,-83
+KMGE,Marietta / Dobbins Air Force Base,GA,FFC,FFC,33,-84
+KMGR,"Moultrie, Moultrie Municipal Airport",GA,TAE,TLH,31,-83
+KOPN,"Thomaston, Thomaston-Upson County Airport",GA,FFC,FFC,32,-84
+KPDK,"Atlanta, De Kalb-Peachtree Airport",GA,FFC,FFC,33,-84
+KRMG,"Rome, R. B. Russell Airport",GA,FFC,FFC,34,-85
+KRYY,Cobb County International Airport - McCollum Field,GA,FFC,FFC,34,-84
+KSAV,Savannah-Hilton Head International Airport,GA,CHS,CLX,32,-81
+KSSI,"Brunswick, Malcolm McKinnon Airport",GA,JAX,JAX,31,-81
+KSVN,Hunter U. S. Army Airfield,GA,CHS,CLX,32,-81
+KTBR,"Statesboro, Statesboro-Bulloch County Airport",GA,CHS,CLX,32,-81
+KVAD,Moody Air Force Base,GA,TAE,TLH,30,-83
+KVDI,"Vidalia, Vidalia Municipal Airport",GA,FFC,FFC,32,-82
+KVLD,Valdosta Regional Airport,GA,TAE,TLH,30,-83
+KVPC,Cartersville Airport,GA,FFC,FFC,34,-84
+KWDR,"Winder, Winder-Barrow Airport",GA,FFC,FFC,33,-83
+KWRB,Warner Robins Air Force Base,GA,FFC,FFC,32,-83
+KLGC,LaGrange-Callaway Airport,GA,FFC,FFC,33,-85
+KBIJ,"Blakely, Early County Airport",GA,TAE,TLH,31,-84
+KEBA,Elbert County - Patz Field,GA,GSP,GSP,34,-82
+KCNI,"Canton, Cherokee County Airport",GA,FFC,FFC,34,-84
+KDQH,"Douglas, Douglas Municipal Airport",GA,JAX,JAX,31,-82
+KEZM,"Eastman, Heart of Georgia Regional Airport",GA,FFC,FFC,32,-83
+KHQU,"Thomson, Thomson-McDuffie County Airport",GA,CAE,CAE,33,-82
+KJYL,"Sylvania, Plantation Airpark",GA,CHS,CLX,32,-81
+KMLJ,"Milledgeville, Baldwin County Airport",GA,FFC,FFC,33,-83
+KDBN,"Dublin, W H 'Bud' Barron Airport",GA,FFC,FFC,32,-82
+K3J7,"Greensboro, Greene County Regional Airport",GA,FFC,FFC,33,-83
+KCWV,Claxton Evans County Airport,GA,CHS,CLX,32,-81
+KTVI,Thomasville Regional Airport,GA,TAE,TLH,30,-83
+KSBO,Swainsboro Emanuel County Airport,GA,FFC,FFC,32,-82
+KJCA,Jackson County Airport,GA,FFC,FFC,34,-83
+KCVC,Covington Municipal Airport,GA,FFC,FFC,33,-83
+KPUJ,Dallas Paulding County Regional Airport,GA,FFC,FFC,33,-84
+KCTJ,Carrollton West Georgia Regional Airport,GA,FFC,FFC,33,-85
+KACJ,Americus Souther Field Airport,GA,FFC,FFC,32,-84
+K6A2,Griffin Spalding County Airport,GA,FFC,FFC,33,-84
+KAZE,Hazlehurst Airport,GA,JAX,JAX,31,-82
+KFZG,Fitzgerald Municipal Airport,GA,TAE,TLH,31,-83
+KJES,Jesup-Wayne County Airport,GA,JAX,JAX,31,-81
+KTMA,Tifton Henry Tift Myers,GA,TAE,TLH,31,-83
+KTOC,Toccoa Le Tourneau Airport,GA,GSP,GSP,34,-83
+KCKF,Cordele Crisp County Airport,GA,FFC,FFC,31,-83
+KBHC,Baxley Municipal Airport,GA,JAX,JAX,31,-82
+KPXE,Perry-Houston County Airport,GA,FFC,FFC,32,-83
+KCXU,Camilla-Mitchell County Airport,GA,TAE,TLH,31,-84
+K18A,Franklin County Airport,GA,GSP,GSP,34,-83
+KAJR,Cornelia Habersham County Airport,GA,GSP,GSP,34,-83
+KJZP,Jasper Pickens County Airport,GA,FFC,FFC,34,-84
+K49A,Gilmer County Airport,GA,FFC,FFC,34,-84
+KDZJ,Blairsville Airport,GA,FFC,FFC,34,-83
+K9A5,Barwick Lafayette Airport,GA,FFC,FFC,34,-85
+KCZL,Calhoun Tom B. David Field Airport,GA,FFC,FFC,34,-84
+KHMP,Henry County Airport,GA,FFC,FFC,33,-84
+KPIM,Pine Mountain Harris County Airport,GA,FFC,FFC,32,-84
+K17J,Donalsonville Municipal Airport,GA,TAE,TLH,31,-84
+KD73,Monroe-Walton County Airport,GA,FFC,FFC,33,-83
+K2J3,Louisville Municipal Airport,GA,FFC,FFC,32,-82
+K48A,Cochran Airport,GA,FFC,FFC,32,-83
+K2J5,Millen Airport,GA,CHS,CLX,32,-81
+PGUA,"Andersen, Mariana Is, Andersen Air Force Base",GU,GUM,GUA,13,144
+PGUM,Guam International Airport,GU,GUM,GUA,13,144
+PHBK,"Kekaha, Pacific Missile Test Facility Barking Sands",HI,HFO,HKM,22,-159
+PHNL,Daniel K Inouye International Airport,HI,HFO,HKM,21,-157
+PHTO,"Hilo, Hilo International Airport",HI,HFO,HKM,19,-155
+PHKO,"Kailua / Kona, Keahole Airport",HI,HFO,HKM,19,-156
+PHLI,"Lihue, Lihue Airport",HI,HFO,HKM,21,-159
+PHNY,"Lanai City, Lanai Airport",HI,HFO,HKM,20,-156
+PHMK,"Kaunakakai, Molokai Airport",HI,HFO,HKM,21,-157
+PHOG,"Kahului, Kahului Airport",HI,HFO,HKM,20,-156
+PHJH,Lahaina - West Maui,HI,HFO,HKM,20,-156
+PHHI,Wheeler Air Force Base / Oahu,HI,HFO,HKM,21,-158
+PHJR,"Oahu, Kalaeloa Airport",HI,HFO,HKM,21,-158
+PHNG,"Kaneohe, Marine Corps Air Station",HI,HFO,HKM,21,-157
+PHSF,Bradshaw Army Air Field / Hawaii,HI,HFO,HKM,19,-155
+KADU,"Audubon, Audubon County Airport",IA,DMX,DMX,41,-94
+KAIO,Atlantic,IA,DMX,DMX,41,-95
+KALO,"Waterloo, Waterloo Municipal Airport",IA,DMX,DMX,42,-92
+KAMW,"Ames, Ames Municipal Airport",IA,DMX,DMX,41,-93
+KAWG,Washington,IA,DVN,DVN,41,-91
+KAXA,Algona,IA,DMX,DMX,43,-94
+KBNW,Boone Municipal,IA,DMX,DMX,42,-93
+KBRL,Burlington Regional Airport,IA,DVN,DVN,40,-91
+KCAV,Clarion,IA,DMX,DMX,42,-93
+KCBF,Council Bluffs,IA,OAX,OAX,41,-95
+KCCY,Charles City,IA,ARX,ARX,43,-92
+KCID,Cedar Rapids Airport,IA,DVN,DVN,41,-91
+KCIN,Carroll,IA,DMX,DMX,42,-94
+KCNC,Chariton,IA,DMX,DMX,41,-93
+KCSQ,Creston Municipal Airport,IA,DMX,DMX,41,-94
+KCWI,Clinton Municipal Airport,IA,DVN,DVN,41,-90
+KDBQ,Dubuque Regional Airport,IA,DVN,DVN,42,-90
+KDEH,Decorah,IA,ARX,ARX,43,-91
+KDNS,Denison,IA,DMX,DMX,41,-95
+KDSM,Des Moines International Airport,IA,DMX,DMX,41,-93
+KDVN,Davenport Municipal Airport,IA,DVN,DVN,41,-90
+KEBS,Webster City Municipal Airport,IA,DMX,DMX,42,-93
+KEOK,Keokuk Municipal Airport,IA,DVN,DVN,40,-91
+KEST,"Estherville, Estherville Municipal Airport",IA,DMX,DMX,43,-94
+KFFL,Fairfield Municipal Airport,IA,DVN,DVN,41,-91
+KFOD,Fort Dodge,IA,DMX,DMX,42,-94
+KFSW,Fort Madison Municipal Airport,IA,DVN,DVN,40,-91
+KHNR,"Harlan, Harlan Municipal Airport",IA,OAX,OAX,41,-95
+KICL,Schenck Field Airport,IA,OAX,OAX,40,-95
+KIKV,Ankeny Regional Airport,IA,DMX,DMX,41,-93
+KIOW,Iowa City Municipal Airport,IA,DVN,DVN,41,-91
+KLRJ,Le Mars Municipal Airport,IA,FSD,FSD,42,-96
+KLWD,"Lamoni, Lamoni Municipal Airport",IA,DMX,DMX,40,-93
+KMCW,Mason City Municipal Airport,IA,DMX,DMX,43,-93
+KMIW,"Marshalltown, Marshalltown Municipal Airport",IA,DMX,DMX,42,-92
+KMPZ,"Mount Pleasant, Mount Pleasant Municipal Airport",IA,DVN,DVN,40,-91
+KMUT,Muscatine,IA,DVN,DVN,41,-91
+KOLZ,Oelwein Municipal Airport,IA,ARX,ARX,42,-91
+KORC,Orange City Municipal Airport,IA,FSD,FSD,42,-96
+KOTM,Ottumwa Regional Airport,IA,DMX,DMX,41,-92
+KOXV,Knoxville,IA,DMX,DMX,41,-93
+KPEA,"Pella, Pella Municipal Airport",IA,DMX,DMX,41,-92
+KRDK,Red Oak,IA,OAX,OAX,41,-95
+KSDA,Shenandoah Municipal,IA,OAX,OAX,40,-95
+KSHL,Sheldon,IA,FSD,FSD,43,-95
+KSLB,Storm Lake,IA,FSD,FSD,42,-95
+KSPW,Spencer Municipal Airport,IA,FSD,FSD,43,-95
+KSUX,"Sioux City, Sioux Gateway Airport",IA,FSD,FSD,42,-96
+KTNU,Newton Municipal Airport - Earl Johnson Field,IA,DMX,DMX,41,-93
+KCKP,"Cherokee, Cherokee Municipal Airport",IA,FSD,FSD,42,-95
+KIIB,"Independence, Independence Municipal Airport",IA,DVN,DVN,42,-91
+KVTI,"Vinton, Vinton Veterans Memorial Airpark Airport",IA,DVN,DVN,42,-92
+KOOA,"Oskaloosa, Oskaloosa Municipal Airport",IA,DMX,DMX,41,-92
+KGGI,Grinnell Municipal Airfield,IA,DMX,DMX,41,-92
+KPRO,Perry Municipal Airport,IA,DMX,DMX,41,-94
+KTVK,Centerville Municipal Airport,IA,DMX,DMX,40,-92
+KI75,Osceola Municipal Airport,IA,DMX,DMX,41,-93
+KIFA,Iowa Falls Municipal Airport,IA,DMX,DMX,42,-93
+KFXY,Forest City Municipal Airport,IA,DMX,DMX,43,-93
+KHPT,Hampton Municipal Airport,IA,DMX,DMX,42,-93
+KBOI,Boise Air Terminal,ID,BOI,CBX,43,-116
+KBYI,Burley Municipal Airport,ID,PIH,SFX,42,-113
+KCOE,Coeur d'Alene Airport - Pappy Boyington Field,ID,OTX,OTX,47,-116
+KEUL,Caldwell - Caldwell Industrial Airport,ID,BOI,CBX,43,-116
+KIDA,Idaho Falls Regional Airport,ID,PIH,SFX,43,-112
+KJER,Jerome County Airport,ID,BOI,CBX,42,-114
+KLLJ,Challis - Challis Airport,ID,PIH,SFX,44,-114
+KLWS,"Lewiston, Lewiston-Nez Perce County Airport",ID,OTX,OTX,46,-117
+KMUO,Mountain Home Air Force Base,ID,BOI,CBX,43,-115
+KMYL,McCall Airport,ID,BOI,CBX,44,-116
+KP69,Lowell,ID,MSO,MSX,46,-115
+KPIH,"Pocatello, Pocatello Regional Airport",ID,PIH,SFX,42,-112
+KRXE,"Rexburg, Rexburg-Madison County Airport",ID,PIH,SFX,43,-111
+KGIC,Grangeville - Idaho County Airport,ID,MSO,MSX,45,-116
+KSMN,"Salmon, Lemhi County Airport",ID,MSO,MSX,45,-113
+KSNT,"Stanley, Stanley Ranger Station",ID,PIH,SFX,44,-114
+KSUN,"Hailey, Friedman Memorial Airport",ID,PIH,SFX,43,-114
+KTWF,Joslin Field - Magic Valley Regional Airport,ID,BOI,CBX,42,-114
+KSZT,"Sandpoint, Sandpoint Airport",ID,OTX,OTX,48,-116
+KDIJ,"Driggs, Driggs-Reed Memorial Airport",ID,PIH,SFX,43,-111
+K65S,Boundary County Airport,ID,OTX,OTX,48,-116
+KMAN,Nampa Municipal Airport,ID,BOI,CBX,43,-116
+K1H2,"Effingham, Effingham County Memorial Airport",IL,ILX,ILX,39,-88
+KAAA,Logan County Airport,IL,ILX,ILX,40,-89
+KALN,St. Louis Regional Airport,IL,LSX,LSX,38,-90
+KARR,Aurora Municipal Airport,IL,LOT,LOT,41,-88
+KBLV,"Belleville, Scott AFB/MidAmerica Airport",IL,LSX,LSX,38,-89
+KBMI,"Bloomington/Normal, Central Illinois Regional Airport at Bloomington-Normal",IL,ILX,ILX,40,-88
+KC09,Morris Muni-James R Washburn Field Airport,IL,LOT,LOT,41,-88
+KC75,Marshall County Airport,IL,ILX,ILX,41,-89
+KCMI,University of Illinois - Willard,IL,ILX,ILX,40,-88
+KCPS,St. Louis Downtown Airport,IL,LSX,LSX,38,-90
+KDEC,Decatur Airport,IL,ILX,ILX,39,-88
+KDKB,De Kalb Taylor Municipal Airport,IL,LOT,LOT,41,-88
+KDNV,"Danville, Vermilion County Airport",IL,ILX,ILX,40,-87
+KDPA,"Chicago / West Chicago, Dupage Airport",IL,LOT,LOT,41,-88
+KENL,Centralia Municipal Airport,IL,LSX,LSX,38,-89
+KFEP,Albertus Airport,IL,DVN,DVN,42,-89
+KFOA,Flora Municipal Airport,IL,ILX,ILX,38,-88
+KFWC,"Fairfield, Fairfield Municipal Airport",IL,PAH,PAH,38,-88
+KGBG,Galesburg Municipal Airport,IL,ILX,ILX,40,-90
+KHSB,Harrisburg-Raleigh Airport,IL,PAH,PAH,37,-88
+KIGQ,Lansing Municipal Airport,IL,LOT,LOT,41,-87
+KIJX,Jacksonville Municipal Airport,IL,ILX,ILX,39,-90
+KIKK,Greater Kankakee Airport,IL,LOT,LOT,41,-87
+KJOT,Joliet Regional Airport,IL,LOT,LOT,41,-88
+KLOT,Lewis University Airport,IL,LOT,LOT,41,-88
+KLWV,Lawrenceville-Vincennes International Airport,IL,ILX,ILX,38,-87
+KMDH,Southern Illinois Airport,IL,PAH,PAH,37,-89
+KMDW,"Chicago, Chicago Midway Airport",IL,LOT,LOT,41,-87
+KMLI,Moline Quad-City Airport,IL,DVN,DVN,41,-90
+KMQB,Macomb Municipal Airport,IL,DVN,DVN,40,-90
+KMTO,"Mattoon / Charleston, Coles County Memorial Airport",IL,ILX,ILX,39,-88
+KMVN,Mount Vernon Airport,IL,PAH,PAH,38,-88
+KMWA,Marion - Williamson County Regional Airport,IL,PAH,PAH,37,-89
+KOLY,Olney-Noble Airport,IL,ILX,ILX,38,-88
+KPIA,Peoria - General Downing-Peoria International Airport,IL,ILX,ILX,40,-89
+KPNT,Pontiac Municipal Airport,IL,LOT,LOT,40,-88
+KPPQ,"Pittsfield, Pittsfield Penstone Municipal Airport",IL,LSX,LSX,39,-90
+KPRG,Edgar County Airport,IL,ILX,ILX,39,-87
+KPWK,"Chicago / Wheeling, Pal-Waukee Airport",IL,LOT,LOT,42,-87
+KRFD,"Rockford, Greater Rockford Airport",IL,LOT,LOT,42,-89
+KRPJ,"Rochelle, Rochelle Municipal-Koritz Field Airport",IL,LOT,LOT,41,-89
+KSAR,Sparta Community-Hunter Field Airport,IL,LSX,LSX,38,-89
+KSLO,"Salem, Salem-Leckrone Airport",IL,LSX,LSX,38,-88
+KSPI,Springfield - Abraham Lincoln Capital Airport,IL,ILX,ILX,39,-89
+KSQI,Sterling Rockfalls,IL,DVN,DVN,41,-89
+KTAZ,"Taylorville, Taylorville Municipal Airport",IL,ILX,ILX,39,-89
+KTIP,Rantoul National Aviation Center Airport,IL,ILX,ILX,40,-88
+KUGN,Chicago/Waukegan Regional Airport,IL,LOT,LOT,42,-87
+KUIN,Quincy Regional Airport-Baldwin Field,IL,LSX,LSX,39,-91
+KVYS,Illinois Valley Regional Airport,IL,LOT,LOT,41,-89
+KORD,"Chicago, Chicago-O'Hare International Airport",IL,LOT,LOT,41,-87
+K3LF,Litchfield Municipal Airport,IL,LSX,LSX,39,-89
+KAJG,"Mount Carmel, Mount Carmel Municipal Airport",IL,ILX,ILX,38,-87
+KCIR,Cairo Regional Airport,IL,PAH,PAH,37,-89
+KCUL,Carmi Municipal Airport,IL,PAH,PAH,38,-88
+KI63,"Mount Sterling, Mount Sterling Municipal Airport",IL,LSX,LSX,39,-90
+KM30,Metropolis Municipal Airport,IL,PAH,PAH,37,-88
+KRSV,Robinson Municipal Airport,IL,ILX,ILX,39,-87
+KSFY,Tri-Township Airport,IL,DVN,DVN,42,-90
+K06C,Schaumburg Regional Airport,IL,LOT,LOT,41,-88
+KAID,Anderson Municipal Airport,IN,IND,IND,40,-85
+KBAK,Columbus / Bakalar,IN,IND,IND,39,-85
+KBMG,"Bloomington, Monroe County Airport",IN,IND,IND,39,-86
+KEKM,Elkhart Municipal,IN,IWX,IWX,41,-86
+KEVV,"Evansville, Evansville Regional Airport",IN,PAH,PAH,38,-87
+KEYE,"Indianapolis, Eagle Creek Airpark",IN,IND,IND,39,-86
+KFWA,Fort Wayne International Airport,IN,IWX,IWX,40,-85
+KGEZ,Shelbyville Municipal Airport,IN,IND,IND,39,-85
+KGSH,"Goshen, Goshen Municipal Airport",IN,IWX,IWX,41,-85
+KGUS,Grissom Air Force Base / Peru,IN,IWX,IWX,40,-86
+KGYY,Gary Regional Airport,IN,LOT,LOT,41,-87
+KHNB,Huntingburg,IN,LMK,LVK,38,-86
+KHUF,Terre Haute International Airport - Hulman Field,IN,IND,IND,39,-87
+KIND,Indianapolis International Airport,IN,IND,IND,39,-86
+KLAF,"Lafayette, Purdue University Airport",IN,IND,IND,40,-86
+KMIE,"Muncie, Delaware County-Johnson Field",IN,IND,IND,40,-85
+KSBN,South Bend International Airport,IN,IWX,IWX,41,-86
+KVPZ,Valparaiso Porter County Municipal Airport,IN,LOT,LOT,41,-86
+KASW,"Warsaw, Warsaw Municipal Airport",IN,IWX,IWX,41,-85
+KOKK,"Kokomo, Kokomo Municipal Airport",IN,IND,IND,40,-86
+KTYQ,INDIANAPOLIS,IN,IND,IND,40,-86
+KMQJ,Indianapolis Mount Comfort Airport,IN,IND,IND,39,-85
+KRZL,Rensselaer Jasper County Airport,IN,LOT,LOT,40,-87
+KOXI,Starke County Airport,IN,IWX,IWX,41,-86
+KGGP,Logansport/Cass County Airport,IN,IWX,IWX,40,-86
+KRCR,Rochester Fulton County Airport,IN,IWX,IWX,41,-86
+KMZZ,Marion Municipal Airport,IN,IWX,IWX,40,-85
+KGWB,Auburn De Kalb County Airport,IN,IWX,IWX,41,-85
+KMGC,Michigan City Municipal Airport,IN,IWX,IWX,41,-86
+KPPO,La Porte Municipal Airport,IN,IWX,IWX,41,-86
+KANQ,Angola Tri-State Steuben County Airport,IN,IWX,IWX,41,-85
+KDCY,Daviess County Airport,IN,IND,IND,38,-87
+KMCX,Monticello White County Airport,IN,IWX,IWX,40,-86
+KHHG,Huntington Municipal Airport,IN,IWX,IWX,40,-85
+KGPC,Putnam County Regional Airport,IN,IND,IND,39,-86
+KFKR,Frankfort Municipal Airport,IN,IND,IND,40,-86
+KCFJ,Crawfordsville Municipal Airport,IN,IND,IND,39,-86
+KIMS,Madison Municipal Airport,IN,LMK,LVK,38,-85
+KC62,Kendallville Municipal Airport,IN,IWX,IWX,41,-85
+KHFY,Greenwood Municipal Airport,IN,IND,IND,39,-86
+KRID,Richmond Municipal Airport,IN,ILN,ILN,39,-84
+KHLB,Batesville Airport,IN,ILN,ILN,39,-85
+KFRH,French Lick Municipal Airport,IN,LMK,LVK,38,-86
+KPLD,Portland Municipal Airport,IN,IWX,IWX,40,-84
+KC65,Plymouth,IN,IWX,IWX,41,-86
+KJVY,Clark Regional Airport,IN,LMK,LVK,38,-85
+KOJC,"Olathe, Johnson County Executive Airport",KS,EAX,EAX,38,-94
+KIXD,"Olathe, New Century Aircenter",KS,EAX,EAX,38,-94
+KICT,Wichita - Wichita Dwight D. Eisenhower National Airport,KS,ICT,ICT,37,-97
+KIAB,McConnell Air Force Base,KS,ICT,ICT,37,-97
+KHUT,"Hutchinson, Hutchinson Municipal Airport",KS,ICT,ICT,38,-97
+KCNU,"Chanute, Chanute Martin Johnson Airport",KS,ICT,ICT,37,-95
+KEWK,"Newton, Newton City/County Airport",KS,ICT,ICT,38,-97
+KDDC,"Dodge City, Dodge City Regional Airport",KS,DDC,DDC,37,-99
+KGCK,Garden City Regional Airport,KS,DDC,DDC,37,-100
+KLBL,"Liberal, Liberal Municipal Airport",KS,DDC,DDC,37,-100
+KGBD,"Great Bend, Great Bend Municipal Airport",KS,ICT,ICT,38,-98
+KHYS,"Hays, Hays Regional Airport",KS,DDC,DDC,38,-99
+KP28,"Medicine Lodge, Medicine Lodge",KS,DDC,DDC,37,-98
+KMHK,"Manhattan, Manhattan Municipal Airport",KS,TOP,TWX,39,-96
+KTOP,"Topeka, Philip Billard Municipal Airport",KS,TOP,TWX,39,-95
+KFOE,"Topeka, Forbes Field",KS,TOP,TWX,38,-95
+KCNK,"Concordia, Blosser Municipal Airport",KS,TOP,TWX,39,-97
+KRSL,"Russell, Russell Municipal Airport",KS,ICT,ICT,38,-98
+KSLN,"Salina, Salina Municipal Airport",KS,ICT,ICT,38,-97
+KEHA,"Elkhart, Elkhart-Morton County Airport",KS,DDC,DDC,37,-101
+KGLD,"Goodland, Renner Field",KS,GLD,GLD,39,-101
+KHLC,"Hill City, Hill City Municipal Airport",KS,GLD,GLD,39,-99
+KCFV,"Coffeyville, Coffeyville Municipal Airport",KS,ICT,ICT,37,-95
+KPPF,"Parsons, Tri-City Airport",KS,ICT,ICT,37,-95
+KWLD,"Winfield / Arkansas City, Strother Field",KS,ICT,ICT,37,-97
+KLWC,"Lawrence, Lawrence Municipal Airport",KS,TOP,TWX,39,-95
+KFRI,Fort Riley - Marshall AAF,KS,TOP,TWX,39,-96
+KAAO,Wichita Jabara Airport,KS,ICT,ICT,37,-97
+KEMP,"Emporia, Emporia Municipal Airport",KS,TOP,TWX,38,-96
+KPTT,Pratt Municipal,KS,DDC,DDC,37,-98
+KJHN,Stanton County Municipal Airport,KS,DDC,DDC,37,-101
+KHQG,HUGOTON,KS,DDC,DDC,37,-101
+KULS,Ulysses Airport,KS,DDC,DDC,37,-101
+K3K3,HAMILTON,KS,DDC,DDC,37,-101
+KCBK,Colby Shaltz Field Airport,KS,GLD,GLD,39,-101
+KPTS,Atkinson Municipal Airport,KS,SGF,SGF,37,-94
+K13K,EUREKA,KS,ICT,ICT,37,-96
+KIDP,INDEPENDENCE,KS,ICT,ICT,37,-95
+KSYF,ST FRANCIS,KS,GLD,GLD,39,-101
+KMYZ,Marysville Municipal Airport,KS,TOP,TWX,39,-96
+KEQA,El Dorado Captain Jack Thomas Airport,KS,ICT,ICT,37,-96
+K1K1,Benton Lloyd Stearman Field,KS,ICT,ICT,37,-97
+K3AU,Augusta Municipal Airport,KS,ICT,ICT,37,-97
+KK88,Allen County Airport,KS,ICT,ICT,37,-95
+KOWI,Ottawa Municipal Airport,KS,TOP,TWX,38,-95
+KBEC,Beech Factory Airport,KS,ICT,ICT,37,-97
+K19S,Sublette Municipal Airport,KS,DDC,DDC,37,-100
+KLYO,Lyons-Rice County Municipal Airport,KS,ICT,ICT,38,-98
+KOIN,Oberlin Municipal Airport,KS,GLD,GLD,39,-100
+KBWG,"Bowling Green, Bowling Green-Warren County Regional Airport",KY,LMK,LVK,36,-86
+KCVG,Cincinnati/Northern Kentucky International Airport,KY,ILN,ILN,39,-84
+KEHR,Henderson City,KY,PAH,PAH,37,-87
+KFFT,"Frankfort, Capital City Airport",KY,LMK,LVK,38,-84
+KFTK,Fort Knox,KY,LMK,LVK,37,-85
+KHOP,Fort Campbell U. S. Army Airfield,KY,PAH,PAH,36,-87
+KJKL,"Jackson, Carroll Airport",KY,JKL,JKL,37,-83
+KLEX,Lexington Blue Grass Airport,KY,LMK,LVK,38,-84
+KLOU,"Louisville, Bowman Field Airport",KY,LMK,LVK,38,-85
+KLOZ,"London, London-Corbin Airport-Magee Field",KY,JKL,JKL,37,-84
+KOWB,"Owensboro, Owensboro-Daviess County Airport",KY,PAH,PAH,37,-87
+KPAH,"Paducah, Barkley Regional Airport",KY,PAH,PAH,37,-88
+KSDF,"Louisville, Standiford Field",KY,LMK,LVK,38,-85
+KSME,"Somerset, Somerset-Pulaski County - J.T. Wilson Field Airport",KY,JKL,JKL,37,-84
+KGLW,"Glasgow, Glasgow Municipal Airport",KY,LMK,LVK,37,-85
+K1A6,"Middlesboro, Middlesboro-Bell County Airport",KY,JKL,JKL,36,-83
+KEKQ,"Monticello, Wayne County Airport",KY,JKL,JKL,36,-84
+KCEY,"Murray Kyle Oakley Field, KY",KY,PAH,PAH,36,-88
+KDVK,Stuart Powell Field Airport,KY,LMK,LVK,37,-84
+K2I0,Madisonville Municipal Airport,KY,PAH,PAH,37,-87
+KI35,Harlan,KY,JKL,JKL,36,-83
+KIOB,Mount Sterling-Montgomery County Airport,KY,JKL,JKL,38,-83
+KSJS,Big Sandy Regional Airport,KY,JKL,JKL,37,-82
+KM25,Mayfield Graves County Airport,KY,PAH,PAH,36,-88
+K5M9,Marion-crittenden County Airport,KY,PAH,PAH,37,-88
+KSYM,Clyde A. Thomas Regional Airport,KY,JKL,JKL,38,-83
+KFGX,Flemingsburg Fleming-Mason Airport,KY,ILN,ILN,38,-83
+KDWU,Ashland Regional Airport,KY,RLX,RLX,38,-82
+KPBX,Pikeville Pike County Airport and Hatcher Field,KY,JKL,JKL,37,-82
+K6I2,Lebanon-Springfield Airport,KY,LMK,LVK,37,-85
+KBYL,Williamsburg-Whitley County Airport,KY,JKL,JKL,36,-84
+KM21,Muhlenberg County Airport,KY,PAH,PAH,37,-87
+KEKX,Elizabethtown Addington Field Airport,KY,LMK,LVK,37,-85
+KKY8,Hancock County Airport-Ron Lewis Field,KY,LMK,LVK,37,-86
+KBRY,Samuels Field Airport,KY,LMK,LVK,37,-85
+KAAS,Taylor County Airport,KY,LMK,LVK,37,-85
+KCVW,Cameron,LA,LCH,LCH,29,-93
+KAEX,"Alexandria, Alexandria International Airport",LA,LCH,LCH,31,-92
+KARA,Acadiana Regional Airport,LA,LCH,LCH,30,-91
+KASD,"Slidell, Slidell Airport",LA,LIX,LIX,30,-89
+KBAD,Barksdale Air Force Base,LA,SHV,SHV,32,-93
+KBTR,"Baton Rouge, Baton Rouge Metropolitan, Ryan Field",LA,LIX,LIX,30,-91
+KBVE,Boothville,LA,LIX,LIX,29,-89
+KCWF,Chenault Airpark,LA,LCH,LCH,30,-93
+KDTN,"Shreveport, Shreveport Downtown Airport",LA,SHV,SHV,32,-93
+KESF,Alexandria Esler Regional Airport,LA,LCH,LCH,31,-92
+KHDC,"Hammond, Hammond Municipal Airport",LA,LIX,LIX,30,-90
+KHUM,Houma-Terrebonne Airport,LA,LIX,LIX,29,-90
+KIER,"Natchitoches, Natchitoches Regional Airport",LA,SHV,SHV,31,-93
+KLCH,Lake Charles Regional Airport,LA,LCH,LCH,30,-93
+KLFT,"Lafayette, Lafayette Regional Airport",LA,LCH,LCH,30,-91
+KMLU,Monroe Regional Airport,LA,SHV,SHV,32,-92
+KMSY,"New Orleans, New Orleans International Airport",LA,LIX,LIX,29,-90
+KNBG,New Orleans Naval Air Station - Alvin Callender Field,LA,LIX,LIX,29,-90
+KNEW,"New Orleans, New Orleans Lakefront Airport",LA,LIX,LIX,30,-90
+KP92,Salt Point,LA,LCH,LCH,29,-91
+KPOE,"Fort Polk, Polk AAF Ft Polk",LA,LCH,LCH,31,-93
+KPTN,Patterson Memorial,LA,LCH,LCH,29,-91
+KRSN,"Ruston, Ruston Regional Airport",LA,SHV,SHV,32,-92
+KSHV,"Shreveport, Shreveport Regional Airport",LA,SHV,SHV,32,-93
+KTVR,"Vicksburg, Vicksburg / Tallulah Regional Airport",LA,JAN,DGX,32,-91
+KBQP,"Bastrop, Morehouse Memorial Airport",LA,JAN,DGX,32,-91
+KBXA,"Bogalusa, George R Carr Memorial Air Field",LA,LIX,LIX,30,-89
+KDRI,"De Ridder, Beauregard Parish Airport",LA,LCH,LCH,30,-93
+KACP,"Oakdale, Allen Parish Airport",LA,LCH,LCH,30,-92
+KGAO,"Galliano, South Lafourche Airport",LA,LIX,LIX,29,-90
+KAQV,Ft. Polk - Peason Ridge,LA,SHV,SHV,31,-93
+KBKB,Ft. Polk - Fullerton Landing Strip,LA,LCH,LCH,31,-92
+KUXL,Southland Field,LA,LCH,LCH,30,-93
+KMNE,Minden Airport,LA,SHV,SHV,32,-93
+KXPY,Port Fourchon,LA,LIX,LIX,29,-90
+KIYA,Abbeville Chris Crusta Memorial Airport,LA,LCH,LCH,29,-92
+K3R7,Jennings Airport,LA,LCH,LCH,30,-92
+K5R8,De Quincy Industrial Airpark,LA,LCH,LCH,30,-93
+KREG,Louisiana Regional Airport,LA,LIX,LIX,30,-90
+KHZR,New Roads False River Regional Airport,LA,LIX,LIX,30,-91
+KOPL,Opelousas St Landry Parish Airport,LA,LCH,LCH,30,-92
+KAPS,Port of South Louisiana Executive Regional Airport,LA,LIX,LIX,30,-90
+K0R4,Vidalia Concordia Parish,LA,JAN,DGX,31,-91
+K3F3,Mansfield - C E Rusty Williams Airport,LA,SHV,SHV,32,-93
+K3L4,Grand Chenier,LA,LCH,LCH,29,-92
+K7N0,New Orleans - Superdome,LA,LIX,LIX,29,-90
+KACK,"Nantucket, Nantucket Memorial Airport",MA,BOX,BOX,41,-70
+KAQW,North Adams Harriman-and-West Airport,MA,ALY,ENX,42,-73
+KBAF,"Westfield, Barnes Municipal Airport",MA,BOX,BOX,42,-72
+KBED,Laurence G Hanscom Field Airport,MA,BOX,BOX,42,-71
+KBOS,"Boston, Logan International Airport",MA,BOX,BOX,42,-71
+KBVY,"Beverly, Beverly Municipal Airport",MA,BOX,BOX,42,-70
+KCEF,Chicopee Falls / Westover Air Force Base,MA,BOX,BOX,42,-72
+KCQX,"Chatham, Chatham Municipal Airport",MA,BOX,BOX,41,-69
+KEWB,"New Bedford, New Bedford Regional Airport",MA,BOX,BOX,41,-70
+KFIT,"Fitchburg, Fitchburg Municipal Airport",MA,BOX,BOX,42,-71
+KFMH,Otis Air National Guard Base,MA,BOX,BOX,41,-70
+KHYA,"Hyannis, Barnstable Municipal-Boardman Airport",MA,BOX,BOX,41,-70
+KLWM,Lawrence Municipal Airport,MA,BOX,BOX,42,-71
+KMQE,East Milton,MA,BOX,BOX,42,-71
+KMVY,Marthas Vineyard Airport,MA,BOX,BOX,41,-70
+KORE,Orange Municipal Airport,MA,BOX,BOX,42,-72
+KORH,"Worcester, Worcester Regional Airport",MA,BOX,BOX,42,-71
+KOWD,"Norwood, Norwood Memorial Airport",MA,BOX,BOX,42,-71
+KPSF,Pittsfield Municipal Airport,MA,ALY,ENX,42,-73
+KPVC,Provincetown Municipal Airport,MA,BOX,BOX,42,-70
+KPYM,"Plymouth, Plymouth Municipal Airport",MA,BOX,BOX,41,-70
+KTAN,"Taunton, Taunton Municipal Airport",MA,BOX,BOX,41,-71
+KGHG,Marshfield Airport,MA,BOX,BOX,42,-70
+KADW,Camp Springs / Andrews Air Force Base,MD,LWX,LWX,38,-76
+KAPG,Phillips Army Air Field / Aberdeen,MD,LWX,LWX,39,-76
+KBWI,"Baltimore, Baltimore-Washington International Airport",MD,LWX,LWX,39,-76
+KDMH,"Baltimore, Inner Harbor",MD,LWX,LWX,39,-76
+KESN,Easton / Newman Field,MD,PHI,DIX,38,-76
+KFDK,Frederick Municipal Airport,MD,LWX,LWX,39,-77
+KFME,Fort Meade / Tipton,MD,LWX,LWX,39,-76
+KHGR,"Hagerstown, Washington County Regional Airport",MD,LWX,LWX,39,-77
+KMTN,Baltimore / Martin,MD,LWX,LWX,39,-76
+KNAK,"Annapolis, United States Naval Academy",MD,LWX,LWX,38,-76
+KNHK,"Patuxent River, Naval Air Station",MD,LWX,LWX,38,-76
+KOXB,"Ocean City, Ocean City Municipal Airport",MD,AKQ,AKQ,38,-75
+KSBY,"Salisbury, Salisbury-Ocean City Wicomico County Regional Airport",MD,AKQ,AKQ,38,-75
+KNUI,"St. Inigoes, Webster Field, Naval Electronic Systems Engineering Activity",MD,LWX,LWX,38,-76
+KRSP,Camp David,MD,LWX,LWX,39,-77
+K2G4,Garrett County Airport,MD,PBZ,PBZ,39,-79
+K2W6,St Marys County Airport,MD,LWX,LWX,38,-76
+KCGE,Cambridge-Dorchester Airport,MD,AKQ,AKQ,38,-76
+KCGS,College Park Airport,MD,LWX,LWX,38,-76
+KW29,Bay Bridge Field,MD,PHI,DIX,38,-76
+KGAI,Gaithersburg - Montgomery County Airport,MD,LWX,LWX,39,-77
+KDMW,Carroll County Regional Jack B Poage Field,MD,LWX,LWX,39,-77
+KMLT,"Millinocket, Millinocket Municipal Airport",ME,CAR,CBW,45,-68
+K40B,Clayton Lake,ME,CAR,CBW,46,-69
+KAUG,"Augusta, Augusta State Airport",ME,GYX,GYX,44,-69
+KBGR,"Bangor, Bangor International Airport",ME,CAR,CBW,44,-68
+KBHB,"Bar Harbor, Hancock County-Bar Harbor Airport",ME,CAR,CBW,44,-68
+KCAR,"Caribou, Caribou Municipal Airport",ME,CAR,CBW,46,-68
+KFVE,"Frenchville, Northern Aroostook Regional Airport",ME,CAR,CBW,47,-68
+KGNR,Greenville,ME,CAR,CBW,45,-69
+KHUL,"Houlton, Houlton International Airport",ME,CAR,CBW,46,-67
+KIWI,Wiscasset Airport,ME,GYX,GYX,43,-69
+KIZG,"Fryeburg, Eastern Slopes Regional Airport",ME,GYX,GYX,43,-70
+KLEW,Auburn-Lewiston,ME,GYX,GYX,44,-70
+KPQI,Presque Isle,ME,CAR,CBW,46,-68
+KPWM,"Portland, Portland International Jetport",ME,GYX,GYX,43,-70
+KRKD,"Rockland, Knox County Regional Airport",ME,GYX,GYX,44,-69
+KSFM,"Sanford, Sanford Regional Airport",ME,GYX,GYX,43,-70
+KWVL,"Waterville, Waterville Robert LaFleur Airport",ME,GYX,GYX,44,-69
+KACB,"Bellaire, Antrim County Airport",MI,APX,APX,44,-85
+KADG,"Adrian, Lenawee County Airport",MI,DTX,DTX,41,-84
+KAMN,"Alma, Gratiot Community Airport",MI,GRR,GRR,43,-84
+KANJ,Sault Ste. Marie,MI,APX,APX,46,-84
+KAPN,"Alpena, Alpena County Regional Airport",MI,APX,APX,45,-83
+KARB,"Ann Arbor, Ann Arbor Municipal Airport",MI,DTX,DTX,42,-83
+KAZO,Kalamazoo/Battle Creek International Airport,MI,GRR,GRR,42,-85
+KBAX,Huron County Memorial Airport,MI,DTX,DTX,43,-82
+KBEH,Southwest Michigan Regional Airport,MI,IWX,IWX,42,-86
+KBIV,Holland - West Michigan Regional Airport,MI,GRR,GRR,42,-86
+KBTL,W K Kellogg Airport,MI,GRR,GRR,42,-85
+KCAD,Wexford County Airport,MI,APX,APX,44,-85
+KCIU,"Sault Ste Marie, Chippewa County International Airport",MI,APX,APX,46,-84
+KCMX,Houghton County Memorial Airport,MI,MQT,MQT,47,-88
+KCVX,"Charlevoix, Charlevoix Municipal Airport",MI,APX,APX,45,-85
+KDET,Coleman A Young Municipal Airport,MI,DTX,DTX,42,-83
+KDTW,"Detroit, Detroit Metropolitan Wayne County Airport",MI,DTX,DTX,42,-83
+KDUH,"Lambertville, Toledo Suburban Airport",MI,DTX,DTX,41,-83
+KERY,"Newberry, Luce County Airport",MI,MQT,MQT,46,-85
+KFNT,"Flint, Bishop International Airport",MI,DTX,DTX,42,-83
+KGLR,Gaylord Regional Airport,MI,APX,APX,45,-84
+KGOV,"Grayling, Grayling Army Airfield",MI,APX,APX,44,-84
+KGRR,"Grand Rapids, Gerald R. Ford International Airport",MI,GRR,GRR,42,-85
+KHTL,"Houghton Lake, Roscommon County Airport",MI,APX,APX,44,-84
+KHYX,Saginaw County H W Browne Airport,MI,DTX,DTX,43,-83
+KIMT,"Iron Mountain / Kingsford, Ford Airport",MI,MQT,MQT,45,-88
+KIRS,"Sturgis, Kirsch Municipal Airport",MI,IWX,IWX,41,-85
+KISQ,"Manistique, Schoolcraft County Airport",MI,MQT,MQT,45,-86
+KIWD,"Ironwood, Gogebic-Iron County Airport",MI,MQT,MQT,46,-90
+KJXN,Jackson County Airport - Reynolds Field,MI,GRR,GRR,42,-84
+KJYM,Hillsdale Municipal Airport,MI,IWX,IWX,41,-84
+KLAN,Capital Region International Airport,MI,GRR,GRR,42,-84
+KLDM,"Ludington, Mason County Airport",MI,GRR,GRR,43,-86
+KMBL,Manistee County - Blacker Airport,MI,APX,APX,44,-86
+KMBS,MBS International Airport,MI,DTX,DTX,43,-84
+KMCD,Mackinac Island Airport,MI,APX,APX,45,-84
+KMGN,"Harbor Springs, Harbor Springs Airport",MI,APX,APX,45,-84
+KMKG,"Muskegon, Muskegon County Airport",MI,GRR,GRR,43,-86
+KMNM,Menominee - Marinette Twin County Airport,MI,MQT,MQT,45,-87
+KMOP,"Mount Pleasant, Mount Pleasant Municipal Airport",MI,GRR,GRR,43,-84
+KMTC,Selfridge Air National Guard Base,MI,DTX,DTX,42,-82
+KOEB,Branch County Memorial Airport,MI,IWX,IWX,41,-85
+KONZ,"Detroit/Grosse Ile, Grosse Ile Airport",MI,DTX,DTX,42,-83
+KOSC,"Oscoda, Oscoda-Wurtsmith Airport",MI,APX,APX,44,-83
+KOZW,"Howell, Livingston County Airport",MI,DTX,DTX,42,-83
+KP58,Port Hope,MI,DTX,DTX,44,-82
+KP59,Copper Harbor,MI,MQT,MQT,47,-87
+KPHN,St Clair County International Airport,MI,DTX,DTX,42,-82
+KPLN,Pellston Regional Airport of Emmet County,MI,APX,APX,45,-84
+KPTK,"Pontiac, Oakland County International Airport",MI,DTX,DTX,42,-83
+KRMY,Brooks Field Airport,MI,GRR,GRR,42,-84
+KRQB,"Big Rapids, Roben-Hood Airport",MI,GRR,GRR,43,-85
+KSAW,"Marquette, Sawyer International Airport",MI,MQT,MQT,46,-87
+KSJX,"Beaver Island, Beaver Island Airport",MI,APX,APX,45,-85
+KSLH,"Cheboygan, Cheboygan County Airport",MI,APX,APX,45,-84
+KTEW,"Mason, Mason Jewett Field Airport",MI,GRR,GRR,42,-84
+KTTF,"Monroe, Custer Airport",MI,DTX,DTX,41,-83
+KTVC,Cherry Capital Airport,MI,APX,APX,44,-85
+KYIP,"Detroit, Willow Run Airport",MI,DTX,DTX,42,-83
+KFPK,"Charlotte, Fitch H Beach Airport",MI,GRR,GRR,42,-84
+KFKS,"Frankfort, Frankfort Dow Memorial Field Airport",MI,APX,APX,44,-86
+KLWA,"South Haven, South Haven Area Regional Airport",MI,GRR,GRR,42,-86
+KP53,Munising - Munising Lakeshore Observation,MI,MQT,MQT,46,-86
+KPZQ,"Rogers City, Presque Isle County Airport",MI,APX,APX,45,-83
+KRNP,"Owosso, Owosso Community Airport",MI,DTX,DTX,42,-84
+KCFS,"Caro, Tuscola Area Airport",MI,DTX,DTX,43,-83
+KVLL,"Troy, Oakland/Troy Airport",MI,DTX,DTX,42,-83
+KDRM,Drummond Island Airport,MI,APX,APX,46,-83
+KHAI,Haines Memorial Airport,MI,IWX,IWX,41,-85
+KFFX,Fremont Municipal Airport,MI,GRR,GRR,43,-85
+KIKW,Jack Barstow Airport,MI,DTX,DTX,43,-84
+KY70,Ionia County Airport,MI,GRR,GRR,42,-85
+KD95,Lapeer Dupont-lapeer,MI,DTX,DTX,43,-83
+KY31,West Branch Community Airport,MI,APX,APX,44,-84
+KACQ,Waseca Municipal Airport,MN,MPX,MPX,44,-93
+KADC,Wadena Municipal Airport,MN,FGF,MVX,46,-95
+KAEL,"Albert Lea, Albert Lea Municipal Airport",MN,MPX,MPX,43,-93
+KAIT,Aitkin Municipal Airport - Steve Kurtz Field,MN,DLH,DLH,46,-93
+KANE,Minneapolis / Blaine,MN,MPX,MPX,45,-93
+KAQP,Appleton Municipal Airport,MN,MPX,MPX,45,-96
+KAUM,Austin Municipal,MN,ARX,ARX,43,-92
+KAXN,"Alexandria, Chandler Field",MN,MPX,MPX,45,-95
+KBBB,Benson Municipal Airport,MN,MPX,MPX,45,-95
+KBDE,Baudette International Airport,MN,FGF,MVX,48,-94
+KBFW,Silver Bay,MN,DLH,DLH,47,-91
+KBJI,Bemidji,MN,FGF,MVX,47,-94
+KBRD,Brainerd - Crow Wing County Airport,MN,DLH,DLH,46,-94
+KCBG,Cambridge Municipal Airport,MN,MPX,MPX,45,-93
+KCDD,Crane Lake - Scotts Seaplane Base,MN,DLH,DLH,48,-92
+KCKC,Grand Marais/Cook County Airport,MN,DLH,DLH,47,-90
+KCKN,Crookston Municipal Field,MN,FGF,MVX,47,-96
+KCOQ,Cloquet Carlton County Airport,MN,DLH,DLH,46,-92
+KCQM,Cook Municipal Airport,MN,DLH,DLH,47,-92
+KDLH,Duluth International Airport,MN,DLH,DLH,46,-92
+KDTL,Detroit Lakes Airport-Wething Field,MN,FGF,MVX,46,-95
+KDXX,"Madison, Madison-Lac Qui Parle County Airport",MN,MPX,MPX,44,-96
+KDYT,Duluth - Sky Harbor Airport,MN,DLH,DLH,46,-92
+KELO,"Ely, Ely Municipal Airport",MN,DLH,DLH,47,-91
+KETH,Wheaton Municipal Airport,MN,ABR,ABR,45,-96
+KEVM,Eveleth-Virginia Municipal Airport,MN,DLH,DLH,47,-92
+KFCM,Minneapolis - Flying Cloud Airport,MN,MPX,MPX,44,-93
+KFFM,Fergus Falls Municipal Airport-Einar Mickel,MN,FGF,MVX,46,-96
+KFGN,Flag Island,MN,FGF,MVX,49,-94
+KFKA,"Preston, Fillmore County Airport",MN,ARX,ARX,43,-92
+KFOZ,Bigfork Municipal Airport,MN,DLH,DLH,47,-93
+KFRM,"Fairmont, Fairmont Municipal Airport",MN,MPX,MPX,43,-94
+KFSE,"Fosston, Fosston Municipal Airport",MN,FGF,MVX,47,-95
+KGHW,Glenwood Municipal Airport,MN,MPX,MPX,45,-95
+KGNA,"Grand Marais, The Bay of Grand Marais",MN,DLH,DLH,47,-90
+KGPZ,"Grand Rapids, Grand Rapids/Itasca County Airport-Gordon Newstrom Field",MN,DLH,DLH,47,-93
+KGYL,Glencoe Municipal Airport,MN,MPX,MPX,44,-94
+KHCD,"Hutchinson, Hutchinson Municipal Airport-Butler Field",MN,MPX,MPX,44,-94
+KHCO,Hallock Municipal Airport,MN,FGF,MVX,48,-96
+KHIB,Chisholm-Hibbing Airport,MN,DLH,DLH,47,-92
+KBDH,Willmar Municipal Airport - John L. Rice Field,MN,MPX,MPX,45,-95
+KINL,Falls International Airport,MN,DLH,DLH,48,-93
+KJKJ,Moorhead Municipal Airport,MN,FGF,MVX,46,-96
+KJMR,Mora Municipal Airport,MN,MPX,MPX,45,-93
+KLJF,Litchfield Municipal Airport,MN,MPX,MPX,45,-94
+KLVN,"Minneapolis, Airlake Airport",MN,MPX,MPX,44,-93
+KLXL,"Little Falls, Little Falls/Morrison County Airport-Lindbergh Field",MN,MPX,MPX,45,-94
+KMGG,"Maple Lake, Maple Lake Municipal Airport",MN,MPX,MPX,45,-93
+KMIC,"Minneapolis, Crystal Airport",MN,MPX,MPX,45,-93
+KMJQ,"Jackson, Jackson Municipal Airport",MN,FSD,FSD,43,-94
+KMKT,"Mankato, Mankato Regional Airport",MN,MPX,MPX,44,-93
+KMML,"Marshall, Southwest Minnesota Regional Airport - Marshall/Ryan Field",MN,FSD,FSD,44,-95
+KMOX,"Morris, Morris Municipal Airport",MN,MPX,MPX,45,-95
+KMSP,"Minneapolis, Minneapolis-St. Paul International Airport",MN,MPX,MPX,44,-93
+KMVE,Montevideo-Chippewa County Airport,MN,MPX,MPX,44,-95
+KMWM,Windom Municipal Airport,MN,FSD,FSD,43,-95
+KMZH,Moose Lake Carlton County Airport,MN,DLH,DLH,46,-92
+KONA,"Winona, Winona Municipal Airport-Max Conrad Field",MN,ARX,ARX,44,-91
+KORB,Orr Regional Airport,MN,DLH,DLH,48,-92
+KOTG,"Worthington, Worthington Municipal Airport",MN,FSD,FSD,43,-95
+KOVL,Olivia Regional Airport,MN,MPX,MPX,44,-95
+KOWA,Owatonna Degner Regional Airport,MN,MPX,MPX,44,-93
+KPKD,Park Rapids Municipal Airport,MN,FGF,MVX,46,-95
+KPNM,Princeton,MN,MPX,MPX,45,-93
+KPQN,Pipestone Municipal Airport,MN,FSD,FSD,43,-96
+KPWC,Pine River Regional Airport,MN,DLH,DLH,46,-94
+KROS,Rush City Regional Airport,MN,MPX,MPX,45,-92
+KROX,"Roseau, Roseau Municipal Airport/Rudy Billberg Field",MN,FGF,MVX,48,-95
+KRRT,Warroad International Memorial Airport,MN,FGF,MVX,48,-95
+KRST,"Rochester, Rochester International Airport",MN,ARX,ARX,43,-92
+KRWF,Redwood Falls Municipal Airport,MN,MPX,MPX,44,-95
+KSAZ,"Staples, Staples Municipal Airport",MN,FGF,MVX,46,-94
+KSGS,South St. Paul Municipal-Richard E. Flemi,MN,MPX,MPX,44,-93
+KSTC,St. Cloud Regional Airport,MN,MPX,MPX,45,-94
+KSTP,Downtown Holman Field,MN,MPX,MPX,44,-93
+KTOB,Dodge Center Airport,MN,ARX,ARX,44,-92
+KTVF,"Thief River Falls, Thief River Falls Regional Airport",MN,FGF,MVX,48,-96
+KTWM,Two Harbors,MN,DLH,DLH,47,-91
+KULM,New Ulm Municipal Airport,MN,MPX,MPX,44,-94
+KVVV,"Ortonville, Ortonville Muncipal-Martinson Field Airport",MN,ABR,ABR,45,-96
+KVWU,Waskish Municipal Airport,MN,FGF,MVX,48,-94
+KXVG,"Longville, Longville Municipal Airport",MN,DLH,DLH,46,-94
+KCFE,"Buffalo, Buffalo Municipal Airport",MN,MPX,MPX,45,-93
+KGDB,"Granite Falls, Granite Falls Municipal Airport/Lenzen-Roe Memorial Field",MN,MPX,MPX,44,-95
+KHZX,Mc Gregor - Isedor Iverson Airport,MN,DLH,DLH,46,-93
+KDVP,Slayton Municipal Airport,MN,FSD,FSD,43,-95
+KLYV,Quentin Aanenson Field Airport,MN,FSD,FSD,43,-96
+KSYN,Stanton Airfield,MN,MPX,MPX,44,-93
+KTKC,"Tracy, Tracy Municipal Airport",MN,FSD,FSD,44,-95
+KCNB,Canby Airfield,MN,MPX,MPX,44,-96
+KY63,Elbow Lake Municipal Airport,MN,FGF,MVX,45,-95
+K14Y,Todd Field Airport,MN,MPX,MPX,45,-94
+K04W,Hinckley Field of Dreams Airport,MN,DLH,DLH,46,-92
+KD39,Sauk Centre Municipal Airport,MN,MPX,MPX,45,-94
+K21D,Lake Elmo Airport,MN,MPX,MPX,45,-92
+K9MN,Rochester - St. Mary's Hospital Heliport,MN,ARX,ARX,44,-92
+K3N8,Mahnomen County Airport,MN,FGF,MVX,47,-95
+KY49,Walker Municipal Airport,MN,DLH,DLH,47,-94
+KRYM,Ray S Miller Army Airfield,MN,MPX,MPX,46,-94
+KAIZ,"Kaiser Lake Ozark, Lee C Fine Memorial Airport",MO,SGF,SGF,38,-92
+KCDJ,"Chillicothe, Chillicothe Agri-Science Center",MO,EAX,EAX,39,-93
+KCGI,"Cape Girardeau, Cape Girardeau Regional Airport",MO,PAH,PAH,37,-89
+KCOU,"Columbia, Columbia Regional Airport",MO,LSX,LSX,38,-92
+KDMO,"Sedalia, Sedalia Memorial Airport",MO,EAX,EAX,38,-93
+KFAM,Farmington Airport,MO,LSX,LSX,37,-90
+KIRK,"Kirksville, Kirksville Regional Airport",MO,EAX,EAX,40,-92
+KJEF,"Jefferson City, Jefferson City Memorial Airport",MO,LSX,LSX,38,-92
+KJLN,"Joplin, Joplin Regional Airport",MO,SGF,SGF,37,-94
+KLXT,"Lee's Summit, Lee's Summit Municipal Airport",MO,EAX,EAX,38,-94
+KMCI,"Kansas City, Kansas City International Airport",MO,EAX,EAX,39,-94
+KMKC,"Kansas City, Kansas City Downtown Airport",MO,EAX,EAX,39,-94
+KPOF,"Poplar Bluff, Poplar Bluff Municipal Airport",MO,PAH,PAH,36,-90
+KSET,"St. Charles, St. Charles County Smartt Airport",MO,LSX,LSX,38,-90
+KSGF,"Springfield, Springfield Regional Airport",MO,SGF,SGF,37,-93
+KSTJ,"St. Joseph, Rosecrans Memorial Airport",MO,EAX,EAX,39,-94
+KSTL,St. Louis Lambert International Airport,MO,LSX,LSX,38,-90
+KSUS,"St. Louis, Spirit Of St. Louis Airport",MO,LSX,LSX,38,-90
+KSZL,Whiteman Air Force Base,MO,EAX,EAX,38,-93
+KTBN,Fort Leonard Wood,MO,SGF,SGF,37,-92
+KUNO,"West Plains, West Plains Municipal Airport",MO,SGF,SGF,36,-91
+KVIH,"Rolla / Vichy, Rolla National Airport",MO,SGF,SGF,38,-91
+KMHL,Marshall Memorial Municipal Airport,MO,EAX,EAX,39,-93
+KMBY,MOBERLY,MO,EAX,EAX,39,-92
+KMYJ,Mexico Memorial Airport,MO,LSX,LSX,39,-91
+KHAE,Hannibal Regional Airport,MO,LSX,LSX,39,-91
+KSIK,Sikeston Memorial Municipal Airport,MO,PAH,PAH,36,-89
+KLRY,Harrisonville Lawrence Smith Memorial Airport,MO,EAX,EAX,38,-94
+KEVU,Maryville Northwest Missouri Regional Airport,MO,EAX,EAX,40,-94
+KRCM,Skyhaven Airport,MO,EAX,EAX,38,-93
+KLBO,LEBANON,MO,SGF,SGF,37,-92
+KMAW,Malden Municipal Airport,MO,MEG,NQA,36,-89
+KRAW,Warsaw Municipal Airport,MO,SGF,SGF,38,-93
+KBBG,Branson,MO,SGF,SGF,36,-93
+KHFJ,Monett,MO,SGF,SGF,36,-94
+KGLY,"Clinton, MO",MO,EAX,EAX,38,-93
+KOZS,Camdenton Memorial Airport,MO,SGF,SGF,37,-92
+KVER,Jesse Viertel Memorial Airport,MO,EAX,EAX,38,-92
+KFYG,Washington Regional Airport,MO,LSX,LSX,38,-90
+KGPH,Mosby Midwest National Air Center Airport,MO,EAX,EAX,39,-94
+KFWB,Branson West Muni - Emerson Field,MO,SGF,SGF,36,-93
+KTKX,Kennett - Kennett Memorial Airport,MO,MEG,NQA,36,-90
+KPCD,Perryville Regional Airport,MO,PAH,PAH,37,-89
+KEZZ,Cameron Memorial Airport,MO,EAX,EAX,39,-94
+PGRO,"Rota Island, N. Mariana Is, Rota International Airport",MP,GUM,GUA,14,145
+PGSN,"Saipan Island, Saipan International Airport",MP,GUM,GUA,15,145
+PGWT,"Tinian Island, N. Mariana Is, West Tinian Airport",MP,GUM,GUA,14,145
+KBIX,Keesler Air Force Base / Biloxi,MS,LIX,LIX,30,-88
+KCBM,Columbus Air Force Base,MS,JAN,DGX,33,-88
+KGLH,"Greenville, Mid Delta Regional Airport",MS,JAN,DGX,33,-90
+KGPT,Gulfport - Gulfport-Biloxi International Airport,MS,LIX,LIX,30,-89
+KGTR,"Columbus/West Point/Starkville, Golden Triangle Regional Airport",MS,JAN,DGX,33,-88
+KGWO,"Greenwood, Greenwood-LeFlore Airport",MS,JAN,DGX,33,-90
+KHBG,"Hattiesburg, Bobby L Chain Municipal Airport",MS,JAN,DGX,31,-89
+KHEZ,"Natchez, Hardy-Anders Field Natchez-Adams County Airport",MS,JAN,DGX,31,-91
+KHKS,"Jackson, Hawkins Field Airport",MS,JAN,DGX,32,-90
+KHSA,"Bay St. Louis, Stennis International Airport",MS,LIX,LIX,30,-89
+KJAN,"Jackson, Jackson International Airport",MS,JAN,DGX,32,-90
+KLUL,LAUREL/NOBLE FIELD,MS,JAN,DGX,31,-89
+KMCB,"McComb, McComb / Pike County / John E Lewis Field Airport",MS,LIX,LIX,31,-90
+KMEI,"Meridian, Key Field",MS,JAN,DGX,32,-88
+KNMM,"Meridian, Meridian Naval Air Station - McCain Field",MS,JAN,DGX,32,-88
+KOLV,"Olive Branch, Olive Branch Airport",MS,MEG,NQA,34,-89
+KPIB,"Hattiesburg/Laurel, Hattiesburg-Laurel Regional Airport",MS,JAN,DGX,31,-89
+KPQL,Moss Point - Trent Lott International Airport,MS,LIX,LIX,30,-88
+KTUP,"Tupelo, Tupelo Regional Airport",MS,MEG,NQA,34,-88
+KUOX,"Oxford, University-Oxford Airport",MS,MEG,NQA,34,-89
+KVKS,Vicksburg Municipal,MS,JAN,DGX,32,-90
+KUTA,"Tunica, Tunica Municipal Airport",MS,MEG,NQA,34,-90
+KCKM,"Fletcher Field, Clarksdale",MS,MEG,NQA,34,-90
+KSTF,"George M Bryan Airport, Starkville",MS,JAN,DGX,33,-88
+KCRX,Corinth,MS,MEG,NQA,34,-88
+KM40,Monroe County Airport,MS,MEG,NQA,33,-88
+KJVW,JB Williams Airport,MS,JAN,DGX,32,-90
+KRNV,Cleveland Municipal Airport,MS,JAN,DGX,33,-90
+K0R0,Columbia-Marion County Airport,MS,JAN,DGX,31,-89
+K5A6,Winona-Montgomery County Airport,MS,JAN,DGX,33,-89
+KMBO,Madison Bruce Campbell Field Airport,MS,JAN,DGX,32,-90
+KPMU,Batesville Panola County,MS,MEG,NQA,34,-89
+KBHK,"Baker, Baker Municipal Airport",MT,BYZ,BLX,46,-104
+KBIL,"Billings, Billings Logan International Airport",MT,BYZ,BLX,45,-108
+KBTM,"Butte, Bert Mooney Airport",MT,MSO,MSX,45,-112
+KBZN,"Bozeman, Gallatin Field",MT,TFX,TFX,45,-111
+KCTB,"Cut Bank, Cut Bank Municipal Airport",MT,TFX,TFX,48,-112
+KDLN,"Dillon, Dillon Airport",MT,TFX,TFX,45,-112
+KGDV,"Glendive, Dawson Community Airport",MT,GGW,GGW,47,-104
+KGFA,Malmstrom Air Force Base,MT,TFX,TFX,47,-111
+KGGW,"Glasgow, Glasgow International Airport",MT,GGW,GGW,48,-106
+KGTF,"Great Falls, Great Falls International Airport",MT,TFX,TFX,47,-111
+KHLN,Helena Regional Airport,MT,TFX,TFX,46,-111
+KHVR,"Havre, Havre City-County Airport",MT,TFX,TFX,48,-109
+KJDN,"Jordan, Jordan Airport",MT,GGW,GGW,47,-106
+KLVM,"Livingston, Mission Field Airport",MT,BYZ,BLX,45,-110
+KLWT,"Lewistown, Lewistown Municipal Airport",MT,TFX,TFX,47,-109
+KMLP,"Mullan Pass, Mullan Pass Vor",MT,MSO,MSX,47,-115
+KMLS,"Miles City, Frank Wiley Field Airport",MT,BYZ,BLX,46,-105
+KMSO,"Missoula, Missoula International Airport",MT,MSO,MSX,46,-114
+KOLF,"Wolf Point, Clayton Airport",MT,GGW,GGW,48,-105
+KSDY,Sidney-Richland,MT,GGW,GGW,47,-104
+KWYS,West Yellowstone,MT,TFX,TFX,44,-111
+KGPI,"Kalispell, Glacier Park International Airport",MT,MSO,MSX,48,-114
+KEKS,Ennis - Big Sky Airport,MT,TFX,TFX,45,-111
+KM75,Malta Airport,MT,GGW,GGW,48,-107
+KMVH,N BAR Ranch Airport,MT,TFX,TFX,46,-108
+K2DP,Dare County Gunnery Range,NC,MHX,MHX,35,-75
+KAKH,Gastonia Municipal Airport,NC,GSP,GSP,35,-81
+KASJ,"Ahoskie, Tri-County Airport",NC,AKQ,AKQ,36,-77
+KAVL,"Asheville, Asheville Regional Airport",NC,GSP,GSP,35,-82
+KBUY,Burlington Alamance Regional Airport,NC,RAH,RAX,36,-79
+KCLT,"Charlotte, Charlotte / Douglas International Airport",NC,GSP,GSP,35,-80
+KCPC,"Whiteville, Columbus County Municipal Airport",NC,ILM,LTX,34,-78
+KCTZ,Sampson County Airport,NC,RAH,RAX,34,-78
+KDPL,Duplin County Airport,NC,MHX,MHX,34,-77
+KECG,Elizabeth City C/G Regional Airport,NC,AKQ,AKQ,36,-76
+KEDE,"Edenton, Northeastern Regional Airport",NC,AKQ,AKQ,36,-76
+KEQY,"Monroe, Monroe Airport",NC,GSP,GSP,35,-80
+KEWN,"New Bern, Craven County Regional Airport",NC,MHX,MHX,35,-77
+KEXX,"Lexington, Davidson County Airport",NC,RAH,RAX,35,-80
+KFAY,"Fayetteville, Fayetteville Regional Airport",NC,RAH,RAX,34,-78
+KFBG,Fort Bragg / Simmons Army Airfield,NC,RAH,RAX,35,-78
+KFQD,"Rutherfordton, Rutherford County-Marchman Field Airport",NC,GSP,GSP,35,-81
+KGEV,Jefferson - Ashe County Airport,NC,RNK,FCX,36,-81
+KGSB,Seymour-Johnson Air Force Base,NC,RAH,RAX,35,-77
+KGSO,"Greensboro, Piedmont Triad International Airport",NC,RAH,RAX,36,-79
+KGWW,"Goldsboro, Goldsboro-Wayne Municipal Airport",NC,RAH,RAX,35,-77
+KHBI,"Asheboro, Asheboro Municipal Airport",NC,RAH,RAX,35,-79
+KHFF,Mackall U. S. Army Airfield,NC,RAH,RAX,35,-79
+KHKY,"Hickory, Hickory Regional Airport",NC,GSP,GSP,35,-81
+KHNZ,Henderson-Oxford Airport,NC,RAH,RAX,36,-78
+KHRJ,"Erwin, Harnett County Airport",NC,RAH,RAX,35,-78
+KHSE,"Hatteras, Mitchell Field",NC,MHX,MHX,35,-75
+KILM,Wilmington International Airport,NC,ILM,LTX,34,-77
+KINT,"Winston Salem, Smith Reynolds Airport",NC,RAH,RAX,36,-80
+KIPJ,"Lincolnton, Lincolnton-Lincoln County Regional Airport",NC,GSP,GSP,35,-81
+KISO,"Kinston, Kinston Regional Jetport at Stallings Field",NC,MHX,MHX,35,-77
+KJNX,"Smithfield, Johnston County Airport",NC,RAH,RAX,35,-78
+KJQF,Concord Regional Airport,NC,GSP,GSP,35,-80
+KMEB,Laurinburg Maxton Airport,NC,RAH,RAX,34,-79
+KMQI,Manteo / Dare County Regional,NC,MHX,MHX,35,-75
+KMRH,Beaufort Smith Field,NC,MHX,MHX,34,-76
+KMRN,Morganton-Lenoir Airport,NC,GSP,GSP,35,-81
+KMWK,Mount Airy/Surry County Airport,NC,RNK,FCX,36,-80
+KNCA,MCAS New River,NC,MHX,MHX,34,-77
+KNJM,Bogue Field Marine Corps Auxiliary Field,NC,MHX,MHX,34,-77
+KNKT,Cherry Point Marine Corps Air Station,NC,MHX,MHX,34,-76
+KOAJ,"Jacksonville, Albert J Ellis Airport",NC,MHX,MHX,34,-77
+KOCW,"Washington, Warren Field Airport",NC,MHX,MHX,35,-77
+KPGV,Pitt-Greenville Airport,NC,MHX,MHX,35,-77
+KPOB,Pope Air Force Base,NC,RAH,RAX,35,-79
+KRDU,"Raleigh / Durham, Raleigh-Durham International Airport",NC,RAH,RAX,35,-78
+KRHP,Andrews-Murphy Airport,NC,MRX,MRX,35,-83
+KRUQ,Rowan County Airport,NC,GSP,GSP,35,-80
+KRWI,"Rocky Mount, Rocky Mount-Wilson Regional Airport",NC,RAH,RAX,35,-77
+KSOP,"Pinehurst/Southern Pines, Moore County Airport",NC,RAH,RAX,35,-79
+KSUT,Brunswick County Airport,NC,ILM,LTX,33,-78
+KSVH,Statesville Municipal Airport,NC,GSP,GSP,35,-80
+KTDF,"Roxboro, Person County Airport",NC,RAH,RAX,36,-78
+KTNB,Watauga County Hospital Heliport,NC,RNK,FCX,36,-81
+KTTA,"Sanford, Sanford-Lee County Regional Airport",NC,RAH,RAX,35,-79
+KUKF,"North Wilkesboro, Wilkes County Airport",NC,RNK,FCX,36,-81
+KVUJ,"Albemarle, Stanly County Airport",NC,RAH,RAX,35,-80
+K1A5,Macon County Airport,NC,GSP,GSP,35,-83
+KRCZ,Rockingham-Hamlet Airport,NC,RAH,RAX,34,-79
+KEHO,Shelby Municipal Airport,NC,GSP,GSP,35,-81
+KEYF,Curtis L Brown Jr. Field Airport,NC,ILM,LTX,34,-78
+KFFA,"Kill Devil Hills, First Flight Airport",NC,MHX,MHX,36,-75
+KLHZ,Franklin County Airport,NC,RAH,RAX,36,-78
+KNBT,"Piney Island, Bt-11 Bombing Range",NC,MHX,MHX,35,-76
+KONX,"Currituck, Currituck County Airport",NC,AKQ,AKQ,36,-76
+KSIF,"Reidsville, Rockingham County NC Shiloh Airport",NC,RNK,FCX,36,-79
+KAFP,Anson County Airport,NC,RAH,RAX,35,-80
+K24A,Jackson County Airport,NC,GSP,GSP,35,-83
+KETC,Tarboro-Edgecombe Airport,NC,RAH,RAX,35,-77
+KIXA,Halifax-Northampton Regional Airport,NC,RAH,RAX,36,-77
+KSCR,Siler City Municipal Airport,NC,RAH,RAX,35,-79
+K7W6,Hyde County Airport,NC,MHX,MHX,35,-75
+KFAR,"Fargo, Hector International Airport",ND,FGF,MVX,46,-96
+KJMS,"Jamestown, Jamestown Municipal Airport",ND,BIS,MBX,46,-98
+KDVL,"Devils Lake, Devils Lake Municipal Airport",ND,FGF,MVX,48,-98
+KRDR,Grand Forks Air Force Base,ND,FGF,MVX,47,-97
+KGFK,"Grand Forks, Grand Forks International Airport",ND,FGF,MVX,47,-97
+KBIS,"Bismarck, Bismarck Municipal Airport",ND,BIS,MBX,46,-100
+KDIK,"Dickinson, Dickinson Municipal Airport",ND,BIS,MBX,46,-102
+KISN,"Williston, Sloulin Field International Airport",ND,BIS,MBX,48,-103
+KMIB,Minot Air Force Base,ND,BIS,MBX,48,-101
+KMOT,Minot International Airport,ND,BIS,MBX,48,-101
+KN60,Garrison,ND,BIS,MBX,47,-101
+KHEI,"Hettinger, Hettinger Municipal Airport",ND,BIS,MBX,46,-102
+KBWP,"Wahpeton, Harry Stern Airport",ND,FGF,MVX,46,-96
+K2C8,CAVALIER,ND,FGF,MVX,48,-97
+KGAF,GRAFTON,ND,FGF,MVX,48,-97
+K06D,ROLLA,ND,BIS,MBX,48,-99
+KRUG,RUGBY,ND,BIS,MBX,48,-100
+K46D,CARRINGTON,ND,BIS,MBX,47,-99
+K7L2,LINTON,ND,BIS,MBX,46,-100
+KHZE,HAZEN,ND,BIS,MBX,47,-101
+KD50,CROSBY,ND,BIS,MBX,48,-103
+KD60,TIOGA,ND,BIS,MBX,48,-102
+KY19,MANDAN,ND,BIS,MBX,46,-100
+KS25,WATFORD CITY,ND,BIS,MBX,47,-103
+K20U,BEACH,ND,BIS,MBX,46,-103
+KD55,Langdon,ND,FGF,MVX,48,-98
+K9D7,CANDO,ND,FGF,MVX,48,-99
+K96D,Walhalla Municipal Airport,ND,FGF,MVX,48,-97
+KGWR,Gwinner,ND,FGF,MVX,46,-97
+K2D5,Oakes Municipal Airport,ND,BIS,MBX,46,-98
+K5H4,Harvey Municipal Airport,ND,BIS,MBX,47,-99
+KS32,Cooperstown,ND,FGF,MVX,47,-98
+K08D,Stanley Municipal Airport,ND,BIS,MBX,48,-102
+KD57,Glen Ullin Regional Airport,ND,BIS,MBX,46,-101
+KOMA,Omaha - Eppley Airfield,NE,OAX,OAX,41,-95
+KLNK,"Lincoln, Lincoln Municipal Airport",NE,OAX,OAX,40,-96
+KBIE,Beatrice Municipal,NE,OAX,OAX,40,-96
+KGRI,"Grand Island, Central Nebraska Regional Airport",NE,GID,UEX,40,-98
+KODX,"Ord, Evelyn Sharp Field Airport",NE,GID,UEX,41,-98
+KHSI,"Hastings, Hastings Municipal Airport",NE,GID,UEX,40,-98
+KEAR,"Kearney, Kearney Municipal Airport",NE,GID,UEX,40,-99
+KTQE,"Tekamah, Tekamah Municipal Airport",NE,OAX,OAX,41,-96
+KFNB,"Falls City, Brenner Field Airport",NE,OAX,OAX,40,-95
+KOFF,Omaha / Offutt Air Force Base,NE,OAX,OAX,41,-95
+KBBW,"Broken Bow, Broken Bow Municipal Airport",NE,LBF,LNX,41,-99
+KANW,Ainsworth Regional Airport,NE,LBF,LNX,42,-99
+KOFK,"Norfolk, Stefan Memorial Airport",NE,OAX,OAX,41,-97
+KFET,Fremont Municipal Airport,NE,OAX,OAX,41,-96
+KOLU,"Columbus, Columbus Municipal Airport",NE,OAX,OAX,41,-97
+KONL,O'Neill / Baker Field,NE,LBF,LNX,42,-98
+KSNY,"Sidney, Sidney Municipal Airport",NE,CYS,CYS,41,-102
+KLBF,"North Platte, North Platte Regional Airport",NE,LBF,LNX,41,-100
+KMCK,"McCook, McCook Municipal Airport",NE,GLD,GLD,40,-100
+KIML,"Imperial, Imperial Municipal Airport",NE,LBF,LNX,40,-101
+KHDE,Brewster Field Airport,NE,GID,UEX,40,-99
+KAIA,"Alliance, Alliance Municipal Airport",NE,CYS,CYS,42,-102
+KCDR,"Chadron, Chadron Municipal Airport",NE,CYS,CYS,42,-103
+KBFF,"Scottsbluff, Heilig Field",NE,CYS,CYS,41,-103
+KVTN,"Valentine, Miller Field",NE,LBF,LNX,42,-100
+KAUH,"Aurora, Aurora Municipal Airport",NE,GID,UEX,40,-97
+KLXN,"Lexington, Jim Kelly Field Airport",NE,GID,UEX,40,-99
+KOGA,"Ogallala, Searle Field Airport",NE,LBF,LNX,41,-101
+KAFK,"Nebraska City, Nebraska City Municipal Airport",NE,OAX,OAX,40,-95
+KBVN,Albion Municipal Airport,NE,OAX,OAX,41,-98
+KGRN,Gordon Municipal,NE,LBF,LNX,42,-102
+KHJH,"Hebron, Hebron Municipal Airport",NE,GID,UEX,40,-97
+KIBM,"Kimball, Kimball Municipal Airport/Robert E Arraj Field",NE,CYS,CYS,41,-103
+KJYR,"York, York Municipal Airport",NE,GID,UEX,40,-97
+KMLE,"Omaha, Millard Airport",NE,OAX,OAX,41,-96
+KTIF,"Thedford, Thomas County Airport",NE,LBF,LNX,41,-100
+KLCG,"Wayne, Wayne Municipal Airport",NE,OAX,OAX,42,-96
+KPMV,"Plattsmouth, Plattsmouth Municipal Airport",NE,OAX,OAX,40,-95
+KBTA,Blair Municipal Airport,NE,OAX,OAX,41,-96
+KAHQ,Wahoo,NE,OAX,OAX,41,-96
+K1BW,Bravo (Pine Bluffs),NE,CYS,CYS,41,-104
+KAFN,Jaffrey Airport-Silver Ranch,NH,GYX,GYX,42,-72
+KASH,Nashua - Boire Field Airport,NH,GYX,GYX,42,-71
+KBML,"Berlin, Berlin Municipal Airport",NH,GYX,GYX,44,-71
+KCON,Concord Municipal Airport,NH,GYX,GYX,43,-71
+KDAW,Rochester - Skyhaven Airport,NH,GYX,GYX,43,-70
+KEEN,"Keene, Dillant-Hopkins Airport",NH,GYX,GYX,42,-72
+KHIE,Whitefield - Mount Washington Regional Airport,NH,GYX,GYX,44,-71
+KLCI,"Laconia, Laconia Municipal Airport",NH,GYX,GYX,43,-71
+KLEB,Lebanon Municipal Airport,NH,GYX,GYX,43,-72
+KMHT,Manchester Airport,NH,GYX,GYX,42,-71
+KMWN,Mount Washington,NH,GYX,GYX,44,-71
+KPSM,Pease Air Force Base / Portsmouth,NH,GYX,GYX,43,-70
+K1P1,Plymouth Municipal Airport,NH,GYX,GYX,43,-71
+K12N,"Andover, Aeroflex-Andover Airport",NJ,PHI,DIX,41,-74
+KACY,"Atlantic City, Atlantic City International Airport",NJ,PHI,DIX,39,-74
+KBLM,Belmar-Farmingdale,NJ,PHI,DIX,40,-74
+KCDW,"Caldwell, Essex County Airport",NJ,OKX,OKX,40,-74
+KEWR,"Newark, Newark International Airport",NJ,OKX,OKX,40,-74
+KFWN,"Sussex, Sussex Airport",NJ,PHI,DIX,41,-74
+KMIV,"Millville, Millville Municipal Airport",NJ,PHI,DIX,39,-75
+KMMU,Morristown Municipal,NJ,PHI,DIX,40,-74
+KNEL,Lakehurst Naval Air Station,NJ,PHI,DIX,40,-74
+KSMQ,"Somerville, Somerset Airport",NJ,PHI,DIX,40,-74
+KTEB,"Teterboro, Teterboro Airport",NJ,OKX,OKX,40,-74
+KTTN,"Trenton, Mercer County Airport",NJ,PHI,DIX,40,-74
+KVAY,"Mount Holly, South Jersey Regional Airport",NJ,PHI,DIX,39,-74
+KWRI,Mcguire Air Force Base,NJ,PHI,DIX,40,-74
+KWWD,"Wildwood, Cape May County Airport",NJ,PHI,DIX,39,-74
+KMJX,Miller Air Park,NJ,PHI,DIX,39,-74
+KLDJ,Linden Airport,NJ,OKX,OKX,40,-74
+KABQ,"Albuquerque, Albuquerque International Airport",NM,ABQ,ABX,35,-106
+KAEG,"Albuquerque, Double Eagle II Airport",NM,ABQ,ABX,35,-106
+KALM,Alamogordo-White,NM,EPZ,EPZ,32,-105
+KATS,Artesia Municipal Airport,NM,MAF,MAF,32,-104
+KCAO,Clayton Municipal Airpark,NM,ABQ,ABX,36,-103
+KCNM,"Carlsbad, Cavern City Air Terminal Airport",NM,MAF,MAF,32,-104
+KCQC,Clines Corners,NM,ABQ,ABX,35,-105
+KCVN,Clovis Municipal Airport,NM,ABQ,ABX,34,-103
+KCVS,Cannon Air Force Base / Clovis,NM,ABQ,ABX,34,-103
+KDMN,Deming Municipal Airport,NM,EPZ,EPZ,32,-107
+KFMN,"Farmington, Four Corners Regional Airport",NM,ABQ,ABX,36,-108
+KGNT,"Grants, Grants-Milan Municipal Airport",NM,ABQ,ABX,35,-107
+KGUP,Gallup Municipal Airport,NM,ABQ,ABX,35,-108
+KHMN,Holloman Air Force Base,NM,EPZ,EPZ,32,-106
+KHOB,Hobbs / Lea County,NM,MAF,MAF,32,-103
+KLAM,Los Alamos Airport,NM,ABQ,ABX,35,-106
+KLRU,"Las Cruces, Las Cruces International Airport",NM,EPZ,EPZ,32,-106
+KLVS,Las Vegas Municipal Airport,NM,ABQ,ABX,35,-105
+KROW,Roswell International Air Center Airport,NM,ABQ,ABX,33,-104
+KRTN,Raton Municipal - Crews Field Airport,NM,ABQ,ABX,36,-104
+KSAF,Santa Fe County Municipal Airport,NM,ABQ,ABX,35,-106
+KSKX,"Taos, Taos Regional Airport",NM,ABQ,ABX,36,-105
+KSVC,Grant County Airport,NM,EPZ,EPZ,32,-108
+KTCC,Tucumcari Municipal Airport,NM,ABQ,ABX,35,-103
+KTCS,"Truth Or Consequences, Truth Or Consequences Municipal Airport",NM,EPZ,EPZ,33,-107
+KONM,Socorro Municipal Airport,NM,ABQ,ABX,34,-106
+KAXX,Angel Fire Airport,NM,ABQ,ABX,36,-105
+KBRG,Belen Regional Airport,NM,ABQ,ABX,34,-106
+K0E0,Moriarty Municipal Airport,NM,ABQ,ABX,34,-105
+KSXU,Santa Rosa Route 66 Airport,NM,ABQ,ABX,34,-104
+KDNA,"Dona Ana County Jetport, Santa Teresa",NM,EPZ,EPZ,31,-106
+KBAM,Battle Mountain - Lander County Airport,NV,LKN,LRX,40,-116
+KDRA,"Mercury, Desert Rock Airport",NV,VEF,ESX,36,-116
+KEKO,"Elko, Elko Regional Airport",NV,LKN,LRX,40,-115
+KELY,"Ely, Ely Airport",NV,LKN,LRX,39,-114
+KLAS,"Las Vegas, McCarran International Airport",NV,VEF,ESX,36,-115
+KLOL,"Lovelock, Derby Field Airport",NV,REV,RGX,40,-118
+KLSV,Nellis Air Force Base,NV,VEF,ESX,36,-115
+KNFL,"Fallon, Naval Air Station",NV,REV,RGX,39,-118
+KP68,Eureka Airport ASOS,NV,LKN,LRX,39,-116
+KRNO,"Reno, Reno Tahoe International Airport",NV,REV,RGX,39,-119
+KTPH,"Tonopah, Tonopah Airport",NV,LKN,LRX,38,-117
+KVGT,"Las Vegas, North Las Vegas Airport",NV,VEF,ESX,36,-115
+KWMC,"Winnemucca, Winnemucca Municipal Airport",NV,LKN,LRX,40,-117
+KHND,Las Vegas - Henderson Executive Airport,NV,VEF,ESX,35,-115
+KHTH,Hawthorne Industrial Airport,NV,REV,RGX,38,-118
+KINS,Nellis AFB - Indian Springs Auxiliary Airfield,NV,VEF,ESX,36,-115
+KCXP,Carson City Airport,NV,REV,RGX,39,-119
+KBVU,Boulder City Municipal Airport,NV,VEF,ESX,35,-114
+KRTS,Reno/Stead,NV,REV,RGX,39,-119
+K05U,Eureka Airport AWOS,NV,LKN,LRX,39,-116
+KMEV,Minden-Tahoe Airport,NV,REV,RGX,38,-119
+KALB,Albany International Airport,NY,ALY,ENX,42,-73
+KART,"Watertown, Watertown International Airport",NY,BUF,BUF,43,-76
+KBGM,"Binghamton, Binghamton Regional Airport",NY,BGM,BGM,42,-75
+KBUF,"Buffalo, Greater Buffalo International Airport",NY,BUF,BUF,42,-78
+KDKK,"Dunkirk, Chautauqua County / Dunkirk Airport",NY,BUF,BUF,42,-79
+KDSV,"Dansville, Dansville Municipal Airport",NY,BUF,BUF,42,-77
+KELM,"Elmira, Elmira / Corning Regional Airport",NY,BGM,BGM,42,-76
+KELZ,"Wellsville, Wellsville Municipal Airport",NY,BUF,BUF,42,-77
+KFOK,The Gabreski Airport,NY,OKX,OKX,40,-72
+KFRG,Farmingdale - Republic Airport,NY,OKX,OKX,40,-73
+KFZY,"Fulton, Oswego County Airport",NY,BUF,BUF,43,-76
+KGFL,"Glens Falls, Floyd Bennett Memorial Airport",NY,ALY,ENX,43,-73
+KGTB,Fort Drum / Wheeler-Sack U. S. Army Airfield,NY,BUF,BUF,44,-75
+KHPN,White Plains - Westchester County Airport,NY,OKX,OKX,41,-73
+KHTO,"East Hampton, East Hampton Airport",NY,OKX,OKX,40,-72
+KHWV,"Shirley, Brookhaven Airport",NY,OKX,OKX,40,-72
+KIAG,"Niagara Falls, Niagara Falls International Airport",NY,BUF,BUF,43,-78
+KISP,"Islip, Long Island Mac Arthur Airport",NY,OKX,OKX,40,-73
+KITH,"Ithaca, Ithaca Tompkins Regional Airport",NY,BGM,BGM,42,-76
+KJFK,"New York, Kennedy International Airport",NY,OKX,OKX,40,-73
+KJHW,"Jamestown, Chautauqua County/Jamestown Airport",NY,BUF,BUF,42,-79
+KLGA,"New York, La Guardia Airport",NY,OKX,OKX,40,-73
+KMGJ,"Montgomery, Orange County Airport",NY,OKX,OKX,41,-74
+KMSS,"Massena, Massena International-Richards Field",NY,BTV,CXX,44,-74
+KMSV,"Monticello, Sullivan County International Airport",NY,BGM,BGM,41,-74
+KMTP,"Montauk, Montauk Airport",NY,OKX,OKX,41,-71
+KNYC,"New York City, Central Park",NY,OKX,OKX,40,-73
+KOGS,Ogdensburg International Airport,NY,BTV,CXX,44,-75
+KOLE,CATTARAUGUS COUNTY-OLEAN,NY,BUF,BUF,42,-78
+KPBG,Plattsburgh International Airport,NY,BTV,CXX,44,-73
+KPOU,"Poughkeepsie, Dutchess County Airport",NY,ALY,ENX,41,-73
+KRME,Griffiss Air Force Base / Rome,NY,BGM,BGM,43,-75
+KROC,"Rochester, Greater Rochester International Airport",NY,BUF,BUF,43,-77
+KSCH,Schenectady Airport,NY,ALY,ENX,42,-73
+KSLK,"Saranac Lake, Adirondack Regional Airport",NY,BTV,CXX,44,-74
+KSWF,Newburgh / Stewart,NY,OKX,OKX,41,-74
+KSYR,"Syracuse, Syracuse Hancock International Airport",NY,BGM,BGM,43,-76
+KPEO,"Penn Yan, Penn Yan Airport",NY,BGM,BGM,42,-77
+KPTD,POTSDAM,NY,BTV,CXX,44,-74
+KSDC,WAYNE,NY,BUF,BUF,43,-77
+KN03,Cortland County-Chase Field,NY,BGM,BGM,42,-76
+KNY0,JOHNSTOWN,NY,ALY,ENX,42,-74
+KJRB,New York Downtown Manhattan,NY,OKX,OKX,40,-74
+K6B9,Skaneateles Aero Drome,NY,BGM,BGM,42,-76
+KGVQ,Genesee County Airport,NY,BUF,BUF,43,-78
+KAKR,"Akron, Akron Fulton International Airport",OH,CLE,CLE,41,-81
+KAOH,"Lima, Lima Allen County Airport",OH,IWX,IWX,40,-84
+KBJJ,"Wooster, Wayne County Airport",OH,CLE,CLE,40,-81
+KBKL,"Cleveland, Burke Lakefront Airport",OH,CLE,CLE,41,-81
+KCAK,Akron Canton Regional Airport,OH,CLE,CLE,40,-81
+KCGF,Cleveland / Cuyahoga,OH,CLE,CLE,41,-81
+KCLE,Cleveland Hopkins International Airport,OH,CLE,CLE,41,-81
+KCMH,John Glenn Columbus International Airport,OH,ILN,ILN,39,-82
+KDAY,"Dayton, Cox Dayton International Airport",OH,ILN,ILN,39,-84
+KDFI,"Defiance, Defiance Memorial Airport",OH,IWX,IWX,41,-84
+KFDY,"Findlay, Findlay Airport",OH,CLE,CLE,41,-83
+KFFO,Dayton / Wright-Patterson Air Force Base,OH,ILN,ILN,39,-84
+KHAO,Butler County Regional Airport,OH,ILN,ILN,39,-84
+KHZY,Ashtabula - Northeast Ohio Regional Airport,OH,CLE,CLE,41,-80
+KILN,"Wilmington, Airborne Airpark Airport",OH,ILN,ILN,39,-83
+KLCK,Rickenbacker Air National Guard Base,OH,ILN,ILN,39,-82
+KLHQ,"Lancaster, Fairfield County Airport",OH,ILN,ILN,39,-82
+KLNN,Willoughby,OH,CLE,CLE,41,-81
+KLPR,"Lorain / Elyria, Lorain County Regional Airport",OH,CLE,CLE,41,-82
+KLUK,"Cincinnati, Cincinnati Municipal Airport Lunken Field",OH,ILN,ILN,39,-84
+KMFD,Mansfield - Mansfield Lahm Regional Airport,OH,CLE,CLE,40,-82
+KMGY,"Dayton, Dayton-Wright Brothers Airport",OH,ILN,ILN,39,-84
+KMNN,"Marion, Marion Municipal Airport",OH,CLE,CLE,40,-83
+KOSU,"Columbus, Ohio State University Airport",OH,ILN,ILN,40,-83
+KPHD,"New Philadelphia, Harry Clever Field",OH,PBZ,PBZ,40,-81
+KSGH,"Springfield, Springfield-Beckley Municipal Airport",OH,ILN,ILN,39,-83
+KTDZ,Toledo - Toledo Executive Airport,OH,CLE,CLE,41,-83
+KTOL,Toledo - Toledo Express Airport,OH,CLE,CLE,41,-83
+KTZR,"Columbus, Bolton Field Airport",OH,ILN,ILN,39,-83
+KUNI,OHIO U/ATHEN-ALBANY,OH,RLX,RLX,39,-82
+KVTA,"Newark, Newark Heath Airport",OH,ILN,ILN,40,-82
+KYNG,"Youngstown, Youngstown-Warren Regional Airport",OH,CLE,CLE,41,-80
+KZZV,"Zanesville, Zanesville Municipal Airport",OH,PBZ,PBZ,39,-81
+KAXV,WAPAKONETA,OH,ILN,ILN,40,-84
+KMWO,Hook Field Municipal Airport,OH,ILN,ILN,39,-84
+K4I3,Knox County Airfield,OH,CLE,CLE,40,-82
+KI68,WARREN,OH,ILN,ILN,39,-84
+KPOV,Portage County Airport,OH,CLE,CLE,41,-81
+KDLZ,Delaware Municipal Airport,OH,ILN,ILN,40,-83
+KEDJ,Bellefontaine Regional Airport,OH,ILN,ILN,40,-83
+KMRT,Marysville Union County Airport,OH,ILN,ILN,40,-83
+KVES,Versailles Darke County Airport,OH,ILN,ILN,40,-84
+KPCW,Port Clinton Carl R Keller Field Airport,OH,CLE,CLE,41,-82
+KI69,Batavia Clermont County Airport,OH,ILN,ILN,39,-84
+KUSE,Wauseon Fulton County Airport,OH,IWX,IWX,41,-84
+KRZT,Chillicothe Ross County Airport,OH,ILN,ILN,39,-83
+KI67,Cincinnati W Airport,OH,ILN,ILN,39,-84
+KUYF,London Madison County Airport,OH,ILN,ILN,39,-83
+KI19,Lewis A. Jackson Regional Airport,OH,ILN,ILN,39,-83
+KOWX,Ottawa Putnam County Airport,OH,IWX,IWX,41,-83
+KCDI,Cambridge Municipal Airport,OH,PBZ,PBZ,39,-81
+KI23,Fayette County Airport,OH,ILN,ILN,39,-83
+KPMH,Greater Portsmouth Regional Airport,OH,ILN,ILN,38,-82
+KOXD,Miami University Airport,OH,ILN,ILN,39,-84
+KI74,Urbana Grimes Field,OH,ILN,ILN,40,-83
+KGUY,Guymon / Guymon Municipal Airport,OK,AMA,AMA,36,-101
+K1F0,"Ardmore, Ardmore Downtown Executive Airport",OK,OUN,TLX,34,-97
+KADH,"Ada, Ada Municipal Airport",OK,OUN,TLX,34,-96
+KADM,"Ardmore, Ardmore Municipal Airport",OK,OUN,TLX,34,-97
+KAQR,"Atoka, Atoka Municipal Airport",OK,OUN,TLX,34,-96
+KAVK,"Alva, Alva Regional Airport",OK,OUN,TLX,36,-98
+KBVO,"Bartlesville, Bartlesville Municipal Airport",OK,TSA,INX,36,-96
+KCHK,"Chickasha, Chickasha Municipal Airport",OK,OUN,TLX,35,-97
+KCQB,"Chandler, Chandler Municipal Airport",OK,OUN,TLX,35,-96
+KCSM,"Clinton, Clinton-Sherman Airport",OK,OUN,TLX,35,-99
+KDUA,"Durant, Eaker Field Airport",OK,OUN,TLX,33,-96
+KDUC,"Duncan, Halliburton Field Airport",OK,OUN,TLX,34,-97
+KEND,Vance Air Force Base / Enid,OK,OUN,TLX,36,-97
+KFDR,"Frederick, Frederick Municipal Airport",OK,OUN,TLX,34,-98
+KFSI,Fort Sill,OK,OUN,TLX,34,-98
+KGAG,"Gage, Gage Airport",OK,OUN,TLX,36,-99
+KGCM,"Claremore, Claremore Regional Airport",OK,TSA,INX,36,-95
+KGMJ,"Grove, Grove Municipal Airport",OK,TSA,INX,36,-94
+KGOK,"Guthrie, Guthrie Municipal Airport",OK,OUN,TLX,35,-97
+KHBR,"Hobart, Hobart Municipal Airport",OK,OUN,TLX,34,-99
+KJSV,"Sallisaw, Sallisaw Municipal Airport",OK,TSA,INX,35,-94
+KLAW,"Lawton, Lawton Municipal Airport",OK,OUN,TLX,34,-98
+KLTS,Altus Air Force Base,OK,OUN,TLX,34,-99
+KMKO,Muskogee-Davis Regional Airport,OK,TSA,INX,35,-95
+KMLC,"McAlester, McAlester Regional Airport",OK,TSA,INX,34,-95
+KOKC,"Oklahoma City, Will Rogers World Airport",OK,OUN,TLX,35,-97
+KOKM,"Okmulgee, Okmulgee Municipal Airport",OK,TSA,INX,35,-95
+KOUN,Norman / Max Westheimer,OK,OUN,TLX,35,-97
+KPNC,"Ponca City, Ponca City Municipal Airport",OK,OUN,TLX,36,-97
+KPVJ,"Pauls Valley, Pauls Valley Municipal Airport",OK,OUN,TLX,34,-97
+KPWA,"Oklahoma City, Wiley Post Airport",OK,OUN,TLX,35,-97
+KRKR,"Poteau, Robert S Kerr Airport",OK,TSA,INX,35,-94
+KRVS,Tulsa - Jones Jr. Airport,OK,TSA,INX,36,-95
+KSWO,"Stillwater, Stillwater Regional Airport",OK,OUN,TLX,36,-97
+KTIK,Tinker Air Force Base,OK,OUN,TLX,35,-97
+KTQH,"Tahlequah, Tahlequah Municipal Airport",OK,TSA,INX,35,-95
+KTUL,"Tulsa, Tulsa International Airport",OK,TSA,INX,36,-95
+KWDG,"Enid, Enid Woodring Regional Airport",OK,OUN,TLX,36,-97
+KWWR,"Woodward, West Woodward Airport",OK,OUN,TLX,36,-99
+KSNL,"Shawnee, Shawnee Municipal Airport",OK,OUN,TLX,35,-96
+KAXS,"Altus, Altus/Quartz Mountain Regional Airport",OK,OUN,TLX,34,-99
+KCLK,"Clinton, Clinton Regional Airport",OK,OUN,TLX,35,-98
+KCUH,"Cushing, Cushing Municipal Airport",OK,OUN,TLX,35,-96
+KSRE,"Seminole, Seminole Municipal Airport",OK,OUN,TLX,35,-96
+KOJA,"Weatherford, Thomas P Stafford Airport",OK,OUN,TLX,35,-98
+K4O4,"Idabel, Mc Curtain County Regional Airport",OK,SHV,SHV,33,-94
+KRQO,"El Reno, El Reno Regional Airport",OK,OUN,TLX,35,-98
+KBKN,Blackwell-Tonkawa Municipal Airport,OK,OUN,TLX,36,-97
+KRCE,Clarence E Page Municipal Airport,OK,OUN,TLX,35,-97
+KHHW,Hugo Stan Stamper Municipal Airport,OK,TSA,INX,34,-95
+KOWP,"Sand Springs, William R Pogue Municipal Airport",OK,TSA,INX,36,-96
+KELK,Elk City Regional Business Airport,OK,OUN,TLX,35,-99
+KGCD,Grant County Regional Airport,OR,PDT,PDT,44,-118
+KAST,"Astoria, Astoria Regional Airport",OR,PQR,RTX,46,-123
+KBKE,Baker Municipal Airport,OR,BOI,CBX,44,-117
+KBNO,Burns Municipal Airport,OR,BOI,CBX,43,-118
+KCVO,"Corvallis, Corvallis Municipal Airport",OR,PQR,RTX,44,-123
+KEUG,"Eugene, Mahlon Sweet Field",OR,PQR,RTX,44,-123
+KHIO,Portland-Hillsboro Airport,OR,PQR,RTX,45,-122
+KHRI,"Hermiston, Hermiston Municipal Airport",OR,PDT,PDT,45,-119
+KLGD,La Grande/Union County Airport,OR,PDT,PDT,45,-118
+KLKV,Lake County Airport,OR,MFR,MAX,42,-120
+KLMT,Klamath Falls International Airport,OR,MFR,MAX,42,-121
+KMEH,Meacham,OR,PDT,PDT,45,-118
+KMFR,Rogue Valley International Airport,OR,MFR,MAX,42,-122
+KONO,Ontario Municipal Airport,OR,BOI,CBX,44,-117
+KONP,"Newport, Newport Municipal Airport",OR,PQR,RTX,44,-124
+KOTH,Southwest Oregon Regional Airport,OR,MFR,MAX,43,-124
+KPDT,Eastern Oregon Regional Airport at Pendleton,OR,PDT,PDT,45,-118
+KPDX,"Portland, Portland International Airport",OR,PQR,RTX,45,-122
+KRBG,Roseburg Regional Airport,OR,MFR,MAX,43,-123
+KRDM,Redmond Roberts Field,OR,PDT,PDT,44,-121
+KREO,Rome,OR,BOI,CBX,42,-117
+KSLE,Salem - McNary Field,OR,PQR,RTX,44,-123
+KSXT,Sexton Summit,OR,MFR,MAX,42,-123
+KTTD,"Portland, Portland-Troutdale Airport",OR,PQR,RTX,45,-122
+KUAO,Aurora State Airport,OR,PQR,RTX,45,-122
+KMMV,"McMinnville, McMinnville Municipal Airport",OR,PQR,RTX,45,-123
+KTMK,"Tillamook, Tillamook Airport",OR,PQR,RTX,45,-123
+KSPB,Scappoose Industrial Airpark,OR,PQR,RTX,45,-122
+KBOK,"Brookings, Brookings Airport",OR,MFR,MAX,42,-124
+KBDN,Bend Airport AWOS,OR,PDT,PDT,44,-121
+K4S2,Ken Jernstedt Airfield,OR,PQR,RTX,45,-121
+K3S8,Grants Pass Airport,OR,MFR,MAX,42,-123
+K6S2,Florence Municipal Airport,OR,PQR,RTX,43,-124
+KS39,Prineville Airport,OR,PDT,PDT,44,-120
+KMQS,Chester County Airport,PA,PHI,DIX,39,-75
+KABE,"Allentown, Lehigh Valley International Airport",PA,PHI,DIX,40,-75
+KAFJ,Washington - Washington County Airport,PA,PBZ,PBZ,40,-80
+KAGC,Pittsburgh - Allegheny County Airport,PA,PBZ,PBZ,40,-79
+KAOO,Altoona - Blair County Airport,PA,CTP,CCX,40,-78
+KAVP,"Wilkes-Barre - Scranton, Wilkes-Barre / Scranton International Airport",PA,BGM,BGM,41,-75
+KBFD,Bradford Regional Airport,PA,CTP,CCX,41,-78
+KBTP,"Butler, Butler County Airport/K W Scholter Field",PA,PBZ,PBZ,40,-79
+KBVI,Beaver County Airport,PA,PBZ,PBZ,40,-80
+KCXY,"Harrisburg, Capital City Airport",PA,CTP,CCX,40,-76
+KDUJ,Du Bois - Jefferson County Airport,PA,PBZ,PBZ,41,-78
+KDYL,"Doylestown, Doylestown Airport",PA,PHI,DIX,40,-75
+KERI,"Erie, Erie International Airport",PA,CLE,CLE,42,-80
+KFIG,"Clearfield, Clearfield-Lawrence Airport",PA,CTP,CCX,41,-78
+KFKL,"Franklin, Venango Regional Airport",PA,PBZ,PBZ,41,-79
+KGKJ,Port Meadville Airport,PA,CLE,CLE,41,-80
+KIDI,Indiana / Stewart Field,PA,PBZ,PBZ,40,-79
+KIPT,Williamsport - Lycoming County Airport,PA,CTP,CCX,41,-76
+KJST,Johnstown - Cambria County Airport,PA,CTP,CCX,40,-78
+KLBE,Latrobe / Westmorland,PA,PBZ,PBZ,40,-79
+KLNS,"Lancaster, Lancaster Airport",PA,CTP,CCX,40,-76
+KMDT,"Harrisburg, Harrisburg International Airport",PA,CTP,CCX,40,-76
+KMPO,"Mount Pocono, Pocono Mountains Municipal Airport",PA,PHI,DIX,41,-75
+KMUI,Muir Army Air Field / Indiantown,PA,CTP,CCX,40,-76
+KPHL,"Philadelphia, Philadelphia International Airport",PA,PHI,DIX,39,-75
+KPIT,"Pittsburgh, Pittsburgh International Airport",PA,PBZ,PBZ,40,-80
+KPNE,"Philadelphia, Northeast Philadelphia Airport",PA,PHI,DIX,40,-75
+KPTW,"Pottstown, Pottstown Limerick Airport",PA,PHI,DIX,40,-75
+KSEG,Selinsgrove Penn Valley Airport,PA,CTP,CCX,40,-76
+KTHV,"York, York Airport",PA,CTP,CCX,39,-76
+KUNV,State College - University Park Airport,PA,CTP,CCX,40,-77
+KRDG,"Reading, Reading Regional Airport",PA,PHI,DIX,40,-75
+KHMZ,"Bedford, Bedford County Airport",PA,CTP,CCX,40,-78
+KLOM,Philadelphia - Wings Field Airport,PA,PHI,DIX,40,-75
+KUKT,Quakertown Airport,PA,PHI,DIX,40,-75
+KUCP,"New Castle, New Castle Municipal Airport",PA,PBZ,PBZ,41,-80
+KCKZ,PERKASIE,PA,PHI,DIX,40,-75
+KN38,Wellsboro Johnston Airport,PA,CTP,CCX,41,-77
+KHZL,Hazleton Municipal Airport,PA,BGM,BGM,40,-75
+K22N,Lehighton Jake Arner Memorial Airport,PA,PHI,DIX,40,-75
+K2G9,Somerset County Airport,PA,CTP,CCX,40,-79
+KOYM,St Marys Municipal Airport,PA,CTP,CCX,41,-78
+TJBQ,"Aquadilla, Rafael Hernandez Airport",PR,SJU,JUA,18,-67
+TJNR,"Roosevelt Roads, Roosevelt Roads Naval Station, Ofstie Field",PR,SJU,JUA,18,-65
+TJIG,San Juan Fernando Luis Ribas Dominicci,PR,SJU,JUA,18,-66
+KBID,Block Island State Airport,RI,BOX,BOX,41,-71
+KOQU,N. Kingston / Quonset,RI,BOX,BOX,41,-71
+KPVD,"Providence, Theodore Francis Green State Airport",RI,BOX,BOX,41,-71
+KSFZ,"Pawtucket, North Central State Airport",RI,BOX,BOX,41,-71
+KUUU,"Newport, Newport State Airport",RI,BOX,BOX,41,-71
+KWST,"Westerly, Westerly State Airport",RI,BOX,BOX,41,-71
+KAND,"Anderson, Anderson County Airport",SC,GSP,GSP,34,-82
+KCAE,"Columbia, Columbia Metropolitan Airport",SC,CAE,CAE,33,-81
+KCEU,"Clemson, Clemson-Oconee County Airport",SC,GSP,GSP,34,-82
+KCHS,"Charleston, Charleston Air Force Base",SC,CHS,CLX,32,-80
+KCRE,North Myrtle Beach Grand Strand Airport,SC,ILM,LTX,33,-78
+KCUB,Columbia - Jim Hamilton L.B. Owens Airport,SC,CAE,CAE,33,-80
+KFLO,Florence - Florence Regional Airport,SC,ILM,LTX,34,-79
+KGMU,Greenville Downtown Airport,SC,GSP,GSP,34,-82
+KGRD,"Greenwood, Greenwood County Airport",SC,GSP,GSP,34,-82
+KGSP,"Greer, Greenville-Spartanburg Airport",SC,GSP,GSP,34,-82
+KMMT,McEntire Air National Guard Weather Facility Base,SC,CAE,CAE,33,-80
+KMYR,Myrtle Beach Air Force Base,SC,ILM,LTX,33,-78
+KNBC,"Beaufort, Marine Corps Air Station",SC,CHS,CLX,32,-80
+KOGB,"Orangeburg, Orangeburg Municipal Airport",SC,CAE,CAE,33,-80
+KSPA,Spartanburg Memorial,SC,GSP,GSP,34,-81
+KSSC,Shaw Air Force Base,SC,CAE,CAE,33,-80
+KUDG,"Darlington, Darlington County Jetport Airport",SC,ILM,LTX,34,-79
+KUZA,"Rock Hill, Rock Hill - York County Airport",SC,GSP,GSP,34,-81
+KHXD,"Hilton Head Island, Hilton Head Airport",SC,CHS,CLX,32,-80
+KMNI,Manning / Cooper Regional,SC,CAE,CAE,33,-80
+KGYH,Greenville-Donaldson Center Airport,SC,GSP,GSP,34,-82
+KGGE,Georgetown County Airport,SC,ILM,LTX,33,-79
+KHYW,Conway Horry County Airport,SC,ILM,LTX,33,-79
+KMAO,Marion County Airport,SC,ILM,LTX,34,-79
+KHVS,Hartsville Regional Airport,SC,ILM,LTX,34,-80
+KBBP,Marlboro County Jetport,SC,ILM,LTX,34,-79
+KCQW,Cheraw Municipal Lynch Bellinger Field,SC,CAE,CAE,34,-79
+KSMS,Sumter Airport,SC,CAE,CAE,33,-80
+KCDN,Camden Woodward Field,SC,CAE,CAE,34,-80
+KFDW,Winnsboro/Fairfield County Airport,SC,CAE,CAE,34,-81
+KEOE,Newberry County Airport,SC,CAE,CAE,34,-81
+KLUX,Laurens County Airport,SC,GSP,GSP,34,-81
+KDCM,Chester Catawba Regional Airport,SC,GSP,GSP,34,-81
+KLKR,Lancaster County-mc Whirter Field,SC,CAE,CAE,34,-80
+KCKI,Kingstree Williamsburg Regional Airport,SC,ILM,LTX,33,-79
+KBNL,Barnwell Regional Airport,SC,CAE,CAE,33,-81
+KAIK,Aiken Municipal Airport,SC,CAE,CAE,33,-81
+KLRO,Mount Pleasant Regional-Faison Field,SC,CHS,CLX,32,-79
+KJZI,Charleston Executive Airport,SC,CHS,CLX,32,-80
+KDYB,Summerville Airport,SC,CHS,CLX,33,-80
+KRBW,Walterboro Lowcountry Regional Airport,SC,CHS,CLX,32,-80
+KARW,Beaufort County Airport,SC,CHS,CLX,32,-80
+KLQK,Pickens County Airport,SC,GSP,GSP,34,-82
+KMKS,Moncks Corner Berkeley County,SC,CHS,CLX,33,-80
+KAQX,Allendale County Airport,SC,CHS,CLX,32,-81
+KFSD,"Sioux Falls, Foss Field",SD,FSD,FSD,43,-96
+KBKX,"Brookings, Brookings Municipal Airport",SD,FSD,FSD,44,-96
+KYKN,"Yankton, Chan Gurney Municipal Airport",SD,FSD,FSD,42,-97
+K9V9,"Chamberlain, Chamberlain Municipal Airport",SD,FSD,FSD,43,-99
+KHON,"Huron, Huron Regional Airport",SD,FSD,FSD,44,-98
+KMHE,"Mitchell, Mitchell Municipal Airport",SD,FSD,FSD,43,-98
+KATY,"Watertown, Watertown Municipal Airport",SD,ABR,ABR,44,-97
+KABR,"Aberdeen, Aberdeen Regional Airport",SD,ABR,ABR,45,-98
+KRAP,"Rapid City, Rapid City Regional Airport",SD,UNR,UDX,44,-103
+KRCA,Ellsworth Air Force Base,SD,UNR,UDX,44,-103
+KPIR,"Pierre, Pierre Regional Airport",SD,ABR,ABR,44,-100
+KICR,"Winner, Bob Wiley Field Airport",SD,UNR,UDX,43,-99
+KIEN,"Pine Ridge, Pine Ridge Airport",SD,UNR,UDX,43,-102
+KMBG,"Mobridge, Mobridge Municipal Airport",SD,ABR,ABR,45,-100
+K2WX,Buffalo,SD,UNR,UDX,45,-103
+KD07,Faith,SD,UNR,UDX,45,-102
+KPHP,"Philip, Philip Airport",SD,UNR,UDX,44,-101
+K8D3,"Sisseton, Sisseton Municipal Airport",SD,ABR,ABR,45,-96
+KCUT,"Custer, Custer County Airport",SD,UNR,UDX,43,-103
+KSPF,Spearfish / Clyde Ice,SD,UNR,UDX,44,-103
+KMDS,Madison Municipal Airport,SD,FSD,FSD,44,-97
+KBNA,"Nashville, Nashville International Airport",TN,OHX,OHX,36,-86
+KCHA,"Chattanooga, Lovell Field",TN,MRX,MRX,35,-85
+KCKV,Clarksville Outlaw Field,TN,OHX,OHX,36,-87
+KCSV,"Crossville, Crossville Memorial-Whitson Field Airport",TN,OHX,OHX,35,-85
+KDYR,"Dyersburg, Dyersburg Municipal Airport",TN,MEG,NQA,36,-89
+KHZD,Huntingdon Carroll County Airport,TN,MEG,NQA,36,-88
+KM04,COVINGTON MUNI,TN,MEG,NQA,35,-89
+KMEM,Memphis International Airport,TN,MEG,NQA,35,-89
+KMKL,"Jackson, McKellar-Sipes Regional Airport",TN,MEG,NQA,35,-88
+KMQY,"Smyrna, Smyrna Airport",TN,OHX,OHX,36,-86
+KNQA,"Millington, Millington Municipal Airport",TN,MEG,NQA,35,-89
+KOQT,Oak Ridge,TN,MRX,MRX,36,-84
+KPHT,Paris - Henry County Airport,TN,MEG,NQA,36,-88
+KSZY,SELMER/ROBERT SIBLEY,TN,MEG,NQA,35,-88
+KTRI,"Bristol / Johnson / Kingsport, Tri-City Regional Airport",TN,MRX,MRX,36,-82
+KTYS,"Knoxville, McGhee Tyson Airport",TN,MRX,MRX,35,-83
+KUCY,Union City - Everett-Stewart Regional Airport,TN,MEG,NQA,36,-88
+KSNH,SAVANNAH/HARDIN CO,TN,MEG,NQA,35,-88
+KDKX,Knoxville Downtown Airport,TN,MRX,MRX,35,-83
+KMRC,Columbia / Maury County,TN,OHX,OHX,35,-87
+K0A9,Elizabethton Municipal Airport,TN,MRX,MRX,36,-82
+KBGF,Winchester Municipal Airport,TN,HUN,HTX,35,-86
+KTHA,Tullahoma Regional Airport/William Northern Field,TN,OHX,OHX,35,-86
+KSRB,Sparta Upper Cumberland Regional Airport,TN,OHX,OHX,36,-85
+KMMI,Athens McMinn County Airport,TN,MRX,MRX,35,-84
+KRZR,Cleveland Regional Jetport,TN,MRX,MRX,35,-84
+KRNC,McMinnville Warren County Memorial Airport,TN,OHX,OHX,35,-85
+KSYI,Shelbyville Municipal Airport,TN,OHX,OHX,35,-86
+KMOR,Morristown Moore-Murrell Airport,TN,MRX,MRX,36,-83
+KFYM,Fayetteville Municipal Airport,TN,HUN,HTX,35,-86
+KGKT,Sevierville Gatlinburg - Pigeon Forge Airport,TN,MRX,MRX,35,-83
+KM91,Springfield Robertson County Airport,TN,OHX,OHX,36,-86
+KJAU,Jacksboro Campbell County Airport,TN,MRX,MRX,36,-84
+KJWN,John C Tune Airport,TN,OHX,OHX,36,-86
+KGZS,Pulaski Abernathy Field Airport,TN,OHX,OHX,35,-87
+KXNX,Sumner County Regional Airport,TN,OHX,OHX,36,-86
+KFYE,Somerville - Fayette County Airport,TN,MEG,NQA,35,-89
+K2A0,Dayton,TN,MRX,MRX,35,-84
+KMNV,Monroe County Airport,TN,MRX,MRX,35,-84
+K8A3,Livingston Municipal Airport,TN,OHX,OHX,36,-85
+KRKW,Rockwood Municipal Airport,TN,OHX,OHX,35,-84
+KLUG,Ellington Airport,TN,OHX,OHX,35,-86
+KM54,Lebanon Municipal Airport,TN,OHX,OHX,36,-86
+KMBT,Murfreesboro Municipal Airport,TN,OHX,OHX,35,-86
+KGCY,Greeneville-Greene County Municipal Airport,TN,MRX,MRX,36,-82
+KM02,Dickson Municipal Airport,TN,OHX,OHX,36,-87
+K2M2,Lawrenceburg-Lawrence County Airport,TN,OHX,OHX,35,-87
+KDRT,"Del Rio, Del Rio International Airport",TX,EWX,DFX,29,-100
+KDLF,Laughlin Air Force Base Auxiliary Airfield,TX,EWX,DFX,29,-100
+KGDP,"Pine Springs, Guadalupe Mountains National Park",TX,MAF,MAF,31,-104
+KSJT,"San Angelo, Mathis Field",TX,SJT,SJT,31,-100
+KDHT,"Dalhart, Dalhart Municipal Airport",TX,AMA,AMA,36,-102
+KMRF,Marfa,TX,MAF,MAF,30,-104
+KMAF,"Midland, Midland International Airport",TX,MAF,MAF,31,-102
+KINK,"Wink, Winkler County Airport",TX,MAF,MAF,31,-103
+KLBB,"Lubbock, Lubbock International Airport",TX,LUB,LBB,33,-101
+KELP,"El Paso, El Paso International Airport",TX,EPZ,EPZ,31,-106
+KCDS,"Childress, Childress Municipal Airport",TX,LUB,LBB,34,-100
+KAMA,"Amarillo, Amarillo International Airport",TX,AMA,AMA,35,-101
+KBGD,"Borger, Hutchinson County Airport",TX,AMA,AMA,35,-101
+KFST,"Fort Stockton, Fort Stockton-Pecos County Airport",TX,MAF,MAF,30,-102
+KODO,"Odessa, Odessa-Schlemeyer Field",TX,MAF,MAF,31,-102
+K6R6,Dryden - Terrell County Airport,TX,MAF,MAF,30,-102
+KHHF,"Canadian, Hemphill County Airport",TX,AMA,AMA,35,-100
+KPVW,"Plainview, Hale County Airport",TX,LUB,LBB,34,-101
+KSWW,"Sweetwater, Avenger Field Airport",TX,SJT,SJT,32,-100
+K11R,"Brenham, Brenham Municipal Airport",TX,HGX,HGX,30,-96
+K3T5,"La Grange, Fayette Regional Air Center Airport",TX,EWX,DFX,29,-96
+KABI,"Abilene, Abilene Regional Airport",TX,SJT,SJT,32,-99
+KACT,"Waco, Waco Regional Airport",TX,FWD,GRK,31,-97
+KADS,Dallas / Addison Airport,TX,FWD,FWS,32,-96
+KAFW,"Fort Worth, Fort Worth Alliance Airport",TX,FWD,FWS,32,-97
+KALI,"Alice, Alice International Airport",TX,CRP,CRP,27,-98
+KATT,"Austin City, Austin Camp Mabry",TX,EWX,DFX,30,-97
+KAUS,Austin-Bergstrom International Airport,TX,EWX,DFX,30,-97
+KBAZ,New Braunfels Regional Airport,TX,EWX,DFX,29,-98
+KBMQ,"Burnet, Burnet Municipal Craddock Field",TX,EWX,DFX,30,-98
+KBPT,Beaumont/Port Arthur Southeast Texas Regional Airport,TX,LCH,LCH,29,-94
+KBRO,"Brownsville, Brownsville / South Padre Island International Airport",TX,BRO,BRO,25,-97
+KBWD,"Brownwood, Brownwood Regional Airport",TX,SJT,SJT,31,-98
+KCLL,"College Station, Easterwood Field",TX,HGX,HGX,30,-96
+KCOT,"Cotulla, Cotulla-La Salle County Airport",TX,CRP,CRP,28,-99
+KCRP,"Corpus Christi, Corpus Christi International Airport",TX,CRP,CRP,27,-97
+KCRS,"Corsicana, Campbell Field-Corsicana Municipal Airport",TX,FWS,GRK,32,-96
+KCXO,"Conroe, Montgomery County Airport",TX,HGX,HGX,30,-95
+KDAL,Dallas Love Field,TX,FWD,FWS,32,-96
+KDFW,Dallas/Fort Worth International Airport,TX,FWD,FWS,32,-97
+KDTO,Denton Enterprise Airport,TX,FWD,FWS,33,-97
+KDWH,"Houston, Hooks Memorial Airport",TX,HGX,HGX,30,-95
+KDYS,"Abilene, Dyess Air Force Base",TX,SJT,SJT,32,-99
+KEFD,Houston / Ellington,TX,HGX,HGX,29,-95
+KERV,"Kerrville, Kerrville Municipal Airport/Louis Schreiner Field",TX,EWX,DFX,29,-99
+KFTW,"Fort Worth, Meacham International Airport",TX,FWD,FWS,32,-97
+KFWS,Fort Worth Spinks Airport,TX,FWD,FWS,32,-97
+KGGG,Longview - East Texas Regional Airport,TX,SHV,SHV,32,-94
+KGKY,Arlington Municipal Airport,TX,FWD,FWS,32,-97
+KGLE,"Gainesville, Gainesville Municipal Airport",TX,FWD,FWS,33,-97
+KGLS,"Galveston, Scholes Field",TX,HGX,HGX,29,-94
+KGPM,"Grand Prairie, Grand Prairie Municipal Airport",TX,FWD,FWS,32,-97
+KGRK,"Fort Hood, Robert Gray AAF Ft Hood",TX,FWD,FWS,31,-97
+KGTU,"Georgetown, Georgetown Municipal Airport",TX,EWX,DFX,30,-97
+KGVT,Greenville / Majors,TX,FWD,FWS,33,-96
+KHDO,"Hondo, Hondo Municipal Airport",TX,EWX,DFX,29,-99
+KHLR,"Fort Hood, Hood AAF Ft Hood",TX,FWD,GRK,31,-97
+KHOU,"Houston, Houston Hobby Airport",TX,HGX,HGX,29,-95
+KHRL,"Harlingen, Rio Grande Valley International Airport",TX,BRO,BRO,26,-97
+KHYI,"San Marcos, San Marcos Municipal Airport",TX,EWX,DFX,29,-97
+KIAH,Houston Intercontinental Airport,TX,HGX,HGX,29,-95
+KILE,"Killeen, Skylark Field Airport",TX,FWD,GRK,31,-97
+KJAS,"Jasper, Jasper County-Bell Field Airport",TX,LCH,LCH,30,-94
+KJCT,"Junction, Kimble County Airport",TX,SJT,SJT,30,-99
+KLBX,"Angleton / Lake Jackson, Brazoria County Airport",TX,HGX,HGX,29,-95
+KLFK,"Lufkin, Angelina County Airport",TX,SHV,SHV,31,-94
+KLRD,"Laredo, Laredo International Airport",TX,CRP,CRP,27,-99
+KLVJ,"Houston, Pearland Regional Airport",TX,HGX,HGX,29,-95
+KMFE,"McAllen, Miller International Airport",TX,BRO,BRO,26,-98
+KMWL,"Mineral Wells, Mineral Wells Airport",TX,FWD,FWS,32,-98
+KNFW,"Fort Worth, Naval Air Station",TX,FWD,FWS,32,-97
+KNGP,"Corpus Christi, Corpus Christi Naval Air Station/Truax Field",TX,CRP,CRP,27,-97
+KNQI,"Kingsville, Naval Air Station",TX,CRP,CRP,27,-97
+KOCH,"Nacogdoches, A L Mangham Jr. Regional Airport",TX,SHV,SHV,31,-94
+KPIL,"Port Isabel, Port Isabel-Cameron County Airport",TX,BRO,BRO,26,-97
+KPRX,Paris / Cox Field,TX,FWD,FWS,33,-95
+KPSX,Palacios Municipal Airport,TX,HGX,HGX,28,-96
+KPWG,"Waco, Mc Gregor Executive Airport",TX,FWD,GRK,31,-97
+KRBD,"Dallas, Redbird Airport",TX,FWD,FWS,32,-96
+KRKP,Rockport Aransas County Airport,TX,CRP,CRP,28,-97
+KRND,Randolph Air Force Base,TX,EWX,DFX,29,-98
+KSAT,"San Antonio, San Antonio International Airport",TX,EWX,DFX,29,-98
+KSEP,"Stephenville, Clark Field Municipal Airport",TX,FWD,FWS,32,-98
+KSGR,"Houston, Sugar Land Municipal / Hull Field Airport",TX,HGX,HGX,29,-95
+KSKF,Kelly Air Force Base,TX,EWX,DFX,29,-98
+KSPS,"Wichita Falls, Sheppard Air Force Base",TX,OUN,TLX,33,-98
+KSSF,"San Antonio, Stinson Municipal Airport",TX,EWX,DFX,29,-98
+KT82,"Fredericksburg, Gillespie County Airport",TX,EWX,DFX,30,-98
+KTKI,McKinney - McKinney National Airport,TX,FWD,FWS,33,-96
+KTPL,"Temple, Draughon-Miller Central Texas Regional Airport",TX,FWD,GRK,31,-97
+KTRL,"Terrell, Terrell Municipal Airport",TX,FWD,FWS,32,-96
+KTYR,"Tyler, Tyler Pounds Field",TX,SHV,SHV,32,-95
+KUTS,"Huntsville, Huntsville Municipal Airport",TX,HGX,HGX,30,-95
+KVCT,"Victoria, Victoria Regional Airport",TX,CRP,CRP,28,-96
+KCOM,COLEMAN,TX,SJT,SJT,31,-99
+KAQO,"Llano, Llano Municipal Airport",TX,EWX,DFX,30,-98
+KBKS,"Falfurrias, Brooks County Airport",TX,BRO,BRO,27,-98
+KBPG,"Big Spring, Big Spring McMahon-Wrinkle Airport",TX,MAF,MAF,32,-101
+KBYY,"Bay City, Bay City Municipal Airport",TX,HGX,HGX,28,-95
+KCPT,"Cleburne, Cleburne Municipal Airport",TX,FWD,FWS,32,-97
+KDUX,"Dumas, Moore County Airport",TX,AMA,AMA,35,-102
+KE38,"Alpine, Alpine-Casparis Municipal Airport",TX,MAF,MAF,30,-103
+KEBG,"Edinburg, Edinburg International Airport",TX,BRO,BRO,26,-98
+KECU,"Rocksprings, Edwards County Airport",TX,EWX,DFX,29,-100
+KF05,"Vernon, Wilbarger County Airport",TX,OUN,TLX,34,-99
+KGDJ,"Granbury, Granbury Municipal Airport",TX,FWD,GRK,32,-97
+KGNC,"Seminole, Gaines County Airport",TX,MAF,MAF,32,-102
+KGOP,"Gatesville, City-County Airport",TX,FWD,GRK,31,-97
+KGYB,"Giddings, Giddings-Lee County Airport",TX,EWX,DFX,30,-96
+KGYI,"Sherman/Denison, Grayson County Airport",TX,FWD,FWS,33,-96
+KHBV,"Hebbronville, Jim Hogg County Airport",TX,BRO,BRO,27,-98
+KHQZ,"Mesquite, Mesquite Metro Airport",TX,FWD,FWS,32,-96
+KINJ,"Hillsboro, Hillsboro Municipal Airport",TX,FWD,FWS,32,-97
+KJDD,"Mineola/Quitman, Wood County Airport",TX,SHV,SHV,32,-95
+KJSO,"Jacksonville, Cherokee County Airport",TX,SHV,SHV,31,-95
+KJWY,"Midlothian/Waxahachie, Mid-Way Regional Airport",TX,FWD,FWS,32,-96
+KJXI,"Gilmer, Fox Stephens Field - Gilmer Municipal Airport",TX,SHV,SHV,32,-94
+KLHB,"Hearne, Hearne Municipal Airport",TX,FWD,GRK,30,-96
+KLNC,Lancaster Airport,TX,FWD,FWS,32,-96
+KLUD,"Decatur, Decatur Municipal Airport",TX,FWD,FWS,33,-97
+KMDD,"Midland, Midland Airpark",TX,MAF,MAF,32,-102
+KMKN,"Comanche, Comanche County-City Airport",TX,FWD,DYX,31,-98
+KNOG,Orange Grove NALF,TX,CRP,CRP,27,-98
+KORG,"Orange, Orange County Airport",TX,LCH,LCH,30,-93
+KOSA,"Mount Pleasant, Mount Pleasant Regional Airport",TX,SHV,SHV,33,-94
+KPEQ,"Pecos, Pecos Municipal Airport",TX,MAF,MAF,31,-103
+KPKV,Port Lavaca - Calhoun County Airport,TX,CRP,CRP,28,-96
+KPPA,"Pampa, Perry Lefors Field Airport",TX,AMA,AMA,35,-100
+KPSN,"Palestine, Palestine Municipal Airport",TX,FWD,FWS,31,-95
+KPYX,"Perryton, Perryton Ochiltree County Airport",TX,AMA,AMA,36,-100
+KRPH,"Graham, Graham Municipal Airport",TX,FWD,DYX,33,-98
+KSLR,"Sulphur Springs, Sulphur Springs Municipal Airport",TX,FWD,FWS,33,-95
+KSNK,"Snyder, Winston Field Airport",TX,MAF,MAF,32,-100
+KSOA,"Sonora, Sonora Municipal Airport",TX,SJT,SJT,30,-100
+KTXW,Mid Valley Airport,TX,BRO,BRO,26,-97
+KUVA,"Uvalde, Garner Field Airport",TX,EWX,DFX,29,-99
+KXBP,"Bridgeport, Bridgeport Municipal Airport",TX,FWD,FWS,33,-97
+KARM,"Wharton, Wharton Regional Airport",TX,HGX,HGX,29,-96
+KRAS,"Port Aransas, Mustang Beach Airport",TX,CRP,CRP,27,-97
+KLZZ,"Lampasas, Lampasas Airport",TX,FWD,GRK,31,-98
+KRWV,"Caldwell, Caldwell Municipal Airport",TX,HGX,HGX,30,-96
+KBBD,"Brady, Curtis Field Airport",TX,SJT,SJT,31,-99
+KDKR,"Crockett, Houston County Airport",TX,HGX,HGX,31,-95
+KBEA,Beeville Municipal Airport,TX,CRP,CRP,28,-97
+KCNW,Waco-James Connally Airport,TX,FWD,GRK,31,-97
+KHRX,Hereford Municipal Airport,TX,AMA,AMA,34,-102
+KPEZ,Pleasanton Municipal Airport,TX,EWX,DFX,28,-98
+KTFP,Mc Campbell,TX,CRP,CRP,27,-97
+KCWC,Kickapoo Downtown Airport,TX,OUN,TLX,33,-98
+KTME,Houston Executive Airport,TX,HGX,HGX,29,-95
+KMNZ,Hamilton Municipal Airport,TX,FWD,FWS,31,-98
+KBKD,Stephens County Airport,TX,FWD,FWS,32,-98
+KRFI,Rusk County Airport,TX,SHV,SHV,32,-94
+KAPY,"Zapata, TX",TX,BRO,BRO,26,-99
+K6R3,Cleveland,TX,HGX,HGX,30,-95
+KDZB,Horseshoe Bay Resort Airpark,TX,EWX,DFX,30,-98
+KRYW,"Lago Vista TX, Rusty Allen Airport",TX,EWX,DFX,30,-97
+KEDC,Austin Executive Airport,TX,EWX,DFX,30,-97
+KOZA,Ozona Municipal Airport,TX,SJT,SJT,30,-101
+KASL,Marshall,TX,SHV,SHV,32,-94
+K0F2,Bowie Municipal Airport,TX,FWD,FWS,33,-97
+KBPC,Mesa Vista Ranch AP,TX,AMA,AMA,35,-101
+KAXH,Houston Southwest Airport,TX,HGX,HGX,29,-95
+KMCJ,John Dunn Helistop,TX,HGX,HGX,29,-95
+KCVB,Castroville Municipal Airport,TX,EWX,DFX,29,-98
+KFTN,Faith Ranch Airport,TX,EWX,DFX,28,-100
+KT35,Cameron (Milam Co) Municipal Airpark,TX,FWD,GRK,30,-96
+K5C1,San Antonio Boerne Stage Field,TX,EWX,DFX,29,-98
+KBMT,Beaumont Municipal Airport,TX,LCH,LCH,30,-94
+KE11,Andrews County Airport,TX,MAF,MAF,32,-102
+KF44,Athens Municipal Airport,TX,FWD,FWS,32,-95
+KF46,Rockwall Municipal Airport,TX,FWD,FWS,32,-96
+KCFD,Bryan Coulter Field,TX,HGX,HGX,30,-96
+KPRS,Presidio Lely International Airport,TX,MAF,MAF,29,-104
+KT20,Gonzales Roger M. Dreyer Memorial,TX,EWX,DFX,29,-97
+KLXY,Mexia Limestone County Airport,TX,FWD,FWS,31,-96
+KCZT,Carrizo Springs Dimmit County Airport,TX,EWX,DFX,28,-99
+K66R,Robert R Wells Jr Airport,TX,HGX,HGX,29,-96
+KELA,Eagle Lake,TX,HGX,HGX,29,-96
+KF17,Center Municipal Airport,TX,SHV,SHV,31,-94
+K5T9,Maverick County Memorial International Airport,TX,EWX,DFX,28,-100
+KT70,Laughlin Air Force Base Auxiliary Nr 1 Airport,TX,EWX,DFX,29,-100
+KGZN,Gregory M Simmons Memorial Airport,TX,FWD,GRK,32,-99
+KIKG,Kleberg County Airport,TX,CRP,CRP,27,-98
+KF00,Jones Field - Bonham,TX,FWD,FWS,33,-96
+K6P9,Ranger,TX,FWD,DYX,32,-98
+KETN,Eastland Municipal Airport,TX,FWD,DYX,32,-98
+KLUV,Lamesa Municipal Airport,TX,MAF,MAF,32,-101
+KSLC,"Salt Lake City, Salt Lake City International Airport",UT,SLC,MTX,40,-111
+KU42,"Salt Lake City, Salt Lake City Municipal 2 Airport",UT,SLC,MTX,40,-111
+KHIF,Hill Air Force Base,UT,SLC,MTX,41,-111
+KOGD,Ogden-Hinckley Airport,UT,SLC,MTX,41,-112
+KBMC,BRIGHAM CITY AIRPORT,UT,SLC,MTX,41,-112
+KPVU,"Provo, Provo Municipal Airport",UT,SLC,MTX,40,-111
+KLGU,Logan-Cache Airport,UT,SLC,MTX,41,-111
+KPUC,Price - Carbon County Regional Airport,UT,SLC,MTX,39,-110
+KVEL,Vernal Airport,UT,GJT,GJX,40,-109
+KBCE,Bryce Canyon Airport,UT,SLC,MTX,37,-112
+KBDG,BLANDING,UT,GJT,GJX,37,-109
+KCDC,Cedar City Municipal Airport,UT,SLC,MTX,37,-113
+KCNY,"Moab, Canyonlands Field",UT,GJT,GJX,38,-109
+KDPG,Michael Army Airfield - Dugway Proving Ground,UT,SLC,MTX,40,-112
+KENV,Wendover / Air Force Auxillary Field,UT,SLC,MTX,40,-114
+KMLF,Milford Municipal Airport,UT,SLC,MTX,38,-113
+KSGU,St George Municipal Airport,UT,SLC,MTX,37,-113
+KHCR,Heber City Municipal-Russ McDonald Field Airport,UT,SLC,MTX,40,-111
+K74V,ROOSEVELT,UT,SLC,MTX,40,-110
+KTVY,Bolinder Field-Tooele Valley Airport,UT,SLC,MTX,40,-112
+KDTA,"Delta, Delta Municipal Airport",UT,SLC,MTX,39,-112
+KHVE,Hanksville,UT,SLC,MTX,38,-110
+KAKQ,Wakefield Municipal Airport,VA,AKQ,AKQ,36,-77
+KAVC,"South Hill, Mecklenburg-Brunswick Regional Airport",VA,AKQ,AKQ,36,-78
+KBCB,Virginia Tech Airport,VA,RNK,FCX,37,-80
+KBKT,Ft. Pickett / Blackstone,VA,AKQ,AKQ,37,-77
+KCHO,Charlottesville-Albemarle Airport,VA,LWX,LWX,38,-78
+KCJR,Culpeper Regional Airport,VA,LWX,LWX,38,-77
+KCPK,"Chesapeake, Chesapeake Municipal Airport",VA,AKQ,AKQ,36,-76
+KDAA,Fort Belvoir,VA,LWX,LWX,38,-77
+KDAN,"Danville, Danville Regional Airport",VA,RNK,FCX,36,-79
+KDCA,"Washington/Reagan National Airport, DC",VA,LWX,LWX,38,-77
+KEMV,"Emporia, Emporia-Greensville Regional Airport",VA,AKQ,AKQ,36,-77
+KEZF,"Fredericksburg, Shannon Airport",VA,LWX,LWX,38,-77
+KFAF,Fort Eustis / Felker,VA,AKQ,AKQ,37,-76
+KFKN,Franklin / J B Rose,VA,AKQ,AKQ,36,-76
+KFVX,Farmville,VA,AKQ,AKQ,37,-78
+KHEF,"Manassas, Manassas Regional Airport/Harry P. Davis Field",VA,LWX,LWX,38,-77
+KHLX,Hillsville,VA,RNK,FCX,36,-80
+KHSP,Hot Springs / Ingalls,VA,RNK,FCX,37,-79
+KIAD,"Washington/Dulles International Airport, DC",VA,LWX,LWX,38,-77
+KJYO,Leesburg / Godfrey,VA,LWX,LWX,39,-77
+KLFI,Langley Air Force Base,VA,AKQ,AKQ,37,-76
+KLKU,"Louisa, Louisa County Airport/Freeman Field",VA,AKQ,AKQ,38,-77
+KLNP,Wise / Lonesome Pine,VA,MRX,MRX,36,-82
+KLYH,"Lynchburg, Lynchburg Regional Airport",VA,RNK,FCX,37,-79
+KMFV,Melfa / Accomack Airport,VA,AKQ,AKQ,37,-75
+KMKJ,Marion / Wytheville,VA,RNK,FCX,36,-81
+KMTV,Martinsville,VA,RNK,FCX,36,-80
+KNGU,"Norfolk, Naval Air Station",VA,AKQ,AKQ,36,-76
+KNTU,"Virginia Beach, Oceana, Naval Air Station",VA,AKQ,AKQ,36,-76
+KNYG,Quantico Marine Corps Airfield - Turner Field,VA,LWX,LWX,38,-77
+KOFP,"Ashland, Hanover County Municipal Airport",VA,AKQ,AKQ,37,-77
+KOKV,Winchester Regional,VA,LWX,LWX,39,-78
+KOMH,"Orange, Orange County Airport",VA,LWX,LWX,38,-78
+KORF,"Norfolk, Norfolk International Airport",VA,AKQ,AKQ,36,-76
+KPHF,"Newport News, Newport News / Williamsburg International Airport",VA,AKQ,AKQ,37,-76
+KPSK,Dublin / New River Valley,VA,RNK,FCX,37,-80
+KPTB,"Petersburg, Dinwiddie County Airport",VA,AKQ,AKQ,37,-77
+KRIC,"Richmond, Richmond International Airport",VA,AKQ,AKQ,37,-77
+KROA,"Roanoke, Roanoke Regional Airport",VA,RNK,FCX,37,-79
+KSFQ,"Suffolk, Suffolk Municipal Airport",VA,AKQ,AKQ,36,-76
+KSHD,Staunton / Shenandoah,VA,LWX,LWX,38,-78
+KVJI,Abingdon,VA,MRX,MRX,36,-82
+KWAL,Wallops Flight Facility Airport,VA,AKQ,AKQ,37,-75
+KFYJ,"West Point, Middle Peninsula Regional Airport",VA,AKQ,AKQ,37,-76
+KJGG,Williamsburg-Jamestown Airport,VA,AKQ,AKQ,37,-76
+KNFE,"Fentress, Naval Auxiliary Landing Field",VA,AKQ,AKQ,36,-76
+KRMN,"Stafford, Stafford Regional Airport",VA,LWX,LWX,38,-77
+KW63,Clarksville / Marks,VA,AKQ,AKQ,36,-78
+KHWY,Warrenton-Fauquier Airport,VA,LWX,LWX,38,-77
+KJFZ,Tazewell County Airport,VA,RNK,FCX,37,-81
+K0VG,Lee County Airport,VA,MRX,MRX,36,-83
+KXSA,Tappahannock-Essex County Airport,VA,AKQ,AKQ,37,-76
+KFCI,Chesterfield County Airport,VA,AKQ,AKQ,37,-77
+KLUA,Luray Caverns,VA,LWX,LWX,38,-78
+KPVG,Norfolk Hampton Roads Executive Airport,VA,AKQ,AKQ,36,-76
+KW81,Crewe Municipal Airport,VA,AKQ,AKQ,37,-78
+KLVL,Lawrenceville/Brunswick Municipal Airport,VA,AKQ,AKQ,36,-77
+KW31,Lunenburg County Airport,VA,AKQ,AKQ,36,-78
+KFRR,Front Royal-warren County Airport,VA,LWX,LWX,38,-78
+KW78,William M Tuck Airport,VA,RNK,FCX,36,-78
+K0V4,Brookneal/Campbell County Airport,VA,RNK,FCX,37,-79
+K8W2,New Market Airport,VA,LWX,LWX,38,-78
+KW13,Eagles Nest Airport,VA,LWX,LWX,38,-78
+KGVE,Gordonsville Municipal Airport,VA,LWX,LWX,38,-78
+KW96,New Kent County,VA,AKQ,AKQ,37,-77
+KW75,Saluda Hummel Field,VA,AKQ,AKQ,37,-76
+KCXE,Chase City Municipal Airport,VA,AKQ,AKQ,36,-78
+K7W4,Lake Anna Airport,VA,AKQ,AKQ,37,-77
+KVBW,Bridgewater Air Park,VA,LWX,LWX,38,-78
+KTGI,Tangier Island Airport,VA,AKQ,AKQ,37,-75
+TIST,"King Airport, St. Thomas",VI,SJU,JUA,18,-64
+TISX,St. Croix,VI,SJU,JUA,17,-64
+K1V4,St. Johnsbury - Fairbanks,VT,BTV,CXX,44,-72
+KBTV,"Burlington, Burlington International Airport",VT,BTV,CXX,44,-73
+KDDH,Bennington Morse State Airport,VT,ALY,ENX,42,-73
+KEFK,NEWPORT,VT,BTV,CXX,44,-72
+KMPV,"Barre / Montpelier, Knapp State Airport",VT,BTV,CXX,44,-72
+KMVL,Morrisville-Stowe State Airport,VT,BTV,CXX,44,-72
+KRUT,Rutland-Southern Vermont Regional Airport,VT,BTV,CXX,43,-72
+KVSF,"Springfield, Hartness State Springfield Airport",VT,BTV,CXX,43,-72
+KFSO,Franklin County State Airport,VT,BTV,CXX,44,-73
+KCDA,Caledonia County Airport,VT,BTV,CXX,44,-72
+K6B0,Middlebury State Airport,VT,BTV,CXX,43,-73
+KALW,Walla Walla Regional Airport,WA,PDT,PDT,46,-118
+KAWO,Arlington Municipal Airport,WA,SEW,ATX,48,-122
+KBFI,Boeing Field - King County International Airport,WA,SEW,ATX,47,-122
+KBLI,"Bellingham, Bellingham International Airport",WA,SEW,ATX,48,-122
+KCLM,Port Angeles Fairchild International Airport,WA,SEW,ATX,48,-123
+KDEW,"Deer Park, Deer Park Airport",WA,OTX,OTX,47,-117
+KDLS,The Dalles Municipal Airport,WA,PDT,PDT,45,-121
+KEAT,Wenatchee - Pangborn Memorial Airport,WA,OTX,OTX,47,-120
+KELN,"Ellensburg, Ellensburg Bowers Field",WA,PDT,PDT,47,-120
+KEPH,"Ephrata, Ephrata Municipal Airport",WA,OTX,OTX,47,-119
+KFHR,Friday Harbor Airport,WA,SEW,ATX,48,-123
+KGEG,"Spokane, Spokane International Airport",WA,OTX,OTX,47,-117
+KGRF,Fort Lewis / Gray U. S. Army Airfield,WA,SEW,ATX,47,-122
+KKLS,Southwest Washington Regional Airport,WA,PQR,RTX,46,-122
+KMWH,Grant County Airport,WA,OTX,OTX,47,-119
+KNUW,Whidbey Island Naval Air Station - Ault Field,WA,SEW,ATX,48,-122
+KOLM,"Olympia, Olympia Airport",WA,SEW,ATX,46,-122
+KPAE,Everett Snohomish County,WA,SEW,ATX,47,-122
+KPSC,Tri-Cities Airport,WA,PDT,PDT,46,-119
+KPUW,Pullman / Moscow Regional Airport,WA,OTX,OTX,46,-117
+KPWT,"Bremerton, Bremerton National Airport",WA,SEW,ATX,47,-122
+KRNT,Renton Municipal Airport,WA,SEW,ATX,47,-122
+KSEA,"Seattle, Seattle-Tacoma International Airport",WA,SEW,ATX,47,-122
+KSFF,"Spokane, Felts Field",WA,OTX,OTX,47,-117
+KSHN,"Shelton, Shelton Sanderson Field",WA,SEW,ATX,47,-123
+KSKA,Fairchild Air Force Base,WA,OTX,OTX,47,-117
+KSMP,Stampede Pass,WA,PDT,PDT,47,-121
+KTCM,Tacoma / McChord Air Force Base,WA,SEW,ATX,47,-122
+KTIW,"Tacoma, Tacoma Narrows Airport",WA,SEW,ATX,47,-122
+KUIL,"Quillayute, Quillayute State Airport",WA,SEW,ATX,47,-124
+KVUO,Pearson Airfield,WA,PQR,RTX,45,-122
+KYKM,Yakima Air Terminal - McAllister Field,WA,PDT,PDT,46,-120
+KOMK,Omak Airport,WA,OTX,OTX,48,-119
+KBVS,"Burlington/Mount Vernon, Skagit Regional Airport",WA,SEW,ATX,48,-122
+KORS,"Eastsound, Orcas Island Airport",WA,SEW,ATX,48,-122
+KCLS,Chehalis-Centralia Airport,WA,SEW,ATX,46,-122
+KPLU,Pierce County-Thun Field,WA,SEW,ATX,47,-122
+KRLD,Richland Airport,WA,PDT,PDT,46,-119
+K1S5,Sunnyside Municipal Airport,WA,PDT,PDT,46,-119
+K0S9,Port Townsend Jefferson County International Airport,WA,SEW,ATX,48,-122
+KAIG,Langlade County Airport,WI,GRB,GRB,45,-89
+KARV,"Minocqua/Woodruff, Lakeland Airport/Noble F. Lee Memorial Field",WI,GRB,GRB,45,-89
+KASX,John F Kennedy Memorial Airport,WI,DLH,DLH,46,-90
+KATW,Appleton-Outagamie,WI,GRB,GRB,44,-88
+KAUW,Wausau Downtown Airport,WI,GRB,GRB,44,-89
+KBUU,Burlington Municipal Airport,WI,MKX,MKX,42,-88
+KCLI,Clintonville Municipal Airport,WI,GRB,GRB,44,-88
+KCMY,"Sparta, Sparta / Fort McCoy Airport",WI,ARX,ARX,43,-90
+KCWA,Mosinee,WI,GRB,GRB,44,-89
+KDLL,Baraboo Wisconsin Dells Airport,WI,MKX,MKX,43,-89
+KEAU,Chippewa Valley Regional Airport,WI,MPX,MPX,44,-91
+KEFT,Monroe Municipal Airport,WI,MKX,MKX,42,-89
+KEGV,Eagle River Union Airport,WI,GRB,GRB,45,-89
+KENW,"Kenosha, Kenosha Regional Airport",WI,MKX,MKX,42,-87
+KETB,West Bend Municipal Airport,WI,MKX,MKX,43,-88
+KFLD,Fond Du Lac County Airport,WI,MKX,MKX,43,-88
+KGRB,"Green Bay, Austin Straubel International Airport",WI,GRB,GRB,44,-88
+KHYR,Sawyer County Airport,WI,DLH,DLH,46,-91
+KISW,"Wisconsin Rapids, Alexander Field South Wood County Airport",WI,GRB,GRB,44,-89
+KJVL,Janesville-Rock County,WI,MKX,MKX,42,-89
+KLNR,Lone Rock Tri-County Regional Airport,WI,MKX,MKX,43,-90
+KLSE,La Crosse - La Crosse Regional Airport,WI,ARX,ARX,43,-91
+KMDZ,Taylor County Airport,WI,ARX,ARX,45,-90
+KMFI,"Marshfield, Marshfield Municipal Airport",WI,GRB,GRB,44,-90
+KMKE,"Milwaukee, General Mitchell International Airport",WI,MKX,MKX,42,-87
+KMRJ,Iowa County Airport,WI,MKX,MKX,42,-90
+KMSN,"Madison, Dane County Regional-Truax Field",WI,MKX,MKX,43,-89
+KMTW,"Manitowoc, Manitowoc County Airport",WI,GRB,GRB,44,-87
+KMWC,Milwaukee-Timmerman,WI,MKX,MKX,43,-88
+KOEO,L O Simenstad Municipal Airport,WI,MPX,MPX,45,-92
+KOSH,Wittman Regional Airport,WI,GRB,GRB,43,-88
+KOVS,"Boscobel, Boscobel Airport",WI,ARX,ARX,43,-90
+KPBH,Phillips / Price County,WI,DLH,DLH,45,-90
+KPDC,Prairie Du Chien Municipal Airport,WI,ARX,ARX,43,-91
+KRAC,"Racine, Batten International Airport",WI,MKX,MKX,42,-87
+KRGK,Red Wing - Red Wing Regional Airport,WI,MPX,MPX,44,-92
+KRHI,"Rhinelander, Rhinelander-Oneida County Airport",WI,GRB,GRB,45,-89
+KRNH,New Richmond Municipal Airport,WI,MPX,MPX,45,-92
+KRPD,"Rice Lake, Rice Lake Regional-Carl's Field Airport",WI,MPX,MPX,45,-91
+KRRL,"Merrill, Merrill Municipal Airport",WI,GRB,GRB,45,-89
+KRYV,Watertown,WI,MKX,MKX,43,-88
+KRZN,"Siren, Burnett County Airport",WI,DLH,DLH,45,-92
+KSBM,Sheboygan County Memorial Airport,WI,MKX,MKX,43,-87
+KSTE,Stevens Point Municipal Airport,WI,GRB,GRB,44,-89
+KSUE,Door County Cherryland Airport,WI,GRB,GRB,44,-87
+KSUW,Richard I. Bong Airport,WI,DLH,DLH,46,-92
+KUES,Waukesha County Airport,WI,MKX,MKX,43,-88
+KUNU,"Juneau, Dodge County Airport",WI,MKX,MKX,43,-88
+KVOK,Volk / Camp Douglas,WI,ARX,ARX,43,-90
+KLNL,"Land O' Lakes, Kings Land O' Lakes Airport",WI,GRB,GRB,46,-89
+KLUM,Menomonie Municipal Airport-Score Field,WI,MPX,MPX,44,-91
+KPCZ,Waupaca Municipal Airport,WI,GRB,GRB,44,-89
+KRCX,Ladysmith - Rusk County Airport,WI,MPX,MPX,45,-90
+KTKV,Tomahawk Regional Airport,WI,GRB,GRB,45,-89
+KY50,"Wautoma, Wautoma Municipal Airport",WI,GRB,GRB,44,-89
+KC29,Middleton Muni - Morey Field,WI,MKX,MKX,43,-89
+KY51,Viroqua Municipal Airport,WI,ARX,ARX,43,-90
+KUBE,Cumberland,WI,MPX,MPX,45,-91
+KBCK,Black River Falls Area Airport,WI,ARX,ARX,44,-90
+KPVB,Platteville Municipal Airport,WI,ARX,ARX,42,-90
+KEZS,Shawano Municipal Airport,WI,GRB,GRB,44,-88
+KOCQ,Oconto J. Douglas Bake Memorial Airport,WI,GRB,GRB,44,-87
+KY23,Chetek Municipal Southworth Airport,WI,MPX,MPX,45,-91
+KC35,Reedsburg Municipal Airport,WI,MKX,MKX,43,-89
+KOLG,Solon Springs Municipal Airport,WI,DLH,DLH,46,-91
+K3D2,Ephraim-Gibraltar Airport,WI,GRB,GRB,45,-87
+K82C,New Lisbon Mauston Airport,WI,ARX,ARX,43,-90
+K57C,East Troy Municipal Airport,WI,MKX,MKX,42,-88
+K2P2,Washington Island,WI,GRB,GRB,45,-86
+K4R5,La Pointe - Major Gilbert Field,WI,DLH,DLH,46,-90
+KBKW,"Beckley, Raleigh County Memorial Airport",WV,RLX,RLX,37,-81
+KBLF,"Bluefield, Mercer County Airport",WV,RNK,FCX,37,-81
+KCKB,"Clarksburg, Clarksburg Benedum Airport",WV,RLX,RLX,39,-80
+KCRW,"Charleston, Yeager Airport",WV,RLX,RLX,38,-81
+KEKN,"Elkins, Elkins-Randolph County-Jennings Randolph Field",WV,RLX,RLX,38,-79
+KHLG,"Wheeling, Wheeling Ohio County Airport",WV,PBZ,PBZ,40,-80
+KHTS,"Huntington, Tri-State Airport",WV,RLX,RLX,38,-82
+KLWB,Lewisburg / Greenbrier,WV,RNK,FCX,37,-80
+KMGW,Morgantown Municipal-Hart Field,WV,PBZ,PBZ,39,-79
+KMRB,Eastern WV Regional Airport/Shepherd Field,WV,LWX,LWX,39,-77
+KPKB,"Parkersburg, Mid-Ohio Valley Regional Airport",WV,RLX,RLX,39,-81
+KW99,"Petersburg, Grant County Airport",WV,LWX,LWX,38,-79
+KI16,"Pineville, Kee Field Airport",WV,RLX,RLX,37,-81
+KW22,"Buckhannon, Upshur County Regional Airport",WV,RLX,RLX,39,-80
+KCBE,"Cumberland, Greater Cumberland Regional Airport",WV,LWX,LWX,39,-78
+K6L4,Logan County Airport,WV,RLX,RLX,37,-81
+KBPI,Big Piney - Marbleton Airport,WY,RIW,RIW,42,-110
+KBYG,Buffalo - Johnson County Airport,WY,RIW,RIW,44,-106
+KCOD,Cody,WY,RIW,RIW,44,-109
+KCPR,"Casper, Natrona County International Airport",WY,RIW,RIW,42,-106
+KCYS,"Cheyenne, Cheyenne Airport",WY,CYS,CYS,41,-104
+KDGW,"Douglas, Converse County Airport",WY,CYS,CYS,42,-105
+KGCC,"Gillette, Gillette-Campbell County Airport",WY,UNR,UDX,44,-105
+KJAC,"Jackson, Jackson Hole Airport",WY,RIW,RIW,43,-110
+KLAR,Laramie Regional Airport,WY,CYS,CYS,41,-105
+KLND,Lander,WY,RIW,RIW,42,-108
+KP60,Yellowstone Lake,WY,RIW,RIW,44,-110
+KRIW,Riverton Regional Airport,WY,RIW,RIW,43,-108
+KRKS,"Rock Springs, Rock Springs-Sweetwater County Airport",WY,RIW,RIW,41,-109
+KRWL,Rawlins Municipal Airport,WY,CYS,CYS,41,-107
+KSHR,Sheridan County Airport,WY,BYZ,BLX,44,-106
+KWRL,"Worland, Worland Municipal Airport",WY,RIW,RIW,43,-107
+KTOR,Torrington Municipal Airport,WY,CYS,CYS,42,-104
+KEVW,"Evanston, Evanston-Uinta County Burns Field",WY,SLC,MTX,41,-111
+KGEY,South Big Horn County Airport,WY,RIW,RIW,44,-108
+KEMM,KEMMERER,WY,RIW,RIW,41,-110
+KAFO,Afton WY,WY,RIW,RIW,42,-110
+KU68,Cowley WY,WY,RIW,RIW,44,-108
+KDUB,Dubois Municipal Airport,WY,RIW,RIW,43,-109
+KFBR,Fort Bridger WY,WY,SLC,MTX,41,-110
+KPNA,"Pinedale, Ralph Wenz Field Airport",WY,RIW,RIW,42,-109
+KPOY,Powell Municipal Airport,WY,RIW,RIW,44,-108
+KSAA,Saratoga WY,WY,CYS,CYS,41,-106
+KECS,Mondell Field,WY,UNR,UDX,43,-104
+KW43,Hulett Municipal Airport,WY,UNR,UDX,44,-104
+KFWZ,South Pass,WY,RIW,RIW,42,-108
+KTBX,Boysen,WY,RIW,RIW,43,-108
+KEHY,Elk Mountain AWOS,WY,CYS,CYS,41,-106
+K82V,Pine Bluffs Municipal Airport,WY,CYS,CYS,41,-104
+KDWX,Dixon Airport,WY,CYS,CYS,41,-107
+K46U,Alpine,WY,RIW,RIW,43,-111
+KHSG,Hot Springs County Airport,WY,RIW,RIW,43,-108

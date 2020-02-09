@@ -52,13 +52,22 @@ public class StationDAOTester {
 	@Test
 	public void test3() throws Exception {
 		StationDAO dao = new StationDAO();
-		//45.7820729/-108.7041157
-		double latitude = 45.7820729;
-	    double longitude = -108.7041157;
+		double latitude = 32.8481029;
+	    double longitude = -96.853395;
 	    double distance = 25;
 	    String units = "statute miles";
 	    StationDTO dto = dao.readNearest(latitude, longitude, distance, units);
 	    Gson gson = new Gson();
+		String json = gson.toJson(dto);
+		System.out.println("json: " + json);
+	}
+	
+	@Test
+	public void test4() throws Exception {
+		StationDAO dao = new StationDAO();
+		StationDTO dto = dao.read("KDTO");
+		System.out.println("Station: " + dto.getStationId());
+		Gson gson = new Gson();
 		String json = gson.toJson(dto);
 		System.out.println("json: " + json);
 	}

@@ -29,6 +29,12 @@
 						"description" : "state",
 						"required" : false,
 						"type" : "string"
+					},{
+						"name" : "wfo",
+						"in" : "query",
+						"description" : "wfo",
+						"required" : false,
+						"type" : "string"
 					}
 				],
 				"responses" : {

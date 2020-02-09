@@ -20,7 +20,8 @@ public class StationDTO {
 	private String radar = null;
 	private Double latitude = null;
 	private Double longitude = null;
-
+	private transient SimpleFeature feature = null;
+	
 	public StationDTO() {
 	}
 
@@ -34,6 +35,7 @@ public class StationDTO {
 		this.radar = (String)feature.getAttribute("radar");
 		this.latitude = coordinate.y;
 		this.longitude = coordinate.x;
+		this.feature = feature;
 	}
 	
 	public String getStationId() {
@@ -62,6 +64,10 @@ public class StationDTO {
 	
 	public Double getLongitude() {
 		return this.longitude;
+	}
+	
+	public SimpleFeature getFeature() {
+		return this.feature;
 	}
 	
 	public void setStationId(String newVal) {

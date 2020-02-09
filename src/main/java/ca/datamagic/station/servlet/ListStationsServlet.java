@@ -30,7 +30,8 @@ public class ListStationsServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		try {
 			String state = request.getParameter("state");
-			List<StationDTO> stations = StationContextListener.getDAO().list(state);
+			String wfo = request.getParameter("wfo");
+			List<StationDTO> stations = StationContextListener.getDAO().list(state, wfo);
 			String json = (new Gson()).toJson(stations);
 			response.setContentType("application/json");
 			response.getWriter().println(json);

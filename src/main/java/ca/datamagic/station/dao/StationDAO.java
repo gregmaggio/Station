@@ -144,17 +144,23 @@ public class StationDAO extends BaseDAO {
 	
 	@MemoryCache
 	public List<StationDTO> list() throws IOException, CQLException {
-		return list(null);
+		return list(null, null);
 	}
 	
 	@MemoryCache
-	public List<StationDTO> list(String state) throws IOException, CQLException {
+	public List<StationDTO> list(String state, String wfo) throws IOException, CQLException {
 		StringBuffer filter = new StringBuffer();
 		if ((state != null) && (state.length() > 0)) {
 			if (filter.length() > 0) {
 				filter.append(" AND ");
 			}
-			filter.append(MessageFormat.format("state like {0}", "'" + state + "%'"));
+			filter.append(MessageFormat.format("state = {0}", "'" + state + "'"));
+		}
+		if ((wfo != null) && (wfo.length() > 0)) {
+			if (filter.length() > 0) {
+				filter.append(" AND ");
+			}
+			filter.append(MessageFormat.format("wfo = {0}", "'" + wfo + "'"));
 		}
 		SimpleFeatureCollection collection = null;
 		if (filter.length() < 1) {
