@@ -4,23 +4,18 @@
 package ca.datamagic.station.dao;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.util.Hashtable;
-import java.util.List;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.google.gson.Gson;
-import com.univocity.parsers.csv.CsvParser;
-import com.univocity.parsers.csv.CsvParserSettings;
 
+import ca.datamagic.station.dto.StateDTO;
 import ca.datamagic.station.dto.StationDTO;
-import ca.datamagic.station.dto.WFODTO;
 import ca.datamagic.station.xml.StationHandler;
 import ca.datamagic.station.xml.StationParser;
 
@@ -29,56 +24,47 @@ import ca.datamagic.station.xml.StationParser;
  *
  */
 public class StationParserTester {
-	private static Logger _logger = LogManager.getLogger(StationParserTester.class);
-	private static Hashtable<String, String> updatedRadar = new Hashtable<String, String>();
+	private static Logger logger = LogManager.getLogger(StationParserTester.class);
+	private static StateDAO stateDAO = null;
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		DOMConfigurator.configure("src/test/resources/log4j.cfg.xml");
 		BaseDAO.setDataPath((new File("src/test/resources/data")).getAbsolutePath());
-		InputStream inputStream = null;		
-		try {
-			inputStream = new FileInputStream("src/test/resources/data/stations_wfo/stations_wfo.csv");
-			CsvParserSettings settings = new CsvParserSettings();
-			CsvParser csvParser = new CsvParser(settings);
-			List<String[]> lines = csvParser.parseAll(inputStream);
-			for (int ii = 1; ii < lines.size(); ii++) {
-				String[] currentLineItems = lines.get(ii);
-				String stationID = currentLineItems[0];
-				String radar = currentLineItems[4];
-				if ((stationID != null) && (stationID.length() > 0) && (radar != null) && (stationID.length() > 0)) {
-					updatedRadar.put(stationID, radar);
-				}
-			}			
-		} finally {
-			if (inputStream != null) {
-				inputStream.close();
-			}
-		}
+		stateDAO = new StateDAO();
 	}
 
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+		stateDAO = null;
+	}
+	
 	@Test
-	public void test1() throws Exception {
+	public void createStationsShapeFile() throws Exception {
 		final StationDAO stationDAO = new StationDAO(true);
-		final WFODAO wfoDAO = new WFODAO();
 		final Gson gson = new Gson();
 		StationParser parser = new StationParser();
 		StationHandler handler = new StationHandler() {			
 			@Override
 			public void station(StationDTO station) {
-				try {					
-					List<WFODTO> wfo = wfoDAO.read(station.getLatitude(), station.getLongitude());
-					if ((wfo != null) && (wfo.size() > 0)) {
-						_logger.debug("station: " + gson.toJson(station));
-						station.setWFO(wfo.get(0).getWFO());
-						station.setRadar(wfo.get(0).getRadar());
-						if (updatedRadar.containsKey(station.getStationId())) {
-							station.setRadar(updatedRadar.get(station.getStationId()));
+				try {
+					StateDTO state = stateDAO.getState(station.getState());
+					if (state != null) {
+						NOAAForecastPage forecastPage = new NOAAForecastPage(station.getLatitude().doubleValue(), station.getLongitude().doubleValue());
+						String wfo = forecastPage.getWFO();
+						String radar = forecastPage.getRadar();
+						station.setWFO(wfo);
+						station.setRadar(radar);
+						String json = gson.toJson(station);
+						logger.debug(json);
+						if ((wfo != null) && (wfo.length() > 0) && (radar != null) && (radar.length() > 0)) {
+							stationDAO.add(station);
+						} else {
+							logger.debug("Skipping station!");
 						}
-						stationDAO.add(station);
 					}
 				} catch (Throwable t) {
-					_logger.warn("Exception", t);
+					logger.warn("Exception", t);
 				}
 			}
 		};
