@@ -10,8 +10,8 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
@@ -24,21 +24,21 @@ import ca.datamagic.station.dto.StationDTO;
  *
  */
 public class StationParser extends DefaultHandler {
-	private static Logger _logger = LogManager.getLogger(StationParser.class);
-	private static String _stationNodeName = "station";
-	private static String _stationIdNodeName = "station_id";
-	private static String _stationNameNodeName = "station_name";
-	private static String _stateNodeName = "state";
-	private static String _latitudeNodeName = "latitude";
-	private static String _longitudeNodeName = "longitude";
-	private StationHandler _handler = null;
-	private String _currentElement = null;
-	private StationDTO _currentStation = null;
+	private static Logger logger = LogManager.getLogger(StationParser.class);
+	private static String stationNodeName = "station";
+	private static String stationIdNodeName = "station_id";
+	private static String stationNameNodeName = "station_name";
+	private static String stateNodeName = "state";
+	private static String latitudeNodeName = "latitude";
+	private static String longitudeNodeName = "longitude";
+	private StationHandler handler = null;
+	private String currentElement = null;
+	private StationDTO currentStation = null;
 	
 	public void parse(String fileName, StationHandler handler) throws ParserConfigurationException, SAXException, IOException {
-		_handler = handler;
-		_currentElement = null;
-		_currentStation = null;
+		this.handler = handler;
+		this.currentElement = null;
+		this.currentStation = null;
 		File file = new File(fileName);
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		factory.setValidating(false);
@@ -48,10 +48,10 @@ public class StationParser extends DefaultHandler {
 	
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-		_currentElement = qName;
-		if (_currentElement != null) {
-			if (_currentElement.compareToIgnoreCase(_stationNodeName) == 0) {
-				_currentStation = new StationDTO();
+		this.currentElement = qName;
+		if (this.currentElement != null) {
+			if (this.currentElement.compareToIgnoreCase(stationNodeName) == 0) {
+				this.currentStation = new StationDTO();
 			}
 		}
 	}
@@ -59,17 +59,17 @@ public class StationParser extends DefaultHandler {
 	@Override
 	public void characters(char[] ch, int start, int length) throws SAXException {
 		String value = new String(ch, start, length);
-		if ((_currentElement != null) && (_currentStation != null)) {
-			if (_currentElement.compareToIgnoreCase(_stationIdNodeName) == 0) {
-				_currentStation.setStationId(value);
-			} else if (_currentElement.compareToIgnoreCase(_stationNameNodeName) == 0) {
-				_currentStation.setStationName(value);
-			} else if (_currentElement.compareToIgnoreCase(_stateNodeName) == 0) {
-				_currentStation.setState(value);
-			} else if (_currentElement.compareToIgnoreCase(_latitudeNodeName) == 0) {
-				_currentStation.setLatitude(new Double(value));
-			} else if (_currentElement.compareToIgnoreCase(_longitudeNodeName) == 0) {
-				_currentStation.setLongitude(new Double(value));
+		if ((this.currentElement != null) && (this.currentStation != null)) {
+			if (this.currentElement.compareToIgnoreCase(stationIdNodeName) == 0) {
+				this.currentStation.setStationId(value);
+			} else if (this.currentElement.compareToIgnoreCase(stationNameNodeName) == 0) {
+				this.currentStation.setStationName(value);
+			} else if (this.currentElement.compareToIgnoreCase(stateNodeName) == 0) {
+				this.currentStation.setState(value);
+			} else if (this.currentElement.compareToIgnoreCase(latitudeNodeName) == 0) {
+				this.currentStation.setLatitude(new Double(value));
+			} else if (this.currentElement.compareToIgnoreCase(longitudeNodeName) == 0) {
+				this.currentStation.setLongitude(new Double(value));
 			}
 		}
 	}
@@ -77,20 +77,20 @@ public class StationParser extends DefaultHandler {
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException {
 		if (qName != null) {
-			if (qName.compareToIgnoreCase(_stationNodeName) == 0) {
-				if (_currentStation != null) {
-					if (_handler != null) {
-						_handler.station(_currentStation);
+			if (qName.compareToIgnoreCase(stationNodeName) == 0) {
+				if (this.currentStation != null) {
+					if (handler != null) {
+						handler.station(this.currentStation);
 					}
 				}
-				_currentStation = null;
+				this.currentStation = null;
 			}
 		}
-		_currentElement = null;
+		this.currentElement = null;
 	}
 
 	@Override
 	public void warning(SAXParseException ex) throws SAXException {
-		_logger.warn("SAXParseException", ex);
+		logger.warn("SAXParseException", ex);
 	}
 }

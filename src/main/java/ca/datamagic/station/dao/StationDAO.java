@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.geotools.data.DataStore;
 import org.geotools.data.DataStoreFinder;
 import org.geotools.data.DataUtilities;
@@ -48,23 +48,23 @@ import com.vividsolutions.jts.geom.Point;
  *
  */
 public class StationDAO extends BaseDAO {
-	private static Logger _logger = LogManager.getLogger(StationDAO.class);
-	private String _fileName = null;
-	private String _typeName = null; 
-	private SimpleFeatureType _featureType = null;  
-	private GeometryFactory _geometryFactory = null;
-	private SimpleFeatureBuilder _featureBuilder = null;
-	private SimpleFeatureSource _featureSource = null;
+	private static Logger logger = LogManager.getLogger(StationDAO.class);
+	private String fileName = null;
+	private String typeName = null; 
+	private SimpleFeatureType featureType = null;  
+	private GeometryFactory geometryFactory = null;
+	private SimpleFeatureBuilder featureBuilder = null;
+	private SimpleFeatureSource featureSource = null;
 	
 	public StationDAO() throws IOException, SchemaException {
 		this(false);
 	}
 	
 	public StationDAO(boolean newShapeFile) throws IOException, SchemaException {
-		_fileName = MessageFormat.format("{0}/stations_wfo/stations_wfo.shp", getDataPath());
-		_logger.debug("fileName: " + _fileName);
+		this.fileName = MessageFormat.format("{0}/stations_wfo/stations_wfo.shp", getDataPath());
+		logger.debug("fileName: " + this.fileName);
 		if (newShapeFile) {
-			File file = new File(_fileName);
+			File file = new File(this.fileName);
 			if (file.exists()) {
 				file.delete();
 			}
@@ -87,55 +87,55 @@ public class StationDAO extends BaseDAO {
 			GeometryFactory geometryFactory = JTSFactoryFinder.getGeometryFactory(null);
 			SimpleFeatureBuilder featureBuilder = new SimpleFeatureBuilder(featureType);
 			SimpleFeatureSource featureSource = dataStore.getFeatureSource(featureType.getTypeName());
-			_typeName = featureType.getTypeName();
-			_featureType = featureType;
-			_geometryFactory = geometryFactory;
-			_featureBuilder = featureBuilder;
-			_featureSource = featureSource;
+			this.typeName = featureType.getTypeName();
+			this.featureType = featureType;
+			this.geometryFactory = geometryFactory;
+			this.featureBuilder = featureBuilder;
+			this.featureSource = featureSource;
 		} else {
 			HashMap<Object, Object> connect = new HashMap<Object, Object>();
-			connect.put("url", "file://" + _fileName);
+			connect.put("url", "file://" + this.fileName);
 			DataStore dataStore = DataStoreFinder.getDataStore(connect);
 			String[] typeNames = dataStore.getTypeNames();			
 			String typeName = typeNames[0];
 			SimpleFeatureType featureType = dataStore.getSchema(typeName);
 			SimpleFeatureSource featureSource = dataStore.getFeatureSource(typeName);
 			for (int ii = 0; ii < featureSource.getSchema().getAttributeCount(); ii++) {
-				_logger.debug("attribute[" + ii + "].Name : " + featureSource.getSchema().getDescriptor(ii).getName().getLocalPart());
-				_logger.debug("attribute[" + ii + "].Type : " + featureSource.getSchema().getDescriptor(ii).getType().toString());
+				logger.debug("attribute[" + ii + "].Name : " + featureSource.getSchema().getDescriptor(ii).getName().getLocalPart());
+				logger.debug("attribute[" + ii + "].Type : " + featureSource.getSchema().getDescriptor(ii).getType().toString());
 			}
 			GeometryFactory geometryFactory = JTSFactoryFinder.getGeometryFactory(null);
 			SimpleFeatureBuilder featureBuilder = new SimpleFeatureBuilder(featureType);
-			_typeName = typeName;
-			_featureType = featureType;
-			_geometryFactory = geometryFactory;
-			_featureBuilder = featureBuilder;
-			_featureSource = featureSource;
+			this.typeName = typeName;
+			this.featureType = featureType;
+			this.geometryFactory = geometryFactory;
+			this.featureBuilder = featureBuilder;
+			this.featureSource = featureSource;
 		}
 	}
 	
 	public void add(StationDTO station) throws IOException {
 		Transaction transaction = new DefaultTransaction("create");
 		
-		Point point = _geometryFactory.createPoint(new Coordinate(station.getLongitude(), station.getLatitude()));
-		_featureBuilder.add(point);
-		_featureBuilder.add(station.getStationId());
-		_featureBuilder.add(station.getStationName());
-		_featureBuilder.add(station.getState());
-		_featureBuilder.add(station.getWFO());
-		_featureBuilder.add(station.getRadar());
-		_featureBuilder.add(station.getLatitude());
-		_featureBuilder.add(station.getLongitude());
-        SimpleFeature feature = _featureBuilder.buildFeature(null);
-        SimpleFeatureCollection collection = new ListFeatureCollection(_featureType);
+		Point point = this.geometryFactory.createPoint(new Coordinate(station.getLongitude(), station.getLatitude()));
+		this.featureBuilder.add(point);
+		this.featureBuilder.add(station.getStationId());
+		this.featureBuilder.add(station.getStationName());
+		this.featureBuilder.add(station.getState());
+		this.featureBuilder.add(station.getWFO());
+		this.featureBuilder.add(station.getRadar());
+		this.featureBuilder.add(station.getLatitude());
+		this.featureBuilder.add(station.getLongitude());
+        SimpleFeature feature = this.featureBuilder.buildFeature(null);
+        SimpleFeatureCollection collection = new ListFeatureCollection(this.featureType);
         collection.add(feature);
-        SimpleFeatureStore featureStore = (SimpleFeatureStore)_featureSource;        
+        SimpleFeatureStore featureStore = (SimpleFeatureStore)this.featureSource;        
         featureStore.setTransaction(transaction);
         try {
             featureStore.addFeatures(collection);
             transaction.commit();
         } catch (Throwable t) {
-            _logger.error("Exception", t);
+            logger.error("Exception", t);
             transaction.rollback();
         } finally {
             transaction.close();
@@ -164,11 +164,11 @@ public class StationDAO extends BaseDAO {
 		}
 		SimpleFeatureCollection collection = null;
 		if (filter.length() < 1) {
-			collection = _featureSource.getFeatures();
+			collection = this.featureSource.getFeatures();
 		} else {
-			_logger.debug("filter: " + filter.toString());
-			Query query = new Query(_typeName, CQL.toFilter(filter.toString()));
-			collection = _featureSource.getFeatures(query);
+			logger.debug("filter: " + filter.toString());
+			Query query = new Query(typeName, CQL.toFilter(filter.toString()));
+			collection = this.featureSource.getFeatures(query);
 		}
 		SimpleFeatureIterator iterator = null;
 		try {
@@ -188,9 +188,9 @@ public class StationDAO extends BaseDAO {
 	@MemoryCache
 	public StationDTO read(String id) throws IOException, CQLException {
 		String filter = MessageFormat.format("station_id = {0}", "'" + id.toUpperCase() + "'");
-		_logger.debug("filter: " + filter);
-		Query query = new Query(_typeName, CQL.toFilter(filter));
-		SimpleFeatureCollection collection = _featureSource.getFeatures(query);
+		logger.debug("filter: " + filter);
+		Query query = new Query(typeName, CQL.toFilter(filter));
+		SimpleFeatureCollection collection = this.featureSource.getFeatures(query);
 		SimpleFeatureIterator iterator = null;
 		try {
 			iterator = collection.features();
@@ -208,9 +208,9 @@ public class StationDAO extends BaseDAO {
 	@MemoryCache
 	public StationDTO readNearest(double latitude, double longitude, double distance, String units) throws IOException, CQLException {
 		String filter = MessageFormat.format("DWITHIN(the_geom, POINT({0} {1}), {2}, {3})", Double.toString(longitude), Double.toString(latitude), Double.toString(distance), units);
-		_logger.debug("filter: " + filter);
-		Query query = new Query(_typeName, CQL.toFilter(filter));
-		SimpleFeatureCollection collection = _featureSource.getFeatures(query);
+		logger.debug("filter: " + filter);
+		Query query = new Query(typeName, CQL.toFilter(filter));
+		SimpleFeatureCollection collection = this.featureSource.getFeatures(query);
 		SimpleFeatureIterator iterator = null;
 		GeodeticCalculator calculator = new GeodeticCalculator();
 		calculator.setStartingGeographicPoint(longitude, latitude);

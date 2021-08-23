@@ -8,26 +8,26 @@ import java.util.Hashtable;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * @author Greg
  *
  */
 public class MemoryCacheInterceptor implements MethodInterceptor {
-	private static Logger _logger = LogManager.getLogger(MemoryCacheInterceptor.class);
-	private static Hashtable<String, Object> _cache = new Hashtable<String, Object>();
+	private static Logger logger = LogManager.getLogger(MemoryCacheInterceptor.class);
+	private static Hashtable<String, Object> cache = new Hashtable<String, Object>();
 	
 	public MemoryCacheInterceptor() {
 	}
 
 	public static synchronized void clearCache() {
-		_cache.clear();
+		cache.clear();
 	}
 	
 	public static synchronized Enumeration<String> getKeys() {
-		return _cache.keys();
+		return cache.keys();
 	}
 	
 	private static String getKey(MethodInvocation invocation) {
@@ -53,19 +53,19 @@ public class MemoryCacheInterceptor implements MethodInterceptor {
 	}
 	
 	public static synchronized Object getValue(String key) {
-		if (_cache.containsKey(key)) {
-			return _cache.get(key);
+		if (cache.containsKey(key)) {
+			return cache.get(key);
 		}
 		return null;
 	}
 	
 	public static synchronized void setValue(String key, Object newVal) {
-		_cache.put(key, newVal);
+		cache.put(key, newVal);
 	}
 	
 	@Override
 	public Object invoke(MethodInvocation invocation) throws Throwable {
-		_logger.debug("invoke");
+		logger.debug("invoke");
 		String key = getKey(invocation);
 		Object value = getValue(key);
 		if (value == null) {

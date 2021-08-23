@@ -11,6 +11,27 @@
 		<listener-class>ca.datamagic.station.servlet.StationContextListener</listener-class>
 	</listener>
 
+	<filter>
+		<filter-name>CORSFilter</filter-name>
+		<filter-class>ca.datamagic.filter.CORSFilter</filter-class>
+		<init-param>
+			<param-name>allow.origins</param-name>
+			<param-value>http://localhost:4200,http://datamagic.ca,https://datamagic.ca</param-value>
+		</init-param>
+		<init-param>
+			<param-name>allow.methods</param-name>
+			<param-value>GET,POST,HEAD,OPTIONS,PUT,DELETE</param-value>
+		</init-param>
+		<init-param>
+			<param-name>allow.headers</param-name>
+			<param-value>Origin,Content-Type,Accept,Authorization,X-Request-With,location</param-value>
+		</init-param>
+		<init-param>
+			<param-name>allow.credentials</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+  
 	<servlet>
         <servlet-name>Cache</servlet-name>
         <servlet-class>ca.datamagic.station.servlet.CacheServlet</servlet-class>
@@ -35,6 +56,12 @@
         <servlet-name>SwaggerAPI</servlet-name>
         <servlet-class>ca.datamagic.station.servlet.SwaggerAPIServlet</servlet-class>
     </servlet>
+    
+	<filter-mapping>
+		<filter-name>CORSFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+      
     <servlet-mapping>
         <servlet-name>Cache</servlet-name>
         <url-pattern>/api/cache</url-pattern>
