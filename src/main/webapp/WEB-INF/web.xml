@@ -16,7 +16,7 @@
 		<filter-class>ca.datamagic.filter.CORSFilter</filter-class>
 		<init-param>
 			<param-name>allow.origins</param-name>
-			<param-value>http://localhost:4200,http://datamagic.ca,https://datamagic.ca</param-value>
+			<param-value>http://localhost:4200,http://localhost:8080,http://datamagic.ca,https://datamagic.ca</param-value>
 		</init-param>
 		<init-param>
 			<param-name>allow.methods</param-name>
